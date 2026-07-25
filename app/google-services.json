@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "751937774744",
+    "project_id": "sahasranamam-tutorials-app",
+    "storage_bucket": "sahasranamam-tutorials-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751937774744:android:335977694155c0e0739ced",
+        "android_client_info": {
+          "package_name": "com.stotra.sahasranamam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuR0FFeBIQNuciJTFbDT7wIItrpmzixO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
