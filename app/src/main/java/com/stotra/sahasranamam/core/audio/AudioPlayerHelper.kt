@@ -41,17 +41,34 @@ class AudioPlayerHelper @Inject constructor(
     override fun onInit(status: Int) {
         if (status == TextToSpeech.SUCCESS) {
             // Try Sanskrit first for correct pronunciation rules (no Schwa deletion)
-            var result = tts?.setLanguage(Locale("sa", "IN"))
-            if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
-                // Fallback to Hindi
-                result = tts?.setLanguage(Locale("hi", "IN"))
-            }
+            val saLocale = Locale("sa", "IN")
+            var result = tts?.setLanguage(saLocale)
             
             if (result != TextToSpeech.LANG_MISSING_DATA && result != TextToSpeech.LANG_NOT_SUPPORTED) {
+                // Explicitly set Sanskrit voice if available on the device
+                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+                    try {
+                        val voices = tts?.voices
+                        val saVoice = voices?.find { voice -> 
+                            voice.locale.language.equals("sa", ignoreCase = true)
+                        }
+                        if (saVoice != null) {
+                            tts?.setVoice(saVoice)
+                        }
+                    } catch (e: Exception) {
+                        e.printStackTrace()
+                    }
+                }
                 isTtsReady = true
             } else {
-                tts?.setLanguage(Locale.getDefault())
-                isTtsReady = true
+                // Fallback to Hindi
+                result = tts?.setLanguage(Locale("hi", "IN"))
+                if (result != TextToSpeech.LANG_MISSING_DATA && result != TextToSpeech.LANG_NOT_SUPPORTED) {
+                    isTtsReady = true
+                } else {
+                    tts?.setLanguage(Locale.getDefault())
+                    isTtsReady = true
+                }
             }
 
             tts?.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
@@ -126,15 +143,7 @@ class AudioPlayerHelper @Inject constructor(
         // TTS audio voice synthesis for Devanagari Sanskrit text
         if (isTtsReady && tts != null) {
             tts?.setSpeechRate(speed)
-            var cleanText = sanskritText
-                .replace(Regex("[^\\u0900-\\u097F\\s]"), " ")
-                .replace(Regex("[\\u0951\\u0952\\u0953\\u0954]"), "")
-                .replace(Regex("\\s+"), " ")
-                .trim()
-
-            if (!cleanText.contains(" ") && cleanText.endsWith("ं")) {
-                cleanText = cleanText.substring(0, cleanText.length - 1) + "म्"
-            }
+            val cleanText = preprocessSanskritForTts(sanskritText)
 
             if (cleanText.isNotEmpty()) {
                 isTtsSpeakingActive = false
@@ -160,6 +169,50 @@ class AudioPlayerHelper @Inject constructor(
         } else {
             onStateChange(false)
         }
+    }
+
+    private fun preprocessSanskritForTts(text: String): String {
+        // 1. Replace Sanskrit punctuation with speech pauses
+        var result = text
+            .replace("॥", ".")
+            .replace("।", ",")
+
+        // 2. Clean up digits and other non-Devanagari characters (except space, period, comma)
+        result = result
+            .replace(Regex("[०-९0-9]"), " ")
+            .replace(Regex("[^\\u0900-\\u097F\\s.,]"), " ")
+            .replace(Regex("[\\u0951\\u0952\\u0953\\u0954]"), "") // remove Vedic accents
+            .replace(Regex("\\s+"), " ")
+            .trim()
+
+        // 3. Expand Anusvara (ं) to homorganic nasals based on the following consonant
+        result = result.replace(Regex("ं(?=\\s*[कखगघ])"), "ङ्")
+        result = result.replace(Regex("ं(?=\\s*[चछजझ])"), "ञ्")
+        result = result.replace(Regex("ं(?=\\s*[टठडढ])"), "ण्")
+        result = result.replace(Regex("ं(?=\\s*[तथदध])"), "न्")
+        result = result.replace(Regex("ं(?=\\s*[पफबभम])"), "म्")
+        result = result.replace(Regex("ं(?=\\s|$|[.,])"), "म्")
+
+        // 4. Expand Visarga (ः) to vocalized echo of the preceding vowel
+        result = result
+            .replace("ाः", "ाहा")
+            .replace("िः", "िहि")
+            .replace("ीः", "ीही")
+            .replace("ुः", "ुहु")
+            .replace("ूः", "ूहू")
+            .replace("ेः", "ेहे")
+            .replace("ोः", "ोहो")
+            .replace("ैः", "ैहै")
+            .replace("ौः", "ौहौ")
+            .replace("ः", "ह")
+
+        // 5. Clean up consecutive periods/commas and spaces
+        result = result.replace(Regex("\\s+"), " ")
+        result = result.replace(Regex("\\s+\\."), ".")
+        result = result.replace(Regex("\\s+,"), ",")
+        result = result.replace(Regex("\\.+"), ".")
+        result = result.replace(Regex(",+"), ",")
+        return result.replace(Regex("\\s+"), " ").trim()
     }
 
     fun stop() {
