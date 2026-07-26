@@ -28,7 +28,7 @@ class AudioPlayerHelper @Inject constructor(
         initTts()
     }
 
-    private fun initTts() {
+    fun initTts() {
         try {
             tts?.shutdown()
         } catch (e: Exception) {

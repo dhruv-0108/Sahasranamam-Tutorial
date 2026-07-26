@@ -203,6 +203,15 @@ class StotraStudyViewModel @Inject constructor(
         ) { _ -> }
     }
 
+    fun onPause() {
+        audioPlayerHelper.stop()
+        _uiState.update { it.copy(isPlayingAudio = false) }
+    }
+
+    fun onResume() {
+        audioPlayerHelper.initTts()
+    }
+
     override fun onCleared() {
         super.onCleared()
         audioPlayerHelper.release()
