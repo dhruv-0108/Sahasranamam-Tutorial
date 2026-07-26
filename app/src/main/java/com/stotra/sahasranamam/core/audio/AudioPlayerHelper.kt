@@ -40,7 +40,13 @@ class AudioPlayerHelper @Inject constructor(
 
     override fun onInit(status: Int) {
         if (status == TextToSpeech.SUCCESS) {
-            val result = tts?.setLanguage(Locale("hi", "IN"))
+            // Try Sanskrit first for correct pronunciation rules (no Schwa deletion)
+            var result = tts?.setLanguage(Locale("sa", "IN"))
+            if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                // Fallback to Hindi
+                result = tts?.setLanguage(Locale("hi", "IN"))
+            }
+            
             if (result != TextToSpeech.LANG_MISSING_DATA && result != TextToSpeech.LANG_NOT_SUPPORTED) {
                 isTtsReady = true
             } else {
@@ -120,11 +126,15 @@ class AudioPlayerHelper @Inject constructor(
         // TTS audio voice synthesis for Devanagari Sanskrit text
         if (isTtsReady && tts != null) {
             tts?.setSpeechRate(speed)
-            val cleanText = sanskritText
+            var cleanText = sanskritText
                 .replace(Regex("[^\\u0900-\\u097F\\s]"), " ")
                 .replace(Regex("[\\u0951\\u0952\\u0953\\u0954]"), "")
                 .replace(Regex("\\s+"), " ")
                 .trim()
+
+            if (!cleanText.contains(" ") && cleanText.endsWith("ं")) {
+                cleanText = cleanText.substring(0, cleanText.length - 1) + "म्"
+            }
 
             if (cleanText.isNotEmpty()) {
                 isTtsSpeakingActive = false
