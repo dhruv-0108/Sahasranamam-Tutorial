@@ -23,7 +23,7 @@ class DatabaseInitializer(
     private val assetFiles = listOf(
         "stotras/aditya_hrudayam.json",
         "stotras/sri_suktam.json",
-        "stotras/vishnu_sahasranamam_sample.json"
+        "stotras/vishnu_sahasranamam.json"
     )
 
     suspend fun seedDatabaseIfNeeded() = withContext(Dispatchers.IO) {
