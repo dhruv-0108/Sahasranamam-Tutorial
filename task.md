@@ -1,0 +1,22 @@
+# Vishnu Sahasranamam — Complete Implementation
+
+- [x] Write Python script to generate complete `vishnu_sahasranamam.json`
+  - [x] Poorva Peetika (~23 shlokas)
+  - [x] 108 main nama shlokas with full pada breakdown
+  - [x] Phala Shruti (~34 shlokas)
+- [x] Run script → output JSON to assets folder
+- [x] Translate empty word meanings for intro/outro shlokas (687 words)
+- [x] Fix TTS Sanskrit pronunciation
+  - [x] Initialize Sanskrit locale (`sa_IN`) with Hindi fallback (`hi_IN`)
+  - [x] Dynamic trailing anusvara to halant-ma (`ं` -> `म्`) replacement for individual words
+  - [x] Homorganic anusvara replacements based on consonant classes (ka-varga, cha-varga, etc.)
+  - [x] Visarga vocalized echo expansions (`ाः` -> `ाहा`, `िः` -> `िहि`, etc.)
+  - [x] Sanskrit punctuation `।` and `॥` mapped to speech pauses (`,` and `.`)
+- [x] Implement UI for Bookmark / Favorite (1-tap toggle)
+- [x] Implement UI for Quick Verse Selection Dialog (2-tap grid selection)
+- [x] Implement Resume / Continuation (1-tap from homepage)
+- [x] Update `DatabaseInitializer.kt` to load full JSON (replace sample)
+- [x] Bump Room database version to `4` in `AppDatabase.kt` to trigger migration/re-seeding
+- [x] Verify build compiles (Assemble Debug APK)
+- [x] Verify all unit tests pass
+- [x] Push to GitHub

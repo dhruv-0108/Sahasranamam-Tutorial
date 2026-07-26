@@ -36,7 +36,7 @@ class StotraStudyViewModel @Inject constructor(
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true, error = null) }
             
-            // Check for last viewed shloka to resume where user left off
+            // Check for last viewed shloka to resume where user left off (fetched once at initialization)
             val lastViewedResult = repository.getLastViewedShloka(stotraId)
             val lastViewedShloka = if (lastViewedResult is Resource.Success) lastViewedResult.data else null
 
@@ -44,24 +44,25 @@ class StotraStudyViewModel @Inject constructor(
                 when (resource) {
                     is Resource.Success -> {
                         val shlokas = resource.data
-                        val startingIndex = if (lastViewedShloka != null) {
-                            val idx = shlokas.indexOfFirst { it.id == lastViewedShloka.id }
-                            if (idx != -1) idx else 0
-                        } else {
-                            0
-                        }
-
                         _uiState.update { state ->
+                            val startingIndex = if (state.shlokas.isEmpty()) {
+                                // First load: find index of last viewed shloka
+                                if (lastViewedShloka != null) {
+                                    val idx = shlokas.indexOfFirst { it.id == lastViewedShloka.id }
+                                    if (idx != -1) idx else 0
+                                } else {
+                                    0
+                                }
+                            } else {
+                                // Preserve current index on database updates (e.g. when bookmarking)
+                                state.currentShlokaIndex
+                            }
+
                             state.copy(
                                 isLoading = false,
                                 shlokas = shlokas,
                                 currentShlokaIndex = startingIndex
                             )
-                        }
-
-                        // Mark initial shloka as viewed
-                        shlokas.getOrNull(startingIndex)?.let { shloka ->
-                            repository.updateLastViewed(shloka.id, System.currentTimeMillis())
                         }
                     }
                     is Resource.Error -> {

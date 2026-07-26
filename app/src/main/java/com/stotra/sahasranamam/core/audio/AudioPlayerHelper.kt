@@ -206,13 +206,112 @@ class AudioPlayerHelper @Inject constructor(
             .replace("ौः", "ौहौ")
             .replace("ः", "ह")
 
-        // 5. Clean up consecutive periods/commas and spaces
+        // 5. Apply Sanskrit Syllabification to force clear akshara-level pronunciation and prevent slurring
+        result = syllabifySanskrit(result)
+
+        // 6. Clean up consecutive periods/commas and spaces
         result = result.replace(Regex("\\s+"), " ")
         result = result.replace(Regex("\\s+\\."), ".")
         result = result.replace(Regex("\\s+,"), ",")
         result = result.replace(Regex("\\.+"), ".")
         result = result.replace(Regex(",+"), ",")
         return result.replace(Regex("\\s+"), " ").trim()
+    }
+
+    private fun syllabifySanskrit(word: String): String {
+        val consonants = "कखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह"
+        val matras = "ािीुूृॄेैोौ"
+        val halant = '्'
+        val anusvara = 'ं'
+        val visarga = 'ः'
+
+        val tokens = mutableListOf<Pair<Char, String>>()
+        val chars = word.toCharArray()
+        val n = chars.size
+        var i = 0
+        while (i < n) {
+            val char = chars[i]
+            if (consonants.contains(char)) {
+                // Check if followed by halant
+                if (i + 1 < n && chars[i + 1] == halant) {
+                    tokens.add(Pair('C', char.toString() + halant))
+                    i += 2
+                } else {
+                    var valStr = char.toString()
+                    i++
+                    while (i < n && (matras.contains(chars[i]) || chars[i] == anusvara || chars[i] == visarga)) {
+                        valStr += chars[i]
+                        i++
+                    }
+                    tokens.add(Pair('V', valStr))
+                }
+            } else if (matras.contains(char) || char == anusvara || char == visarga) {
+                tokens.add(Pair('V', char.toString()))
+                i++
+            } else {
+                tokens.add(Pair('P', char.toString()))
+                i++
+            }
+        }
+
+        val syllables = mutableListOf<String>()
+        val tempC = mutableListOf<String>()
+
+        for (token in tokens) {
+            val type = token.first
+            val value = token.second
+            when (type) {
+                'P' -> {
+                    if (tempC.isNotEmpty()) {
+                        syllables.add(tempC.joinToString(""))
+                        tempC.clear()
+                    }
+                    syllables.add(value)
+                }
+                'V' -> {
+                    if (tempC.isNotEmpty()) {
+                        syllables.add(tempC.joinToString("") + value)
+                        tempC.clear()
+                    } else {
+                        syllables.add(value)
+                    }
+                }
+                'C' -> {
+                    // Halant consonant
+                    val lastIndex = syllables.lastIndex
+                    if (lastIndex >= 0 && !listOf(" ", ",", ".", "।", "॥", "\n", "\t").contains(syllables[lastIndex])) {
+                        syllables[lastIndex] = syllables[lastIndex] + value
+                    } else {
+                        tempC.add(value)
+                    }
+                }
+            }
+        }
+
+        if (tempC.isNotEmpty()) {
+            syllables.add(tempC.joinToString(""))
+        }
+
+        val result = mutableListOf<String>()
+        val pendingWord = mutableListOf<String>()
+
+        for (s in syllables) {
+            if (s.isEmpty()) continue
+            if (s.contains(Regex("[\\s.,।॥]"))) {
+                if (pendingWord.isNotEmpty()) {
+                    result.add(pendingWord.joinToString("-"))
+                    pendingWord.clear()
+                }
+                result.add(s)
+            } else {
+                pendingWord.add(s)
+            }
+        }
+        if (pendingWord.isNotEmpty()) {
+            result.add(pendingWord.joinToString("-"))
+        }
+
+        return result.joinToString("")
     }
 
     fun stop() {
