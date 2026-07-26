@@ -8,6 +8,7 @@ import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -23,9 +24,14 @@ import com.stotra.sahasranamam.presentation.theme.SaffronPrimary
 @Composable
 fun HomeScreen(
     viewModel: HomeViewModel = hiltViewModel(),
-    onCategoryClick: (String) -> Unit
+    onCategoryClick: (String) -> Unit,
+    onResumeClick: (String) -> Unit
 ) {
     val state by viewModel.uiState.collectAsState()
+
+    LaunchedEffect(Unit) {
+        viewModel.loadRecentSelection()
+    }
 
     Scaffold(
         topBar = {
@@ -60,6 +66,56 @@ fun HomeScreen(
                 shape = RoundedCornerShape(12.dp),
                 singleLine = true
             )
+
+            // Resume Card (Continue where you left off)
+            state.recentSelection?.let { recent ->
+                Card(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 8.dp)
+                        .clickable { onResumeClick(recent.stotraId) },
+                    shape = RoundedCornerShape(12.dp),
+                    colors = CardDefaults.cardColors(
+                        containerColor = SaffronPrimary.copy(alpha = 0.08f)
+                    ),
+                    border = androidx.compose.foundation.BorderStroke(1.dp, SaffronPrimary.copy(alpha = 0.3f))
+                ) {
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(16.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.SpaceBetween
+                    ) {
+                        Column(modifier = Modifier.weight(1f)) {
+                            Text(
+                                text = "Continue Reading",
+                                style = MaterialTheme.typography.labelSmall,
+                                color = SaffronPrimary,
+                                fontWeight = FontWeight.Bold
+                            )
+                            Spacer(modifier = Modifier.height(4.dp))
+                            Text(
+                                text = recent.stotraTitleDevanagari,
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold
+                            )
+                            Text(
+                                text = "${recent.stotraTitleEnglish} • Verse ${recent.shlokaNumber}",
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
+                            )
+                        }
+
+                        Icon(
+                            imageVector = Icons.Default.PlayArrow,
+                            contentDescription = "Resume",
+                            tint = SaffronPrimary,
+                            modifier = Modifier.size(32.dp)
+                        )
+                    }
+                }
+            }
 
             if (state.isLoading) {
                 Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {

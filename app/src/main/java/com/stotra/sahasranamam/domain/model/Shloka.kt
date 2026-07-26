@@ -11,5 +11,7 @@ data class Shloka(
     val meaningHindi: String?,
     val audioStartMs: Long,
     val audioEndMs: Long,
+    val isBookmarked: Boolean = false,
+    val lastViewedAt: Long = 0,
     val padas: List<Pada> = emptyList()
 )

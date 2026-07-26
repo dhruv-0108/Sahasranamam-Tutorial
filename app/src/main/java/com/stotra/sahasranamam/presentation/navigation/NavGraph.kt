@@ -25,7 +25,8 @@ fun AppNavGraph(navController: NavHostController) {
     ) {
         composable(NavRoutes.HOME) {
             HomeScreen(
-                onCategoryClick = { categoryName -> navController.navigate("category/$categoryName") }
+                onCategoryClick = { categoryName -> navController.navigate("category/$categoryName") },
+                onResumeClick = { stotraId -> navController.navigate("study/$stotraId") }
             )
         }
 

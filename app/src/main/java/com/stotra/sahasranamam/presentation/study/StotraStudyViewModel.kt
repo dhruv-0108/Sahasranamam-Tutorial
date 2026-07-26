@@ -35,15 +35,33 @@ class StotraStudyViewModel @Inject constructor(
     fun loadStotra(stotraId: String) {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true, error = null) }
+            
+            // Check for last viewed shloka to resume where user left off
+            val lastViewedResult = repository.getLastViewedShloka(stotraId)
+            val lastViewedShloka = if (lastViewedResult is Resource.Success) lastViewedResult.data else null
+
             repository.getShlokasForStotra(stotraId).collect { resource ->
                 when (resource) {
                     is Resource.Success -> {
+                        val shlokas = resource.data
+                        val startingIndex = if (lastViewedShloka != null) {
+                            val idx = shlokas.indexOfFirst { it.id == lastViewedShloka.id }
+                            if (idx != -1) idx else 0
+                        } else {
+                            0
+                        }
+
                         _uiState.update { state ->
                             state.copy(
                                 isLoading = false,
-                                shlokas = resource.data,
-                                currentShlokaIndex = 0
+                                shlokas = shlokas,
+                                currentShlokaIndex = startingIndex
                             )
+                        }
+
+                        // Mark initial shloka as viewed
+                        shlokas.getOrNull(startingIndex)?.let { shloka ->
+                            repository.updateLastViewed(shloka.id, System.currentTimeMillis())
                         }
                     }
                     is Resource.Error -> {
@@ -74,6 +92,12 @@ class StotraStudyViewModel @Inject constructor(
         if (index in 0 until _uiState.value.shlokas.size) {
             audioPlayerHelper.stop()
             _uiState.update { it.copy(currentShlokaIndex = index, isCardFlipped = false, isPlayingAudio = false) }
+            val currentShloka = _uiState.value.shlokas.getOrNull(index)
+            if (currentShloka != null) {
+                viewModelScope.launch {
+                    repository.updateLastViewed(currentShloka.id, System.currentTimeMillis())
+                }
+            }
         }
     }
 
@@ -82,6 +106,12 @@ class StotraStudyViewModel @Inject constructor(
         if (nextIndex < _uiState.value.shlokas.size) {
             audioPlayerHelper.stop()
             _uiState.update { it.copy(currentShlokaIndex = nextIndex, isCardFlipped = false, isPlayingAudio = false) }
+            val currentShloka = _uiState.value.shlokas.getOrNull(nextIndex)
+            if (currentShloka != null) {
+                viewModelScope.launch {
+                    repository.updateLastViewed(currentShloka.id, System.currentTimeMillis())
+                }
+            }
         }
     }
 
@@ -90,6 +120,12 @@ class StotraStudyViewModel @Inject constructor(
         if (prevIndex >= 0) {
             audioPlayerHelper.stop()
             _uiState.update { it.copy(currentShlokaIndex = prevIndex, isCardFlipped = false, isPlayingAudio = false) }
+            val currentShloka = _uiState.value.shlokas.getOrNull(prevIndex)
+            if (currentShloka != null) {
+                viewModelScope.launch {
+                    repository.updateLastViewed(currentShloka.id, System.currentTimeMillis())
+                }
+            }
         }
     }
 
@@ -131,6 +167,27 @@ class StotraStudyViewModel @Inject constructor(
         viewModelScope.launch {
             repository.submitSrsReview(currentShloka.id, rating)
             nextShloka()
+        }
+    }
+
+    fun toggleBookmark() {
+        val state = _uiState.value
+        val currentShloka = state.shlokas.getOrNull(state.currentShlokaIndex) ?: return
+        val nextBookmarkState = !currentShloka.isBookmarked
+
+        // Update UI state immediately
+        val updatedShlokas = state.shlokas.mapIndexed { idx, shloka ->
+            if (idx == state.currentShlokaIndex) {
+                shloka.copy(isBookmarked = nextBookmarkState)
+            } else {
+                shloka
+            }
+        }
+        _uiState.update { it.copy(shlokas = updatedShlokas) }
+
+        // Update in database
+        viewModelScope.launch {
+            repository.toggleBookmark(currentShloka.id, nextBookmarkState)
         }
     }
 

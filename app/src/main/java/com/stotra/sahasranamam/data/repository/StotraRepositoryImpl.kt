@@ -78,6 +78,8 @@ class StotraRepositoryImpl @Inject constructor(
                         meaningHindi = shlokaEntity.meaningHindi,
                         audioStartMs = shlokaEntity.audioStartMs,
                         audioEndMs = shlokaEntity.audioEndMs,
+                        isBookmarked = shlokaEntity.isBookmarked,
+                        lastViewedAt = shlokaEntity.lastViewedAt,
                         padas = padas
                     )
                 }
@@ -101,7 +103,9 @@ class StotraRepositoryImpl @Inject constructor(
                         meaningEnglish = shlokaEntity.meaningEnglish,
                         meaningHindi = shlokaEntity.meaningHindi,
                         audioStartMs = shlokaEntity.audioStartMs,
-                        audioEndMs = shlokaEntity.audioEndMs
+                        audioEndMs = shlokaEntity.audioEndMs,
+                        isBookmarked = shlokaEntity.isBookmarked,
+                        lastViewedAt = shlokaEntity.lastViewedAt
                     )
 
                     SrsCard(
@@ -144,6 +148,132 @@ class StotraRepositoryImpl @Inject constructor(
 
             db.userSrsProgressDao().insertOrUpdateProgress(updatedProgress)
             Resource.Success(Unit)
+        } catch (e: Exception) {
+            Resource.Error(e)
+        }
+    }
+
+    override suspend fun toggleBookmark(shlokaId: Long, isBookmarked: Boolean): Resource<Unit> = withContext(Dispatchers.IO) {
+        try {
+            db.shlokaDao().updateBookmarkState(shlokaId, isBookmarked)
+            Resource.Success(Unit)
+        } catch (e: Exception) {
+            Resource.Error(e)
+        }
+    }
+
+    override suspend fun updateLastViewed(shlokaId: Long, timestamp: Long): Resource<Unit> = withContext(Dispatchers.IO) {
+        try {
+            db.shlokaDao().updateLastViewedTimestamp(shlokaId, timestamp)
+            Resource.Success(Unit)
+        } catch (e: Exception) {
+            Resource.Error(e)
+        }
+    }
+
+    override suspend fun getLastViewedShloka(stotraId: String): Resource<Shloka?> = withContext(Dispatchers.IO) {
+        try {
+            val entity = db.shlokaDao().getLastViewedShloka(stotraId)
+            if (entity != null) {
+                val padas = db.padaDao().getPadasForShlokaSync(entity.id).map { padaEntity ->
+                    Pada(
+                        id = padaEntity.id,
+                        shlokaId = padaEntity.shlokaId,
+                        index = padaEntity.padaIndex,
+                        sanskritCombined = padaEntity.sanskritCombined,
+                        sanskritSplit = padaEntity.sanskritSplit,
+                        sandhiRuleName = padaEntity.sandhiRuleName,
+                        sandhiRuleExplanation = padaEntity.sandhiRuleExplanation,
+                        iast = padaEntity.iast,
+                        meaning = padaEntity.meaning,
+                        audioStartMs = padaEntity.audioStartMs,
+                        audioEndMs = padaEntity.audioEndMs
+                    )
+                }
+                val shloka = Shloka(
+                    id = entity.id,
+                    stotraId = entity.stotraId,
+                    shlokaNumber = entity.shlokaNumber,
+                    fullSanskrit = entity.fullSanskrit,
+                    sandhiSplitSanskrit = entity.sandhiSplitSanskrit,
+                    iastTransliteration = entity.iastTransliteration,
+                    meaningEnglish = entity.meaningEnglish,
+                    meaningHindi = entity.meaningHindi,
+                    audioStartMs = entity.audioStartMs,
+                    audioEndMs = entity.audioEndMs,
+                    isBookmarked = entity.isBookmarked,
+                    lastViewedAt = entity.lastViewedAt,
+                    padas = padas
+                )
+                Resource.Success(shloka)
+            } else {
+                Resource.Success(null)
+            }
+        } catch (e: Exception) {
+            Resource.Error(e)
+        }
+    }
+
+    override fun getBookmarkedShlokas(stotraId: String): Flow<Resource<List<Shloka>>> {
+        return db.shlokaDao().getBookmarkedShlokas(stotraId)
+            .map { entities ->
+                val shlokas = entities.map { entity ->
+                    val padas = db.padaDao().getPadasForShlokaSync(entity.id).map { padaEntity ->
+                        Pada(
+                            id = padaEntity.id,
+                            shlokaId = padaEntity.shlokaId,
+                            index = padaEntity.padaIndex,
+                            sanskritCombined = padaEntity.sanskritCombined,
+                            sanskritSplit = padaEntity.sanskritSplit,
+                            sandhiRuleName = padaEntity.sandhiRuleName,
+                            sandhiRuleExplanation = padaEntity.sandhiRuleExplanation,
+                            iast = padaEntity.iast,
+                            meaning = padaEntity.meaning,
+                            audioStartMs = padaEntity.audioStartMs,
+                            audioEndMs = padaEntity.audioEndMs
+                        )
+                    }
+                    Shloka(
+                        id = entity.id,
+                        stotraId = entity.stotraId,
+                        shlokaNumber = entity.shlokaNumber,
+                        fullSanskrit = entity.fullSanskrit,
+                        sandhiSplitSanskrit = entity.sandhiSplitSanskrit,
+                        iastTransliteration = entity.iastTransliteration,
+                        meaningEnglish = entity.meaningEnglish,
+                        meaningHindi = entity.meaningHindi,
+                        audioStartMs = entity.audioStartMs,
+                        audioEndMs = entity.audioEndMs,
+                        isBookmarked = entity.isBookmarked,
+                        lastViewedAt = entity.lastViewedAt,
+                        padas = padas
+                    )
+                }
+                Resource.Success(shlokas)
+            }
+            .flowOn(Dispatchers.IO)
+    }
+
+    override suspend fun getRecentSelection(): Resource<com.stotra.sahasranamam.domain.model.RecentSelection?> = withContext(Dispatchers.IO) {
+        try {
+            val recentShloka = db.shlokaDao().getMostRecentlyViewedShloka()
+            if (recentShloka != null) {
+                val stotra = db.stotraDao().getStotraById(recentShloka.stotraId)
+                if (stotra != null) {
+                    val selection = com.stotra.sahasranamam.domain.model.RecentSelection(
+                        stotraId = recentShloka.stotraId,
+                        stotraTitleEnglish = stotra.titleEnglish,
+                        stotraTitleDevanagari = stotra.titleDevanagari,
+                        shlokaNumber = recentShloka.shlokaNumber,
+                        shlokaId = recentShloka.id
+                    )
+                    Resource.Success(selection)
+                } else {
+                    Resource.Success(null)
+                }
+            } else {
+                Resource.Success(null)
+            }
         } catch (e: Exception) {
             Resource.Error(e)
         }

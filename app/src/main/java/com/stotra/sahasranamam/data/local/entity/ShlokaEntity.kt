@@ -50,5 +50,11 @@ data class ShlokaEntity(
     val audioStartMs: Long = 0,
 
     @ColumnInfo(name = "audio_end_ms")
-    val audioEndMs: Long = 0
+    val audioEndMs: Long = 0,
+
+    @ColumnInfo(name = "is_bookmarked")
+    val isBookmarked: Boolean = false,
+
+    @ColumnInfo(name = "last_viewed_at")
+    val lastViewedAt: Long = 0
 )

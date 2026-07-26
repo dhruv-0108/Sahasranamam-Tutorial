@@ -30,6 +30,31 @@ interface StotraRepository {
     suspend fun submitSrsReview(shlokaId: Long, rating: Int): Resource<Unit>
 
     /**
+     * Toggles bookmark state for a shloka.
+     */
+    suspend fun toggleBookmark(shlokaId: Long, isBookmarked: Boolean): Resource<Unit>
+
+    /**
+     * Updates the last viewed timestamp for a shloka.
+     */
+    suspend fun updateLastViewed(shlokaId: Long, timestamp: Long): Resource<Unit>
+
+    /**
+     * Gets the last viewed shloka for a stotra, if any.
+     */
+    suspend fun getLastViewedShloka(stotraId: String): Resource<Shloka?>
+
+    /**
+     * Gets all bookmarked shlokas for a stotra.
+     */
+    fun getBookmarkedShlokas(stotraId: String): Flow<Resource<List<Shloka>>>
+
+    /**
+     * Gets the most recently viewed shloka details across all stotras.
+     */
+    suspend fun getRecentSelection(): Resource<com.stotra.sahasranamam.domain.model.RecentSelection?>
+
+    /**
      * Synchronizes local database with remote Cloud Firestore.
      */
     suspend fun syncWithRemoteDatabase(): Resource<Unit>

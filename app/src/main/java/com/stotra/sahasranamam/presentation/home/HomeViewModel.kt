@@ -17,7 +17,8 @@ data class HomeUiState(
     val isLoading: Boolean = false,
     val stotras: List<Stotra> = emptyList(),
     val error: String? = null,
-    val searchQuery: String = ""
+    val searchQuery: String = "",
+    val recentSelection: com.stotra.sahasranamam.domain.model.RecentSelection? = null
 ) {
     val categorizedStotras: Map<String, List<Stotra>>
         get() {
@@ -43,6 +44,16 @@ class HomeViewModel @Inject constructor(
 
     init {
         loadStotras()
+        loadRecentSelection()
+    }
+
+    fun loadRecentSelection() {
+        viewModelScope.launch {
+            val result = repository.getRecentSelection()
+            if (result is Resource.Success) {
+                _uiState.value = _uiState.value.copy(recentSelection = result.data)
+            }
+        }
     }
 
     private fun loadStotras() {

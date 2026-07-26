@@ -7,6 +7,8 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -14,10 +16,16 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.FavoriteBorder
+import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -39,29 +47,54 @@ fun StotraStudyScreen(
 ) {
     val state by viewModel.uiState.collectAsState()
     val currentShloka = state.shlokas.getOrNull(state.currentShlokaIndex)
+    var showVerseSelector by remember { mutableStateOf(false) }
 
     Scaffold(
         topBar = {
             TopAppBar(
                 title = {
-                    Column {
+                    Column(
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(8.dp))
+                            .clickable { showVerseSelector = true }
+                            .padding(horizontal = 8.dp, vertical = 4.dp)
+                    ) {
                         Text(
                             text = "Stotra / Suktam",
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.Bold
                         )
                         if (currentShloka != null) {
-                            Text(
-                                text = "Verse ${currentShloka.shlokaNumber} of ${state.shlokas.size}",
-                                style = MaterialTheme.typography.bodySmall,
-                                color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
-                            )
+                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                Text(
+                                    text = "Verse ${currentShloka.shlokaNumber} of ${state.shlokas.size}",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
+                                )
+                                Icon(
+                                    imageVector = Icons.Default.ArrowDropDown,
+                                    contentDescription = "Select Verse",
+                                    tint = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f),
+                                    modifier = Modifier.size(16.dp)
+                                )
+                            }
                         }
                     }
                 },
                 navigationIcon = {
                     IconButton(onClick = onBackClick) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                    }
+                },
+                actions = {
+                    if (currentShloka != null) {
+                        IconButton(onClick = { viewModel.toggleBookmark() }) {
+                            Icon(
+                                imageVector = if (currentShloka.isBookmarked) Icons.Default.Favorite else Icons.Default.FavoriteBorder,
+                                contentDescription = "Favorite/Bookmark",
+                                tint = if (currentShloka.isBookmarked) GoldAccent else MaterialTheme.colorScheme.onSurface
+                            )
+                        }
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
@@ -282,6 +315,57 @@ fun StotraStudyScreen(
                 }
             }
         }
+    }
+
+    if (showVerseSelector && state.shlokas.isNotEmpty()) {
+        AlertDialog(
+            onDismissRequest = { showVerseSelector = false },
+            title = {
+                Text(
+                    text = "Go to Verse",
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold,
+                    color = SaffronPrimary
+                )
+            },
+            text = {
+                Box(modifier = Modifier.heightIn(max = 300.dp)) {
+                    LazyVerticalGrid(
+                        columns = GridCells.Adaptive(minSize = 54.dp),
+                        horizontalArrangement = Arrangement.spacedBy(8.dp),
+                        verticalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        items(state.shlokas.size) { index ->
+                            val isSelected = index == state.currentShlokaIndex
+                            Box(
+                                modifier = Modifier
+                                    .size(44.dp)
+                                    .clip(RoundedCornerShape(8.dp))
+                                    .background(
+                                        if (isSelected) SaffronPrimary else MaterialTheme.colorScheme.surfaceVariant
+                                    )
+                                    .clickable {
+                                        viewModel.selectShloka(index)
+                                        showVerseSelector = false
+                                    },
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Text(
+                                    text = (index + 1).toString(),
+                                    fontWeight = FontWeight.Bold,
+                                    color = if (isSelected) Color.Black else MaterialTheme.colorScheme.onSurface
+                                )
+                            }
+                        }
+                    }
+                }
+            },
+            confirmButton = {
+                TextButton(onClick = { showVerseSelector = false }) {
+                    Text("Close", color = SaffronPrimary)
+                }
+            }
+        )
     }
 }
 
