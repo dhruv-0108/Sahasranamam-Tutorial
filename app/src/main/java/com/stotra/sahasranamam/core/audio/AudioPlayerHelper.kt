@@ -303,7 +303,7 @@ class AudioPlayerHelper @Inject constructor(
             if (s.isEmpty()) continue
             if (s.contains(Regex("[\\s.,।॥]"))) {
                 if (pendingWord.isNotEmpty()) {
-                    result.add(pendingWord.joinToString("-"))
+                    result.add(pendingWord.joinToString(""))
                     pendingWord.clear()
                 }
                 result.add(s)
@@ -312,7 +312,7 @@ class AudioPlayerHelper @Inject constructor(
             }
         }
         if (pendingWord.isNotEmpty()) {
-            result.add(pendingWord.joinToString("-"))
+            result.add(pendingWord.joinToString(""))
         }
 
         return result.joinToString("")

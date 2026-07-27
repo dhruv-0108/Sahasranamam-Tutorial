@@ -12,8 +12,8 @@
   "shlokas": [
     {
       "shloka_number": 1,
-      "full_sanskrit": "हंसं नारायणं चैवमेतन्नामाष्टकं पठेत् ॥ १॥",
-      "sandhi_split_sanskrit": "हंसं नारायणं चैवमेतन्नामाष्टकं पठेत् ॥ १॥",
+      "full_sanskrit": "अच्युतं केशवं विष्णुं हरिं सत्यं जनार्दनम् ।\nहंसं नारायणं चैवमेतन्नामाष्टकं पठेत् ॥ १॥",
+      "sandhi_split_sanskrit": "अच्युतम् | केशवम् | विष्णुम् | हरिम् | सत्यम् | जनार्दनम् | हंसम् | नारायणम् | च एवम् | एतत् नाम + अष्टकम् | पठेत् | 1",
       "iast_transliteration": "acyutaṃ keśavaṃ viṣṇuṃ hariṃ satyaṃ janārdanam .\nhaṃsaṃ nārāyaṇaṃ caivametannāmāṣṭakaṃ paṭhet ..1..",
       "meaning_english": "One should recite this octad of divine names: Achyuta (the Imperishable), Keshava (the Lord with beautiful hair), Vishnu (the All-Pervading), Hari (the Remover of sins), Satya (the Truth), Janardana (the Refuge of all beings), Hamsa (the Supreme Swan), and Narayana (the Abode of all souls).",
       "meaning_hindi": null,
@@ -145,8 +145,8 @@
     },
     {
       "shloka_number": 2,
-      "full_sanskrit": "शत्रुसैन्यं क्षयं याति दुःस्वप्नः सुखदो भवेत् ॥ २॥",
-      "sandhi_split_sanskrit": "शत्रुसैन्यं क्षयं याति दुःस्वप्नः सुखदो भवेत् ॥ २॥",
+      "full_sanskrit": "त्रिसन्ध्यं यः पठेन्नित्यं दारिद्र्यं तस्य नश्यति ।\nशत्रुसैन्यं क्षयं याति दुःस्वप्नः सुखदो भवेत् ॥ २॥",
+      "sandhi_split_sanskrit": "त्रि + सन्ध्यम् | यः | पठेत् नित्यम् | दारिद्र्यम् | तस्य | नश्यति | शत्रु + सैन्यम् | क्षयम् याति | दुःस्वप्नः | सुखदः भवेत् | 2",
       "iast_transliteration": "trisandhyaṃ yaḥ paṭhennityaṃ dāridryaṃ tasya naśyati .\nśatrusainyaṃ kṣayaṃ yāti duḥsvapnaḥ sukhado bhavet ..2..",
       "meaning_english": "One who recites this hymn daily at the three junctures of dawn, noon, and dusk — their poverty is destroyed. The armies of enemies perish, and even bad dreams become bestowers of happiness.",
       "meaning_hindi": null,
@@ -267,8 +267,8 @@
     },
     {
       "shloka_number": 3,
-      "full_sanskrit": "ब्रह्मविद्याप्रबोधश्च तस्मान्नित्यं पठेन्नरः ॥",
-      "sandhi_split_sanskrit": "ब्रह्मविद्याप्रबोधश्च तस्मान्नित्यं पठेन्नरः ॥",
+      "full_sanskrit": "गङ्गायां मरणं चैव दृढा भक्तिस्तु केशवे ।\nब्रह्मविद्याप्रबोधश्च तस्मान्नित्यं पठेन्नरः ॥ ३॥",
+      "sandhi_split_sanskrit": "गङ्गायाम् | मरणम् | च एव | दृढा | भक्तिः तु | केशवे | ब्रह्म + विद्या | प्रबोधः | च | तस्मात् | नित्यम् | पठेत् | नरः | इति | श्री + विष्णु + नाम + अष्टकम् | सम्पूर्णम् | 3",
       "iast_transliteration": "gaṅgāyāṃ maraṇaṃ caiva dṛḍhā bhaktistu keśave .\nbrahmavidyāprabodhaśca tasmānnityaṃ paṭhennaraḥ ..3..",
       "meaning_english": "Death upon the banks of the Ganga, steadfast devotion to Keshava, and the awakening of knowledge of Brahman — for these blessings, one should recite this hymn daily. Thus concludes the sacred Ashtakam of the eight names of Lord Vishnu, complete in its entirety.",
       "meaning_hindi": null,
