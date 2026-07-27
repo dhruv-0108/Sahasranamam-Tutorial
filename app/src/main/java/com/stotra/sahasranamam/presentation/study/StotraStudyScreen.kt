@@ -475,10 +475,11 @@ fun AudioControlBar(
             TextButton(
                 onClick = {
                     val nextSpeed = when (playbackSpeed) {
-                        1.0f -> 0.75f
-                        0.75f -> 0.5f
+                        0.85f -> 0.7f
+                        0.7f -> 0.5f
                         0.5f -> 0.25f
-                        else -> 1.0f
+                        0.25f -> 1.0f
+                        else -> 0.85f
                     }
                     onSpeedChange(nextSpeed)
                 }

@@ -9,7 +9,7 @@ data class StotraStudyUiState(
     val isSandhiSplitEnabled: Boolean = true,
     val showHindiMeaning: Boolean = false,
     val isPlayingAudio: Boolean = false,
-    val playbackSpeed: Float = 1.0f,
+    val playbackSpeed: Float = 0.85f,
     val isCardFlipped: Boolean = false,
     val error: String? = null
 )
