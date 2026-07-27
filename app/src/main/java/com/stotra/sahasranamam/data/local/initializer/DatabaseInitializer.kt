@@ -27,11 +27,17 @@ class DatabaseInitializer(
     )
 
     suspend fun seedDatabaseIfNeeded() = withContext(Dispatchers.IO) {
-        val existingStotras = db.stotraDao().getStotraById("aditya_hrudayam")
-        if (existingStotras != null) {
-            // Already seeded
+        val hasAditya = db.shlokaDao().getShlokaByNumber("aditya_hrudayam", 33) != null
+        val hasSriSuktam = db.shlokaDao().getShlokaByNumber("sri_suktam", 16) != null
+        val hasVishnu = db.shlokaDao().getShlokaByNumber("vishnu_sahasranamam", 172) != null
+
+        if (hasAditya && hasSriSuktam && hasVishnu) {
+            // Already seeded and has all shlokas
             return@withContext
         }
+
+        // Wipe and re-seed if any stotra is missing or has incorrect shlokas count
+        db.clearAllTables()
 
         assetFiles.forEach { relativePath ->
             if (SecuritySanitizer.isSafeAssetPath(relativePath)) {
@@ -51,7 +57,7 @@ class DatabaseInitializer(
                     )
                     db.stotraDao().insertStotra(stotraEntity)
 
-                    parsed.shlokas.forEach { rawShloka ->
+                    parsed.shlokas.forEach shlokaLoop@{ rawShloka ->
                         val shlokaEntity = ShlokaEntity(
                             stotraId = parsed.stotra.id,
                             shlokaNumber = rawShloka.shloka_number,
@@ -64,7 +70,7 @@ class DatabaseInitializer(
                             audioEndMs = rawShloka.audio_end_ms
                         )
                         val shlokaIds = db.shlokaDao().insertShlokas(listOf(shlokaEntity))
-                        val generatedShlokaId = shlokaIds.firstOrNull() ?: return@forEach
+                        val generatedShlokaId = shlokaIds.firstOrNull() ?: return@shlokaLoop
 
                         // Initialize user SRS progress record
                         val srsProgress = UserSrsProgressEntity(
