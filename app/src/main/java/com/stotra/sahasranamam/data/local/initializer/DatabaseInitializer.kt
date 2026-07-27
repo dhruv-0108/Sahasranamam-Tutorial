@@ -23,15 +23,32 @@ class DatabaseInitializer(
     private val assetFiles = listOf(
         "stotras/aditya_hrudayam.json",
         "stotras/sri_suktam.json",
-        "stotras/vishnu_sahasranamam.json"
+        "stotras/vishnu_sahasranamam.json",
+        "stotras/suryashtakam.json",
+        "stotras/achyutashtakam.json",
+        "stotras/purusha_suktam.json",
+        "stotras/vishnu_shodasha_nama.json",
+        "stotras/vishnu_namashtakam.json",
+        "stotras/vishnu_suktam_kyv.json",
+        "stotras/vishnu_chalisa.json",
+        "stotras/narayan_kavach.json"
     )
 
     suspend fun seedDatabaseIfNeeded() = withContext(Dispatchers.IO) {
         val hasAditya = db.shlokaDao().getShlokaByNumber("aditya_hrudayam", 33) != null
         val hasSriSuktam = db.shlokaDao().getShlokaByNumber("sri_suktam", 16) != null
         val hasVishnu = db.shlokaDao().getShlokaByNumber("vishnu_sahasranamam", 172) != null
+        val hasSurya = db.shlokaDao().getShlokaByNumber("suryashtakam", 8) != null
+        val hasAchyuta = db.shlokaDao().getShlokaByNumber("achyutashtakam", 9) != null
+        val hasPurusha = db.shlokaDao().getShlokaByNumber("purusha_suktam", 16) != null
+        val hasShodasha = db.shlokaDao().getShlokaByNumber("vishnu_shodasha_nama", 5) != null
+        val hasNamashtakam = db.shlokaDao().getShlokaByNumber("vishnu_namashtakam", 3) != null
+        val hasSuktamKyv = db.shlokaDao().getShlokaByNumber("vishnu_suktam_kyv", 6) != null
+        val hasChalisa = db.shlokaDao().getShlokaByNumber("vishnu_chalisa", 42) != null
+        val hasKavach = db.shlokaDao().getShlokaByNumber("narayan_kavach", 24) != null
 
-        if (hasAditya && hasSriSuktam && hasVishnu) {
+        if (hasAditya && hasSriSuktam && hasVishnu && hasSurya && hasAchyuta && hasPurusha &&
+            hasShodasha && hasNamashtakam && hasSuktamKyv && hasChalisa && hasKavach) {
             // Already seeded and has all shlokas
             return@withContext
         }

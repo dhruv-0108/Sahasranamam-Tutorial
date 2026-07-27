@@ -1,0 +1,1233 @@
+{
+  "stotra": {
+    "id": "achyutashtakam",
+    "title_devanagari": "अच्युताष्टकम्",
+    "title_english": "Achyutashtakam",
+    "category": "Ashtakams",
+    "deity": "Vishnu",
+    "total_shlokas": 9,
+    "description": "Achyutashtakam composed by Sri Adi Shankaracharya.",
+    "audio_asset_path": null
+  },
+  "shlokas": [
+    {
+      "shloka_number": 1,
+      "full_sanskrit": "अच्युतं केशवं रामनारायणं कृष्णदामोदरं वासुदेवं हरिम् ।\nश्रीधरं माधवं गोपिकावल्लभं जानकीनायकं रामचन्द्रं भजे ॥१॥",
+      "sandhi_split_sanskrit": "अच्युतं केशवं रामनारायणं कृष्णदामोदरं वासुदेवं हरिम् । | श्रीधरं माधवं गोपिकावल्लभं जानकीनायकं रामचन्द्रं भजे ॥१॥",
+      "iast_transliteration": "acyutaṃ keśavaṃ rāmanārāyaṇaṃ kṛṣṇadāmodaraṃ vāsudevaṃ harim |\nśrīdharaṃ mādhavaṃ gopikāvallabhaṃ jānakīnāyakaṃ rāmacandraṃ bhaje ||1||",
+      "meaning_english": "I Worship You O Acyuta, O Keshava, O Rama, O Narayana, O Krishna, O Damodara, O Vasudeva, O Hari. I Worship You O Sridhara, O Madhava, O Beloved of Gopikas, O Lord of Janaki, O Ramachandra.",
+      "meaning_hindi": null,
+      "audio_start_ms": 0,
+      "audio_end_ms": 10000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "अच्युतं",
+          "sanskrit_split": "अच्युतम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "acyutaṃ",
+          "meaning": "O Infallible One",
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "केशवं",
+          "sanskrit_split": "केशवम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "keśavaṃ",
+          "meaning": "O Keshava",
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "रामनारायणं",
+          "sanskrit_split": "राम + नारायणम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "rāmanārāyaṇaṃ",
+          "meaning": "O Rama and Narayana",
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "कृष्णदामोदरं",
+          "sanskrit_split": "कृष्ण + दामोदरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kṛṣṇadāmodaraṃ",
+          "meaning": "O Krishna and Damodara",
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "वासुदेवं",
+          "sanskrit_split": "वासुदेवम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "vāsudevaṃ",
+          "meaning": "O son of Vasudeva",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "हरिम्",
+          "sanskrit_split": "हरिम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "harim",
+          "meaning": "O Hari",
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "श्रीधरं",
+          "sanskrit_split": "श्रीधरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śrīdharaṃ",
+          "meaning": "O bearer of Shri",
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "माधवं",
+          "sanskrit_split": "माधवम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mādhavaṃ",
+          "meaning": "O Madhava",
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "गोपिकावल्लभं",
+          "sanskrit_split": "गोपिका + वल्लभम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "gopikāvallabhaṃ",
+          "meaning": "O beloved of the cowherd girls",
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "जानकीनायकं",
+          "sanskrit_split": "जानकी + नायकम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "jānakīnāyakaṃ",
+          "meaning": "O Lord of Janaki",
+          "audio_start_ms": 9000,
+          "audio_end_ms": 9500
+        },
+        {
+          "pada_index": 11,
+          "sanskrit_combined": "रामचन्द्रं",
+          "sanskrit_split": "रामचन्द्रम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "rāmacandraṃ",
+          "meaning": "O Ramachandra",
+          "audio_start_ms": 9500,
+          "audio_end_ms": 9800
+        },
+        {
+          "pada_index": 12,
+          "sanskrit_combined": "भजे",
+          "sanskrit_split": "भजे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "bhaje",
+          "meaning": "I worship",
+          "audio_start_ms": 9800,
+          "audio_end_ms": 10000
+        }
+      ]
+    },
+    {
+      "shloka_number": 2,
+      "full_sanskrit": "अच्युतं केशवं सत्यभामाधवं माधवं श्रीधरं राधिकाराधितम् ।\nइन्दिरामन्दिरं चेतसा सुन्दरं देवकीनन्दनं नन्दजं सन्दधे ॥२॥",
+      "sandhi_split_sanskrit": "अच्युतं केशवं सत्यभामाधवं माधवं श्रीधरं राधिकाराधितम् । | इन्दिरामन्दिरं चेतसा सुन्दरं देवकीनन्दनं नन्दजं सन्दधे ॥२॥",
+      "iast_transliteration": "acyutaṃ keśavaṃ satyabhāmādhavaṃ mādhavaṃ śrīdharaṃ rādhikārādhitam |\nindirāmandiraṃ cetasā sundaraṃ devakīnandanaṃ nandajaṃ sandadhe ||2||",
+      "meaning_english": "I Worship You O Acyuta, O Keshava, O Lord of Satyabhama. I Worship You O Madhava, O Sridhara, O One Worshipped by Radhika. I Worship You O Temple of Indira, O Beautiful One, O Son of Devaki, O Son of Nanda.",
+      "meaning_hindi": null,
+      "audio_start_ms": 10000,
+      "audio_end_ms": 20000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "अच्युतं",
+          "sanskrit_split": "अच्युतम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "acyutaṃ",
+          "meaning": "O Infallible One",
+          "audio_start_ms": 10000,
+          "audio_end_ms": 11000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "केशवं",
+          "sanskrit_split": "केशवम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "keśavaṃ",
+          "meaning": "O Keshava",
+          "audio_start_ms": 11000,
+          "audio_end_ms": 12000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "सत्यभामाधवं",
+          "sanskrit_split": "सत्यभामा + धवम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "satyabhāmādhavaṃ",
+          "meaning": "O Lord of Satyabhama",
+          "audio_start_ms": 12000,
+          "audio_end_ms": 13000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "माधवं",
+          "sanskrit_split": "माधवम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mādhavaṃ",
+          "meaning": "O Madhava",
+          "audio_start_ms": 13000,
+          "audio_end_ms": 14000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "श्रीधरं",
+          "sanskrit_split": "श्रीधरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śrīdharaṃ",
+          "meaning": "O bearer of Shri",
+          "audio_start_ms": 14000,
+          "audio_end_ms": 15000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "राधिकाराधितम्",
+          "sanskrit_split": "राधिका + आराधितम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "rādhikārādhitam",
+          "meaning": "worshipped by Radhika",
+          "audio_start_ms": 15000,
+          "audio_end_ms": 16000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "इन्दिरामन्दिरं",
+          "sanskrit_split": "इन्दिरा + मन्दिरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "indirāmandiraṃ",
+          "meaning": "temple of Indira",
+          "audio_start_ms": 16000,
+          "audio_end_ms": 17000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "चेतसा",
+          "sanskrit_split": "चेतसा",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "cetasā",
+          "meaning": "in mind",
+          "audio_start_ms": 17000,
+          "audio_end_ms": 18000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "सुन्दरं",
+          "sanskrit_split": "सुन्दरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sundaraṃ",
+          "meaning": "beautiful",
+          "audio_start_ms": 18000,
+          "audio_end_ms": 18500
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "देवकीनन्दनं",
+          "sanskrit_split": "देवकी + नन्दनम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "devakīnandanaṃ",
+          "meaning": "son of Devaki",
+          "audio_start_ms": 18500,
+          "audio_end_ms": 19000
+        },
+        {
+          "pada_index": 11,
+          "sanskrit_combined": "नन्दजं",
+          "sanskrit_split": "नन्द + जम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "nandajaṃ",
+          "meaning": "born of Nanda",
+          "audio_start_ms": 19000,
+          "audio_end_ms": 19500
+        },
+        {
+          "pada_index": 12,
+          "sanskrit_combined": "सन्दधे",
+          "sanskrit_split": "सन्दधे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sandadhe",
+          "meaning": "I place in my heart",
+          "audio_start_ms": 19500,
+          "audio_end_ms": 20000
+        }
+      ]
+    },
+    {
+      "shloka_number": 3,
+      "full_sanskrit": "विष्णवे जिष्णवे शङ्खिने चक्रिणे रुक्मिणीरागिणे जानकीजानये ।\nबल्लवीवल्लभायार्चितायात्मने कंसविध्वंसिने वंशिने ते नमः ॥३॥",
+      "sandhi_split_sanskrit": "विष्णवे जिष्णवे शङ्खिने चक्रिणे रुक्मिणीरागिणे जानकीजानये । | बल्लवीवल्लभाय अर्चिताय आत्मने कंसविध्वंसिने वंशिने ते नमः ॥३॥",
+      "iast_transliteration": "viṣṇave jiṣṇave śaṅkhine cakriṇe rukmiṇīrāgiṇe jānakījānaye |\nballavīvallabhāyārcitāyātmane kaṃsavidhvaṃsine vaṃśine te namaḥ ||3||",
+      "meaning_english": "Salutations to You O Vishnu, O Victorious One, O Holder of the Conch and Discus, O Lover of Rukmini, O Lord of Janaki. Salutations to You O Beloved of the cowherd girls, O the Supreme Soul worshipped by all, O Destroyer of Kamsa, O Flute Player.",
+      "meaning_hindi": null,
+      "audio_start_ms": 20000,
+      "audio_end_ms": 30000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "विष्णवे",
+          "sanskrit_split": "विष्णवे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "viṣṇave",
+          "meaning": "to Vishnu",
+          "audio_start_ms": 20000,
+          "audio_end_ms": 21000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "जिष्णवे",
+          "sanskrit_split": "जिष्णवे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "jiṣṇave",
+          "meaning": "to the victorious one",
+          "audio_start_ms": 21000,
+          "audio_end_ms": 22000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "शङ्खिने",
+          "sanskrit_split": "शङ्खिने",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaṅkhine",
+          "meaning": "to the holder of conch",
+          "audio_start_ms": 22000,
+          "audio_end_ms": 23000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "चक्रिणे",
+          "sanskrit_split": "चक्रिणे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "cakriṇe",
+          "meaning": "to the holder of discus",
+          "audio_start_ms": 23000,
+          "audio_end_ms": 24000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "रुक्मिणीरागिणे",
+          "sanskrit_split": "रुक्मिणी + रागिणे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "rukmiṇīrāgiṇe",
+          "meaning": "to the lover of Rukmini",
+          "audio_start_ms": 24000,
+          "audio_end_ms": 25000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "जानकीजानये",
+          "sanskrit_split": "जानकी + जानये",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "jānakījānaye",
+          "meaning": "to the husband of Janaki",
+          "audio_start_ms": 25000,
+          "audio_end_ms": 26000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "बल्लवीवल्लभाय",
+          "sanskrit_split": "बल्लवी + वल्लभाय",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ballavīvallabhāya",
+          "meaning": "to the beloved of cowherd girls",
+          "audio_start_ms": 26000,
+          "audio_end_ms": 27000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "अर्चितायात्मने",
+          "sanskrit_split": "अर्चिताय + आत्मने",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "arcitāyātmane",
+          "meaning": "to the worshipped supreme soul",
+          "audio_start_ms": 27000,
+          "audio_end_ms": 28000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "कंसविध्वंसिने",
+          "sanskrit_split": "कंस + विध्वंसिने",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kaṃsavidhvaṃsine",
+          "meaning": "to the destroyer of Kamsa",
+          "audio_start_ms": 28000,
+          "audio_end_ms": 29000
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "वंशिने",
+          "sanskrit_split": "वंशिने",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "vaṃśine",
+          "meaning": "to the flute player",
+          "audio_start_ms": 29000,
+          "audio_end_ms": 29500
+        },
+        {
+          "pada_index": 11,
+          "sanskrit_combined": "ते",
+          "sanskrit_split": "ते",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "te",
+          "meaning": "to You",
+          "audio_start_ms": 29500,
+          "audio_end_ms": 29800
+        },
+        {
+          "pada_index": 12,
+          "sanskrit_combined": "नमः",
+          "sanskrit_split": "नमः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "namaḥ",
+          "meaning": "salutations",
+          "audio_start_ms": 29800,
+          "audio_end_ms": 30000
+        }
+      ]
+    },
+    {
+      "shloka_number": 4,
+      "full_sanskrit": "कृष्ण गोविन्द हे राम नारायण श्रीपते वासुदेवाजित श्रीनिधे ।\nअच्युतानन्त हे माधवाधोक्षज द्वारकानायक द्रौपदीरक्षक ॥४॥",
+      "sandhi_split_sanskrit": "कृष्ण गोविन्द हे राम नारायण श्रीपते वासुदेव अजित श्रीनिधे । | अच्युत अनन्त हे माधव अधोक्षज द्वारकानायक द्रौपदीरक्षक ॥४॥",
+      "iast_transliteration": "kṛṣṇa govinda he rāma nārāyaṇa śrīpate vāsudevājita śrīnidhe |\nacyutānanta he mādhavādhokṣaja dvārakānāyaka draupadīrakṣaka ||4||",
+      "meaning_english": "O Krishna, O Govinda, O Rama, O Narayana, O Lord of Shri, O Vasudeva, O Invincible One, O Abode of Shri. O Achyuta, O Infinite One, O Madhava, O Adhokshaja, O Lord of Dvaraka, O Protector of Draupadi.",
+      "meaning_hindi": null,
+      "audio_start_ms": 30000,
+      "audio_end_ms": 40000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "कृष्ण",
+          "sanskrit_split": "कृष्ण",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kṛṣṇa",
+          "meaning": "O Krishna",
+          "audio_start_ms": 30000,
+          "audio_end_ms": 31000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "गोविन्द",
+          "sanskrit_split": "गोविन्द",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "govinda",
+          "meaning": "O Govinda",
+          "audio_start_ms": 31000,
+          "audio_end_ms": 32000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "हे",
+          "sanskrit_split": "हे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "he",
+          "meaning": "O",
+          "audio_start_ms": 32000,
+          "audio_end_ms": 32500
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "राम",
+          "sanskrit_split": "राम",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "rāma",
+          "meaning": "Rama",
+          "audio_start_ms": 32500,
+          "audio_end_ms": 33000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "नारायण",
+          "sanskrit_split": "नारायण",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "nārāyaṇa",
+          "meaning": "O Narayana",
+          "audio_start_ms": 33000,
+          "audio_end_ms": 34000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "श्रीपते",
+          "sanskrit_split": "श्रीपते",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śrīpate",
+          "meaning": "O Lord of Shri",
+          "audio_start_ms": 34000,
+          "audio_end_ms": 35000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "वासुदेवाजित",
+          "sanskrit_split": "वासुदेव + अजित",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "vāsudevājita",
+          "meaning": "O Vasudeva, O invincible one",
+          "audio_start_ms": 35000,
+          "audio_end_ms": 36000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "श्रीनिधे",
+          "sanskrit_split": "श्रीनिधे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śrīnidhe",
+          "meaning": "O abode of wealth/Shri",
+          "audio_start_ms": 36000,
+          "audio_end_ms": 37000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "अच्युतानन्त",
+          "sanskrit_split": "अच्युत + अनन्त",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "acyutānanta",
+          "meaning": "O infallible and infinite one",
+          "audio_start_ms": 37000,
+          "audio_end_ms": 38000
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "हे",
+          "sanskrit_split": "हे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "he",
+          "meaning": "O",
+          "audio_start_ms": 38000,
+          "audio_end_ms": 38200
+        },
+        {
+          "pada_index": 11,
+          "sanskrit_combined": "माधवाधोक्षज",
+          "sanskrit_split": "माधव + अधोक्षज",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mādhavādhokṣaja",
+          "meaning": "O Madhava, O Adhokshaja",
+          "audio_start_ms": 38200,
+          "audio_end_ms": 38800
+        },
+        {
+          "pada_index": 12,
+          "sanskrit_combined": "द्वारकानायक",
+          "sanskrit_split": "द्वारकानायक",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "dvārakānāyaka",
+          "meaning": "O Lord of Dvaraka",
+          "audio_start_ms": 38800,
+          "audio_end_ms": 39500
+        },
+        {
+          "pada_index": 13,
+          "sanskrit_combined": "द्रौपदीरक्षक",
+          "sanskrit_split": "द्रौपदीरक्षक",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "draupadīrakṣaka",
+          "meaning": "O protector of Draupadi",
+          "audio_start_ms": 39500,
+          "audio_end_ms": 40000
+        }
+      ]
+    },
+    {
+      "shloka_number": 5,
+      "full_sanskrit": "राक्षसक्षोभितः सीतया शोभितो दण्डकारण्यभूपुण्यताकारणम् ।\nलक्ष्मणेनान्वितो वानरैः सेवितोऽगस्त्यसम्पूजितो राघवः पातु माम् ॥५॥",
+      "sandhi_split_sanskrit": "राक्षसक्षोभितः सीतया शोभितः दण्डकारण्यभूपुण्यताकारणम् । | लक्ष्मणेन अन्वितः वानरैः सेवितः अगस्त्यसम्पूजितः राघवः पातु माम् ॥५॥",
+      "iast_transliteration": "rākṣasakṣobhitaḥ sītayā śobhito daṇḍakāraṇyabhūpuṇyatākāraṇam |\nlakṣmaṇenānvito vānaraiḥ sevito'gastyasampūjito rāghavaḥ pātu mām ||5||",
+      "meaning_english": "He who agitated the Rakshasas, who is adorned by Sita, who was the cause of the sanctity of the land of Dandakaranya. He who was accompanied by Lakshmana, served by monkeys, and worshipped by Sage Agastya—may that Raghava protect me.",
+      "meaning_hindi": null,
+      "audio_start_ms": 40000,
+      "audio_end_ms": 50000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "राक्षसक्षोभितः",
+          "sanskrit_split": "राक्षस + क्षोभितः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "rākṣasakṣobhitaḥ",
+          "meaning": "agitated by rakshasas / tormentor of rakshasas",
+          "audio_start_ms": 40000,
+          "audio_end_ms": 41000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "सीतया",
+          "sanskrit_split": "सीतया",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sītayā",
+          "meaning": "with Sita",
+          "audio_start_ms": 41000,
+          "audio_end_ms": 42000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "शोभितो",
+          "sanskrit_split": "शोभितः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śobhito",
+          "meaning": "adorned",
+          "audio_start_ms": 42000,
+          "audio_end_ms": 43000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "दण्डकारण्यभूपुण्यताकारणम्",
+          "sanskrit_split": "दण्डकारण्य + भू + पुण्यता + कारणम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "daṇḍakāraṇyabhūpuṇyatākāraṇam",
+          "meaning": "cause of sanctity of the Dandaka forest land",
+          "audio_start_ms": 43000,
+          "audio_end_ms": 45000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "लक्ष्मणेनान्वितो",
+          "sanskrit_split": "लक्ष्मणेन + अन्वितः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "lakṣmaṇenānvito",
+          "meaning": "accompanied by Lakshmana",
+          "audio_start_ms": 45000,
+          "audio_end_ms": 46000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "वानरैः",
+          "sanskrit_split": "वानरैः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "vānaraiḥ",
+          "meaning": "by monkeys",
+          "audio_start_ms": 46000,
+          "audio_end_ms": 47000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "सेवितोऽगस्त्यसम्पूजितो",
+          "sanskrit_split": "सेवितः + अगस्त्य + सम्पूजितः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sevito'gastyasampūjito",
+          "meaning": "served and worshipped by Agastya",
+          "audio_start_ms": 47000,
+          "audio_end_ms": 48500
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "राघवः",
+          "sanskrit_split": "राघवः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "rāghavaḥ",
+          "meaning": "Raghava",
+          "audio_start_ms": 48500,
+          "audio_end_ms": 49000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "पातु",
+          "sanskrit_split": "पातु",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "pātu",
+          "meaning": "may protect",
+          "audio_start_ms": 49000,
+          "audio_end_ms": 49500
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "माम्",
+          "sanskrit_split": "माम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mām",
+          "meaning": "me",
+          "audio_start_ms": 49500,
+          "audio_end_ms": 50000
+        }
+      ]
+    },
+    {
+      "shloka_number": 6,
+      "full_sanskrit": "धेनुकारिष्टहानिष्टकृद्द्वेषिहा केशिहा कंसहृद्वंशिकावादकः ।\nपूतनाकोपकः सूरजाखेलनो बालगोपालकः पातु मां सर्वदा ॥६॥",
+      "sandhi_split_sanskrit": "धेनुकारिष्टहा अनिष्टकृत् द्वेषिहा केशिहा कंसहृत् वंशिकावादकः । | पूतनाकोपकः सूरजाखेलनः बालगोपालकः पातु मां सर्वदा ॥६॥",
+      "iast_transliteration": "dhenukāriṣṭahāniṣṭakṛddveṣihā keśihā kaṃsahṛdvaṃśikāvādakaḥ |\npūtanākopakaḥ sūrajākhelano bālagopālakaḥ pātu māṃ sarvadā ||6||",
+      "meaning_english": "He who destroyed Dhenuka and Arishta, who killed the hateful wrongdoers, who killed Keshi and Kamsa, who plays the flute. He who showed anger to Putana, who played on the banks of Yamuna, the child cowherd—may He protect me always.",
+      "meaning_hindi": null,
+      "audio_start_ms": 50000,
+      "audio_end_ms": 60000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "धेनुकारिष्टहानिष्टकृद्द्वेषिहा",
+          "sanskrit_split": "धेनुकारिष्टहा + अनिष्टकृत् + द्वेषिहा",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "dhenukāriṣṭahāniṣṭakṛddveṣihā",
+          "meaning": "destroyer of Dhenuka, Arishta, wrongdoers and haters",
+          "audio_start_ms": 50000,
+          "audio_end_ms": 53000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "केशिहा",
+          "sanskrit_split": "केशिहा",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "keśihā",
+          "meaning": "slayer of Keshi",
+          "audio_start_ms": 53000,
+          "audio_end_ms": 54000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "कंसहृद्वंशिकावादकः",
+          "sanskrit_split": "कंसहृत् + वंशिकावादकः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kaṃsahṛdvaṃśikāvādakaḥ",
+          "meaning": "destroyer of Kamsa and flute player",
+          "audio_start_ms": 54000,
+          "audio_end_ms": 55000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "पूतनाकोपकः",
+          "sanskrit_split": "पूतना + कोपकः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "pūtanākopakaḥ",
+          "meaning": "angry with Putana",
+          "audio_start_ms": 55000,
+          "audio_end_ms": 56000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "सूरजाखेलनो",
+          "sanskrit_split": "सूरजा + खेलनः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sūrajākhelano",
+          "meaning": "player at the Yamuna river",
+          "audio_start_ms": 56000,
+          "audio_end_ms": 57000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "बालगोपालकः",
+          "sanskrit_split": "बाल + गोपालकः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "bālagopālakaḥ",
+          "meaning": "the child cowherd",
+          "audio_start_ms": 57000,
+          "audio_end_ms": 58000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "पातु",
+          "sanskrit_split": "पातु",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "pātu",
+          "meaning": "may protect",
+          "audio_start_ms": 58000,
+          "audio_end_ms": 58500
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "मां",
+          "sanskrit_split": "माम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "māṃ",
+          "meaning": "me",
+          "audio_start_ms": 58500,
+          "audio_end_ms": 59000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "सर्वदा",
+          "sanskrit_split": "सर्वदा",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sarvadā",
+          "meaning": "always",
+          "audio_start_ms": 59000,
+          "audio_end_ms": 60000
+        }
+      ]
+    },
+    {
+      "shloka_number": 7,
+      "full_sanskrit": "विद्युदुद्योतवत्प्रस्फुरद्वाससं प्रावृडम्भोदवत्प्रोल्लसद्विग्रहम् ।\nवन्यया मालया शोभितोरःस्थलं लोहिताङ्घ्रिद्वयं वारिजाक्षं भजे ॥७॥",
+      "sandhi_split_sanskrit": "विद्युत् + उद्योतवत् + प्रस्फुरत् + वाससम् प्रावृट् + अम्भोदवत् + प्रोल्लसत् + विग्रहम् । | वन्यया मालया शोभित + उरःस्थलम् लोहित + अङ्घ्रिद्वयम् वारिजाक्षम् भजे ॥७॥",
+      "iast_transliteration": "vidyududyotavatprasphuradvāsasaṃ prāvṛḍambhodavatprollasadvigraham |\nvanyayā mālayā śobhitoraḥsthalaṃ lohitāṅghridvayaṃ vārijākṣaṃ bhaje ||7||",
+      "meaning_english": "Whose garments shine like a flash of lightning, whose body is radiant like a dark rain cloud. Whose chest is adorned with a forest garland, who has reddish feet, and lotus-like eyes—I worship Him.",
+      "meaning_hindi": null,
+      "audio_start_ms": 60000,
+      "audio_end_ms": 70000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "विद्युदुद्योतवत्प्रस्फुरद्वाससं",
+          "sanskrit_split": "विद्युत् + उद्योतवत् + प्रस्फुरत् + वाससम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "vidyududyotavatprasphuradvāsasaṃ",
+          "meaning": "garments flashing like lightning",
+          "audio_start_ms": 60000,
+          "audio_end_ms": 62500
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "प्रावृडम्भोदवत्प्रोल्लसद्विग्रहम्",
+          "sanskrit_split": "प्रावृट् + अम्भोदवत् + प्रोल्लसत् + विग्रहम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "prāvṛḍambhodavatprollasadvigraham",
+          "meaning": "body radiant like a rain cloud",
+          "audio_start_ms": 62500,
+          "audio_end_ms": 65000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "वन्यया",
+          "sanskrit_split": "वन्यया",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "vanyayā",
+          "meaning": "with wild forest",
+          "audio_start_ms": 65000,
+          "audio_end_ms": 65500
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "मालया",
+          "sanskrit_split": "मालया",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mālayā",
+          "meaning": "garland",
+          "audio_start_ms": 65500,
+          "audio_end_ms": 66000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "शोभितोरःस्थलं",
+          "sanskrit_split": "शोभित + उरःस्थलम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śobhitoraḥsthalaṃ",
+          "meaning": "adorned chest",
+          "audio_start_ms": 66000,
+          "audio_end_ms": 67000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "लोहिताङ्घ्रिद्वयं",
+          "sanskrit_split": "लोहित + अङ्घ्रिद्वयम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "lohitāṅghridvayaṃ",
+          "meaning": "pair of reddish feet",
+          "audio_start_ms": 67000,
+          "audio_end_ms": 68000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "वारिजाक्षं",
+          "sanskrit_split": "वारिज + अक्षम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "vārijākṣaṃ",
+          "meaning": "lotus-eyed",
+          "audio_start_ms": 68000,
+          "audio_end_ms": 69000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "भजे",
+          "sanskrit_split": "भजे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "bhaje",
+          "meaning": "I worship",
+          "audio_start_ms": 69000,
+          "audio_end_ms": 70000
+        }
+      ]
+    },
+    {
+      "shloka_number": 8,
+      "full_sanskrit": "कुञ्चितैः कुन्तलैर्भ्राजमानाननं रत्नमौलिं लसत्कुण्डलं गण्डयोः ।\nहारकेयूरकं कङ्कणप्रोज्ज्वलं किङ्किणीमञ्जुलं श्यामलं तं भजे ॥८॥",
+      "sandhi_split_sanskrit": "कुञ्चितैः कुन्तलैः भ्राजमान + आननम् रत्नमौलिं लसत्कुण्डलम् गण्डयोः । | हारकेयूरकम् कङ्कणप्रोज्ज्वलम् किङ्किणीमञ्जुलम् श्यामलं तं भजे ॥८॥",
+      "iast_transliteration": "kuñcitaiḥ kuntalairbhrājamānānanaṃ ratnamauliṃ lasatkuṇḍalaṃ gaṇḍayoḥ |\nhārakeyūrakaṃ kaṅkaṇaprojjvalaṃ kiṅkiṇīmañjulaṃ śyāmalaṃ taṃ bhaje ||8||",
+      "meaning_english": "Whose face shines with curly locks of hair, who wears a jeweled crown and shining earrings on His cheeks. Adorned with a necklace, armlets, and bright bracelets, and with sweet sounding anklets; I worship that dark-complexioned Lord.",
+      "meaning_hindi": null,
+      "audio_start_ms": 70000,
+      "audio_end_ms": 80000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "कुञ्चितैः",
+          "sanskrit_split": "कुञ्चितैः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kuñcitaiḥ",
+          "meaning": "with curly",
+          "audio_start_ms": 70000,
+          "audio_end_ms": 71000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "कुन्तलैर्भ्राजमानाननं",
+          "sanskrit_split": "कुन्तलैः + भ्राजमान + आननम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kuntalairbhrājamānānanaṃ",
+          "meaning": "face shining with locks of hair",
+          "audio_start_ms": 71000,
+          "audio_end_ms": 72500
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "रत्नमौलिं",
+          "sanskrit_split": "रत्नमौलिम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ratnamauliṃ",
+          "meaning": "jeweled crown",
+          "audio_start_ms": 72500,
+          "audio_end_ms": 73500
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "लसत्कुण्डलं",
+          "sanskrit_split": "लसत् + कुण्डलम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "lasatkuṇḍalaṃ",
+          "meaning": "shining earrings",
+          "audio_start_ms": 73500,
+          "audio_end_ms": 74500
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "गण्डयोः",
+          "sanskrit_split": "गण्डयोः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "gaṇḍayoḥ",
+          "meaning": "on the cheeks",
+          "audio_start_ms": 74500,
+          "audio_end_ms": 75000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "हारकेयूरकं",
+          "sanskrit_split": "हार + केयूरकम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "hārakeyūrakaṃ",
+          "meaning": "necklace and armlets",
+          "audio_start_ms": 75000,
+          "audio_end_ms": 76000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "कङ्कणप्रोज्ज्वलं",
+          "sanskrit_split": "कङ्कण + प्रोज्ज्वलम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kaṅkaṇaprojjvalaṃ",
+          "meaning": "bright bracelets",
+          "audio_start_ms": 76000,
+          "audio_end_ms": 77000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "किङ्किणीमञ्जुलं",
+          "sanskrit_split": "किङ्किणी + मञ्जुलम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kiṅkiṇīmañjulaṃ",
+          "meaning": "sweet tinkling anklets",
+          "audio_start_ms": 77000,
+          "audio_end_ms": 78000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "श्यामलं",
+          "sanskrit_split": "श्यामलम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śyāmalaṃ",
+          "meaning": "dark-complexioned",
+          "audio_start_ms": 78000,
+          "audio_end_ms": 79000
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "तं",
+          "sanskrit_split": "तम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "taṃ",
+          "meaning": "that one",
+          "audio_start_ms": 79000,
+          "audio_end_ms": 79500
+        },
+        {
+          "pada_index": 11,
+          "sanskrit_combined": "भजे",
+          "sanskrit_split": "भजे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "bhaje",
+          "meaning": "I worship",
+          "audio_start_ms": 79500,
+          "audio_end_ms": 80000
+        }
+      ]
+    },
+    {
+      "shloka_number": 9,
+      "full_sanskrit": "अच्युतस्याष्टकं यः पठेदिष्टदं प्रेमतः प्रत्यहं पूरुषः सस्पृहम् ।\nवृत्ततः सुन्दरं कर्तृविश्वम्भरं तस्य वश्यो हरिर्जायते सत्वरम् ॥९॥",
+      "sandhi_split_sanskrit": "अच्युतस्य अष्टकं यः पठेत् इष्टदं प्रेमतः प्रत्यहं पूरुषः सस्पृहम् । | वृत्ततः सुन्दरं कर्तृ विश्वम्भरं तस्य वश्यः हरिः जायते सत्वरम् ॥९॥",
+      "iast_transliteration": "acyutasyāṣṭakaṃ yaḥ paṭheḍiṣṭadaṃ premataḥ pratyahaṃ pūruṣaḥ saspṛham |\nvṛttataḥ sundaraṃ kartṛviśvambharaṃ tasya vaśyo harirjāyate satvaram ||9||",
+      "meaning_english": "Whoever reads this Achyutashtakam, which yields all desires, with love, daily, and with longing; the beautiful Lord who sustains the universe quickly becomes subdued (by his devotion).",
+      "meaning_hindi": null,
+      "audio_start_ms": 80000,
+      "audio_end_ms": 90000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "अच्युतस्याष्टकं",
+          "sanskrit_split": "अच्युतस्य + अष्टकम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "acyutasyāṣṭakaṃ",
+          "meaning": "the eight verses of Achyuta",
+          "audio_start_ms": 80000,
+          "audio_end_ms": 81000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "यः",
+          "sanskrit_split": "यः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "yaḥ",
+          "meaning": "whoever",
+          "audio_start_ms": 81000,
+          "audio_end_ms": 81500
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "पठेदिष्टदं",
+          "sanskrit_split": "पठेत् + इष्टदम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "paṭheḍiṣṭadaṃ",
+          "meaning": "reads, yielding desires",
+          "audio_start_ms": 81500,
+          "audio_end_ms": 83000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "प्रेमतः",
+          "sanskrit_split": "प्रेमतः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "premataḥ",
+          "meaning": "with love",
+          "audio_start_ms": 83000,
+          "audio_end_ms": 84000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "प्रत्यहं",
+          "sanskrit_split": "प्रत्यहम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "pratyahaṃ",
+          "meaning": "daily",
+          "audio_start_ms": 84000,
+          "audio_end_ms": 84500
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "पूरुषः",
+          "sanskrit_split": "पूरुषः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "pūruṣaḥ",
+          "meaning": "person",
+          "audio_start_ms": 84500,
+          "audio_end_ms": 85000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "सस्पृहम्",
+          "sanskrit_split": "सस्पृहम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "saspṛham",
+          "meaning": "with longing",
+          "audio_start_ms": 85000,
+          "audio_end_ms": 86000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "वृत्ततः",
+          "sanskrit_split": "वृत्ततः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "vṛttataḥ",
+          "meaning": "metrically / by conduct",
+          "audio_start_ms": 86000,
+          "audio_end_ms": 87000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "सुन्दरं",
+          "sanskrit_split": "सुन्दरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sundaraṃ",
+          "meaning": "beautiful",
+          "audio_start_ms": 87000,
+          "audio_end_ms": 87500
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "कर्तृविश्वम्भरं",
+          "sanskrit_split": "कर्तृ + विश्वम्भरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kartṛviśvambharaṃ",
+          "meaning": "creator and sustainer of the universe",
+          "audio_start_ms": 87500,
+          "audio_end_ms": 88500
+        },
+        {
+          "pada_index": 11,
+          "sanskrit_combined": "तस्य",
+          "sanskrit_split": "तस्य",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tasya",
+          "meaning": "his",
+          "audio_start_ms": 88500,
+          "audio_end_ms": 89000
+        },
+        {
+          "pada_index": 12,
+          "sanskrit_combined": "वश्यो",
+          "sanskrit_split": "वश्यः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "vaśyo",
+          "meaning": "subdued",
+          "audio_start_ms": 89000,
+          "audio_end_ms": 89300
+        },
+        {
+          "pada_index": 13,
+          "sanskrit_combined": "हरिर्जायते",
+          "sanskrit_split": "हरिः + जायते",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "harirjāyate",
+          "meaning": "Hari becomes",
+          "audio_start_ms": 89300,
+          "audio_end_ms": 89600
+        },
+        {
+          "pada_index": 14,
+          "sanskrit_combined": "सत्वरम्",
+          "sanskrit_split": "सत्वरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "satvaram",
+          "meaning": "quickly",
+          "audio_start_ms": 89600,
+          "audio_end_ms": 90000
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "stotra": {
+    "id": "vishnu_namashtakam",
+    "title_devanagari": "विष्णु नामाष्टकम्",
+    "title_english": "Vishnu Namashtakam",
+    "category": "Ashtakams",
+    "deity": "Vishnu",
+    "total_shlokas": 3,
+    "description": "Vishnu Namashtakam describing the glory of Vishnu.",
+    "audio_asset_path": null
+  },
+  "shlokas": [
+    {
+      "shloka_number": 1,
+      "full_sanskrit": "हंसं नारायणं चैवमेतन्नामाष्टकं पठेत् ॥ १॥",
+      "sandhi_split_sanskrit": "हंसं नारायणं चैवमेतन्नामाष्टकं पठेत् ॥ १॥",
+      "iast_transliteration": "acyutaṃ keśavaṃ viṣṇuṃ hariṃ satyaṃ janārdanam .\nhaṃsaṃ nārāyaṇaṃ caivametannāmāṣṭakaṃ paṭhet ..1..",
+      "meaning_english": "One should recite this octad of divine names: Achyuta (the Imperishable), Keshava (the Lord with beautiful hair), Vishnu (the All-Pervading), Hari (the Remover of sins), Satya (the Truth), Janardana (the Refuge of all beings), Hamsa (the Supreme Swan), and Narayana (the Abode of all souls).",
+      "meaning_hindi": null,
+      "audio_start_ms": 0,
+      "audio_end_ms": 10000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "अच्युतम्",
+          "sanskrit_split": "अच्युतम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "acyutam",
+          "meaning": "the Imperishable One",
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "केशवम्",
+          "sanskrit_split": "केशवम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "keśavam",
+          "meaning": "Keshava, the beautiful-haired one",
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "विष्णुम्",
+          "sanskrit_split": "विष्णुम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "viṣṇum",
+          "meaning": "Vishnu, the all-pervading",
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "हरिम्",
+          "sanskrit_split": "हरिम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "harim",
+          "meaning": "Hari, remover of sins",
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "सत्यम्",
+          "sanskrit_split": "सत्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "satyam",
+          "meaning": "the Truth",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "जनार्दनम्",
+          "sanskrit_split": "जनार्दनम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "janārdanam",
+          "meaning": "Janardana, refuge of beings",
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "हंसम्",
+          "sanskrit_split": "हंसम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "haṃsam",
+          "meaning": "Hamsa, the Supreme Swan",
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "नारायणम्",
+          "sanskrit_split": "नारायणम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "nārāyaṇam",
+          "meaning": "Narayana, abode of all souls",
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "च एवम्",
+          "sanskrit_split": "च एवम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ca evam",
+          "meaning": "and thus",
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "एतत् नामअष्टकम्",
+          "sanskrit_split": "एतत् नाम + अष्टकम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "etat nāma-aṣṭakam",
+          "meaning": "this octad of names",
+          "audio_start_ms": 9000,
+          "audio_end_ms": 10000
+        },
+        {
+          "pada_index": 11,
+          "sanskrit_combined": "पठेत्",
+          "sanskrit_split": "पठेत्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "paṭhet",
+          "meaning": "one should recite",
+          "audio_start_ms": 10000,
+          "audio_end_ms": 11000
+        }
+      ]
+    },
+    {
+      "shloka_number": 2,
+      "full_sanskrit": "शत्रुसैन्यं क्षयं याति दुःस्वप्नः सुखदो भवेत् ॥ २॥",
+      "sandhi_split_sanskrit": "शत्रुसैन्यं क्षयं याति दुःस्वप्नः सुखदो भवेत् ॥ २॥",
+      "iast_transliteration": "trisandhyaṃ yaḥ paṭhennityaṃ dāridryaṃ tasya naśyati .\nśatrusainyaṃ kṣayaṃ yāti duḥsvapnaḥ sukhado bhavet ..2..",
+      "meaning_english": "One who recites this hymn daily at the three junctures of dawn, noon, and dusk — their poverty is destroyed. The armies of enemies perish, and even bad dreams become bestowers of happiness.",
+      "meaning_hindi": null,
+      "audio_start_ms": 10000,
+      "audio_end_ms": 20000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "त्रिसन्ध्यम्",
+          "sanskrit_split": "त्रि + सन्ध्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tri-sandhyam",
+          "meaning": "at the three junctures",
+          "audio_start_ms": 10000,
+          "audio_end_ms": 11000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "यः",
+          "sanskrit_split": "यः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "yaḥ",
+          "meaning": "one who",
+          "audio_start_ms": 11000,
+          "audio_end_ms": 12000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "पठेत् नित्यम्",
+          "sanskrit_split": "पठेत् नित्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "paṭhet nityam",
+          "meaning": "recites daily",
+          "audio_start_ms": 12000,
+          "audio_end_ms": 13000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "दारिद्र्यम्",
+          "sanskrit_split": "दारिद्र्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "dāridryam",
+          "meaning": "poverty",
+          "audio_start_ms": 13000,
+          "audio_end_ms": 14000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "तस्य",
+          "sanskrit_split": "तस्य",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tasya",
+          "meaning": "of that person",
+          "audio_start_ms": 14000,
+          "audio_end_ms": 15000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "नश्यति",
+          "sanskrit_split": "नश्यति",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "naśyati",
+          "meaning": "is destroyed",
+          "audio_start_ms": 15000,
+          "audio_end_ms": 16000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "शत्रुसैन्यम्",
+          "sanskrit_split": "शत्रु + सैन्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śatru-sainyam",
+          "meaning": "the army of enemies",
+          "audio_start_ms": 16000,
+          "audio_end_ms": 17000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "क्षयम् याति",
+          "sanskrit_split": "क्षयम् याति",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kṣayam yāti",
+          "meaning": "goes to destruction",
+          "audio_start_ms": 17000,
+          "audio_end_ms": 18000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "दुःस्वप्नः",
+          "sanskrit_split": "दुःस्वप्नः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "duḥsvapnaḥ",
+          "meaning": "bad dream",
+          "audio_start_ms": 18000,
+          "audio_end_ms": 19000
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "सुखदः भवेत्",
+          "sanskrit_split": "सुखदः भवेत्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sukhadaḥ bhavet",
+          "meaning": "becomes a giver of happiness",
+          "audio_start_ms": 19000,
+          "audio_end_ms": 20000
+        }
+      ]
+    },
+    {
+      "shloka_number": 3,
+      "full_sanskrit": "ब्रह्मविद्याप्रबोधश्च तस्मान्नित्यं पठेन्नरः ॥",
+      "sandhi_split_sanskrit": "ब्रह्मविद्याप्रबोधश्च तस्मान्नित्यं पठेन्नरः ॥",
+      "iast_transliteration": "gaṅgāyāṃ maraṇaṃ caiva dṛḍhā bhaktistu keśave .\nbrahmavidyāprabodhaśca tasmānnityaṃ paṭhennaraḥ ..3..",
+      "meaning_english": "Death upon the banks of the Ganga, steadfast devotion to Keshava, and the awakening of knowledge of Brahman — for these blessings, one should recite this hymn daily. Thus concludes the sacred Ashtakam of the eight names of Lord Vishnu, complete in its entirety.",
+      "meaning_hindi": null,
+      "audio_start_ms": 20000,
+      "audio_end_ms": 30000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "गङ्गायाम्",
+          "sanskrit_split": "गङ्गायाम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "gaṅgāyām",
+          "meaning": "at the Ganga",
+          "audio_start_ms": 20000,
+          "audio_end_ms": 21000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "मरणम्",
+          "sanskrit_split": "मरणम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "maraṇam",
+          "meaning": "death",
+          "audio_start_ms": 21000,
+          "audio_end_ms": 22000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "च एव",
+          "sanskrit_split": "च एव",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ca eva",
+          "meaning": "and indeed",
+          "audio_start_ms": 22000,
+          "audio_end_ms": 23000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "दृढा",
+          "sanskrit_split": "दृढा",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "dṛḍhā",
+          "meaning": "firm, steadfast",
+          "audio_start_ms": 23000,
+          "audio_end_ms": 24000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "भक्तिः तु",
+          "sanskrit_split": "भक्तिः तु",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "bhaktiḥ tu",
+          "meaning": "devotion indeed",
+          "audio_start_ms": 24000,
+          "audio_end_ms": 25000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "केशवे",
+          "sanskrit_split": "केशवे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "keśave",
+          "meaning": "to Keshava, Vishnu",
+          "audio_start_ms": 25000,
+          "audio_end_ms": 26000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "ब्रह्मविद्या",
+          "sanskrit_split": "ब्रह्म + विद्या",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "brahma-vidyā",
+          "meaning": "knowledge of Brahman",
+          "audio_start_ms": 26000,
+          "audio_end_ms": 27000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "प्रबोधः",
+          "sanskrit_split": "प्रबोधः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "prabodhaḥ",
+          "meaning": "awakening, illumination",
+          "audio_start_ms": 27000,
+          "audio_end_ms": 28000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "च",
+          "sanskrit_split": "च",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ca",
+          "meaning": "and",
+          "audio_start_ms": 28000,
+          "audio_end_ms": 29000
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "तस्मात्",
+          "sanskrit_split": "तस्मात्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tasmāt",
+          "meaning": "therefore",
+          "audio_start_ms": 29000,
+          "audio_end_ms": 30000
+        },
+        {
+          "pada_index": 11,
+          "sanskrit_combined": "नित्यम्",
+          "sanskrit_split": "नित्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "nityam",
+          "meaning": "daily, always",
+          "audio_start_ms": 30000,
+          "audio_end_ms": 31000
+        },
+        {
+          "pada_index": 12,
+          "sanskrit_combined": "पठेत्",
+          "sanskrit_split": "पठेत्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "paṭhet",
+          "meaning": "should recite",
+          "audio_start_ms": 31000,
+          "audio_end_ms": 32000
+        },
+        {
+          "pada_index": 13,
+          "sanskrit_combined": "नरः",
+          "sanskrit_split": "नरः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "naraḥ",
+          "meaning": "a person",
+          "audio_start_ms": 32000,
+          "audio_end_ms": 33000
+        },
+        {
+          "pada_index": 14,
+          "sanskrit_combined": "इति",
+          "sanskrit_split": "इति",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "iti",
+          "meaning": "thus",
+          "audio_start_ms": 33000,
+          "audio_end_ms": 34000
+        },
+        {
+          "pada_index": 15,
+          "sanskrit_combined": "श्रीविष्णुनामअष्टकम्",
+          "sanskrit_split": "श्री + विष्णु + नाम + अष्टकम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śrī-viṣṇu-nāma-aṣṭakam",
+          "meaning": "the eight names of Lord Vishnu",
+          "audio_start_ms": 34000,
+          "audio_end_ms": 35000
+        },
+        {
+          "pada_index": 16,
+          "sanskrit_combined": "सम्पूर्णम्",
+          "sanskrit_split": "सम्पूर्णम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sampūrṇam",
+          "meaning": "complete",
+          "audio_start_ms": 35000,
+          "audio_end_ms": 36000
+        }
+      ]
+    }
+  ]
+}

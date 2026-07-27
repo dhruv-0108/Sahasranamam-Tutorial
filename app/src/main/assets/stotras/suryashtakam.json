@@ -1,0 +1,913 @@
+{
+  "stotra": {
+    "id": "suryashtakam",
+    "title_devanagari": "सूर्याष्टकम्",
+    "title_english": "Suryashtakam",
+    "category": "Ashtakams",
+    "deity": "Surya",
+    "total_shlokas": 8,
+    "description": "Suryashtakam describing the glory of Surya.",
+    "audio_asset_path": null
+  },
+  "shlokas": [
+    {
+      "shloka_number": 1,
+      "full_sanskrit": "आदिदेव नमस्तुभ्यं प्रसीद मम भास्कर ।\nदिवाकर नमस्तुभ्यं प्रभाकर नमोऽस्तु ते ॥१॥",
+      "sandhi_split_sanskrit": "आदिदेव नमस्तुभ्यं प्रसीद मम भास्कर । | दिवाकर नमस्तुभ्यं प्रभाकर नमः अस्तु ते ॥१॥",
+      "iast_transliteration": "ādideva namastubhyaṃ prasīda mama bhāskara |\ndivākara namastubhyaṃ prabhākara namo'stu te ||1||",
+      "meaning_english": "My Salutations to You O Adideva (the first God), Please be gracious to me O Bhaskara (the Shining One), My Salutations to You, O Divakara (the maker of the Day), and again Salutations to You, O Prabhakara (the maker of Light).",
+      "meaning_hindi": null,
+      "audio_start_ms": 0,
+      "audio_end_ms": 10000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "आदिदेव",
+          "sanskrit_split": "आदिदेव",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ādideva",
+          "meaning": "O primeval God",
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "नमस्तुभ्यं",
+          "sanskrit_split": "नमः + तुभ्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "namastubhyaṃ",
+          "meaning": "salutations to You",
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "प्रसीद",
+          "sanskrit_split": "प्रसीद",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "prasīda",
+          "meaning": "be pleased",
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "मम",
+          "sanskrit_split": "मम",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mama",
+          "meaning": "with me",
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "भास्कर",
+          "sanskrit_split": "भास्कर",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "bhāskara",
+          "meaning": "O illuminator",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "दिवाकर",
+          "sanskrit_split": "दिवाकर",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "divākara",
+          "meaning": "O day-maker",
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "नमस्तुभ्यं",
+          "sanskrit_split": "नमः + तुभ्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "namastubhyaṃ",
+          "meaning": "salutations to You",
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "प्रभाकर",
+          "sanskrit_split": "प्रभाकर",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "prabhākara",
+          "meaning": "O light-maker",
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "नमोऽस्तु",
+          "sanskrit_split": "नमः + अस्तु",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "namo'stu",
+          "meaning": "let there be salutations",
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "ते",
+          "sanskrit_split": "ते",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "te",
+          "meaning": "to You",
+          "audio_start_ms": 9000,
+          "audio_end_ms": 10000
+        }
+      ]
+    },
+    {
+      "shloka_number": 2,
+      "full_sanskrit": "सप्ताश्वरथमारूढं प्रचण्डं कश्यपात्मजम् ।\nश्वेतपद्मधरं देवं तं सूर्यं प्रणमाम्यहम् ॥२॥",
+      "sandhi_split_sanskrit": "सप्ताश्वरथमारूढं प्रचण्डं कश्यपात्मजम् । | श्वेतपद्मधरं देवं तं सूर्यं प्रणमाम्यहम् ॥२॥",
+      "iast_transliteration": "saptāśvarathamārūḍhaṃ pracaṇḍaṃ kaśyapātmajam |\nśvetapadmadharaṃ devaṃ taṃ sūryaṃ praṇamāmyaham ||2||",
+      "meaning_english": "You are mounted on a Chariot driven by seven Horses, You are excessively Energetic and the Son of sage Kashyapa. You are the Deva Who holds a White Lotus; I Bow to You, O Suryadeva.",
+      "meaning_hindi": null,
+      "audio_start_ms": 10000,
+      "audio_end_ms": 20000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "सप्ताश्वरथम्",
+          "sanskrit_split": "सप्त + अश्व + रथम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "saptāśvaratham",
+          "meaning": "chariot of seven horses",
+          "audio_start_ms": 10000,
+          "audio_end_ms": 11000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "आरूढं",
+          "sanskrit_split": "आरूढम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ārūḍhaṃ",
+          "meaning": "mounted on",
+          "audio_start_ms": 11000,
+          "audio_end_ms": 12000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "प्रचण्डं",
+          "sanskrit_split": "प्रचण्डम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "pracaṇḍaṃ",
+          "meaning": "fierce/energetic",
+          "audio_start_ms": 12000,
+          "audio_end_ms": 13000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "कश्यपात्मजम्",
+          "sanskrit_split": "कश्यप + आत्मजम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kaśyapātmajam",
+          "meaning": "son of Kashyapa",
+          "audio_start_ms": 13000,
+          "audio_end_ms": 14000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "श्वेतपद्मधरं",
+          "sanskrit_split": "श्वेत + पद्म + धरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śvetapadmadharaṃ",
+          "meaning": "holding a white lotus",
+          "audio_start_ms": 14000,
+          "audio_end_ms": 15000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "देवं",
+          "sanskrit_split": "देवम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "devaṃ",
+          "meaning": "God",
+          "audio_start_ms": 15000,
+          "audio_end_ms": 16000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "तं",
+          "sanskrit_split": "तम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "taṃ",
+          "meaning": "to that",
+          "audio_start_ms": 16000,
+          "audio_end_ms": 17000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "सूर्यं",
+          "sanskrit_split": "सूर्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sūryaṃ",
+          "meaning": "Surya",
+          "audio_start_ms": 17000,
+          "audio_end_ms": 18000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "प्रणमाम्यहम्",
+          "sanskrit_split": "प्रणमामि + अहम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "praṇamāmyaham",
+          "meaning": "I bow",
+          "audio_start_ms": 18000,
+          "audio_end_ms": 20000
+        }
+      ]
+    },
+    {
+      "shloka_number": 3,
+      "full_sanskrit": "लोहितं रथमारूढं सर्वलोकपितामहम् ।\nमहापापहरं देवं तं सूर्यं प्रणमाम्यहम् ॥३॥",
+      "sandhi_split_sanskrit": "लोहितं रथमारूढं सर्वलोकपितामहम् । | महापापहरं देवं तं सूर्यं प्रणमाम्यहम् ॥३॥",
+      "iast_transliteration": "lohitaṃ rathamārūḍhaṃ sarvalokapitāmaham |\nmahāpāpaharaṃ devaṃ taṃ sūryaṃ praṇamāmyaham ||3||",
+      "meaning_english": "You are Reddish in colour, and mounted on a Chariot; You are the Grandfather of all persons. You are the Deva Who removes great Sins from our minds; I Bow to You, O Suryadeva.",
+      "meaning_hindi": null,
+      "audio_start_ms": 20000,
+      "audio_end_ms": 30000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "लोहितं",
+          "sanskrit_split": "लोहितम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "lohitaṃ",
+          "meaning": "reddish",
+          "audio_start_ms": 20000,
+          "audio_end_ms": 21000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "रथमारूढं",
+          "sanskrit_split": "रथम् + आरूढम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "rathamārūḍhaṃ",
+          "meaning": "mounted on a chariot",
+          "audio_start_ms": 21000,
+          "audio_end_ms": 22000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "सर्वलोकपितामहम्",
+          "sanskrit_split": "सर्वलोक + पितामहम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sarvalokapitāmaham",
+          "meaning": "grandfather of all worlds",
+          "audio_start_ms": 22000,
+          "audio_end_ms": 24000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "महापापहरं",
+          "sanskrit_split": "महापाप + हरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mahāpāpaharaṃ",
+          "meaning": "destroyer of great sins",
+          "audio_start_ms": 24000,
+          "audio_end_ms": 25000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "देवं",
+          "sanskrit_split": "देवम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "devaṃ",
+          "meaning": "God",
+          "audio_start_ms": 25000,
+          "audio_end_ms": 26000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "तं",
+          "sanskrit_split": "तम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "taṃ",
+          "meaning": "to that",
+          "audio_start_ms": 26000,
+          "audio_end_ms": 27000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "सूर्यं",
+          "sanskrit_split": "सूर्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sūryaṃ",
+          "meaning": "Surya",
+          "audio_start_ms": 27000,
+          "audio_end_ms": 28000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "प्रणमाम्यहम्",
+          "sanskrit_split": "प्रणमामि + अहम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "praṇamāmyaham",
+          "meaning": "I bow",
+          "audio_start_ms": 28000,
+          "audio_end_ms": 30000
+        }
+      ]
+    },
+    {
+      "shloka_number": 4,
+      "full_sanskrit": "त्रैगुण्यं च महाशूरं ब्रह्मविष्णुमहेश्वरम् ।\nमहापापहरं देवं तं सूर्यं प्रणमाम्यहम् ॥४॥",
+      "sandhi_split_sanskrit": "त्रैगुण्यं च महाशूरं ब्रह्मविष्णुमहेश्वरम् । | महापापहरं देवं तं सूर्यं प्रणमाम्यहम् ॥४॥",
+      "iast_transliteration": "traiguṇyaṃ ca mahāśūraṃ brahmaviṣṇumaheśvaram |\nmahāpāpaharaṃ devaṃ taṃ sūryaṃ praṇamāmyaham ||4||",
+      "meaning_english": "He embodies the three gunas, is a great warrior, and represents Brahma, Vishnu, and Shiva. He is the Deva who removes great sins; I bow to You, O Suryadeva.",
+      "meaning_hindi": null,
+      "audio_start_ms": 30000,
+      "audio_end_ms": 40000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "त्रैगुण्यं",
+          "sanskrit_split": "त्रैगुण्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "traiguṇyaṃ",
+          "meaning": "embodiment of three gunas",
+          "audio_start_ms": 30000,
+          "audio_end_ms": 31000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "च",
+          "sanskrit_split": "च",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ca",
+          "meaning": "and",
+          "audio_start_ms": 31000,
+          "audio_end_ms": 32000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "महाशूरं",
+          "sanskrit_split": "महाशूरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mahāśūraṃ",
+          "meaning": "great warrior",
+          "audio_start_ms": 32000,
+          "audio_end_ms": 33000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "ब्रह्मविष्णुमहेश्वरम्",
+          "sanskrit_split": "ब्रह्म + विष्णु + महेश्वरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "brahmaviṣṇumaheśvaram",
+          "meaning": "Brahma, Vishnu, and Shiva",
+          "audio_start_ms": 33000,
+          "audio_end_ms": 35000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "महापापहरं",
+          "sanskrit_split": "महापाप + हरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mahāpāpaharaṃ",
+          "meaning": "destroyer of great sins",
+          "audio_start_ms": 35000,
+          "audio_end_ms": 36000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "देवं",
+          "sanskrit_split": "देवम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "devaṃ",
+          "meaning": "God",
+          "audio_start_ms": 36000,
+          "audio_end_ms": 37000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "तं",
+          "sanskrit_split": "तम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "taṃ",
+          "meaning": "to that",
+          "audio_start_ms": 37000,
+          "audio_end_ms": 38000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "सूर्यं",
+          "sanskrit_split": "सूर्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sūryaṃ",
+          "meaning": "Surya",
+          "audio_start_ms": 38000,
+          "audio_end_ms": 39000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "प्रणमाम्यहम्",
+          "sanskrit_split": "प्रणमामि + अहम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "praṇamāmyaham",
+          "meaning": "I bow",
+          "audio_start_ms": 39000,
+          "audio_end_ms": 40000
+        }
+      ]
+    },
+    {
+      "shloka_number": 5,
+      "full_sanskrit": "बृंहितं तेजःपुञ्जं च वायुमाकाशमेव च ।\nप्रभुं च सर्वलोकानां तं सूर्यं प्रणमाम्यहम् ॥५॥",
+      "sandhi_split_sanskrit": "बृंहितं तेजःपुञ्जं च वायुम् आकाशम् एव च । | प्रभुं च सर्वलोकानां तं सूर्यं प्रणमाम्यहम् ॥५॥",
+      "iast_transliteration": "bṛṃhitaṃ tejaḥpuñjaṃ ca vāyumākāśameva ca |\nprabhuṃ ca sarvalokānāṃ taṃ sūryaṃ praṇamāmyaham ||5||",
+      "meaning_english": "He is the expansive mass of brilliance, and the elements of air and space. He is the Lord of all the worlds; I bow to You, O Suryadeva.",
+      "meaning_hindi": null,
+      "audio_start_ms": 40000,
+      "audio_end_ms": 50000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "बृंहितं",
+          "sanskrit_split": "बृंहितम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "bṛṃhitaṃ",
+          "meaning": "expanded/great",
+          "audio_start_ms": 40000,
+          "audio_end_ms": 41000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "तेजःपुञ्जं",
+          "sanskrit_split": "तेजः + पुञ्जम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tejaḥpuñjaṃ",
+          "meaning": "mass of brilliance",
+          "audio_start_ms": 41000,
+          "audio_end_ms": 42000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "च",
+          "sanskrit_split": "च",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ca",
+          "meaning": "and",
+          "audio_start_ms": 42000,
+          "audio_end_ms": 42500
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "वायुमाकाशमेव",
+          "sanskrit_split": "वायुम् + आकाशम् + एव",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "vāyumākāśameva",
+          "meaning": "air and space indeed",
+          "audio_start_ms": 42500,
+          "audio_end_ms": 44000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "च",
+          "sanskrit_split": "च",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ca",
+          "meaning": "and",
+          "audio_start_ms": 44000,
+          "audio_end_ms": 44500
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "प्रभुं",
+          "sanskrit_split": "प्रभुम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "prabhuṃ",
+          "meaning": "Lord",
+          "audio_start_ms": 44500,
+          "audio_end_ms": 45500
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "च",
+          "sanskrit_split": "च",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ca",
+          "meaning": "and",
+          "audio_start_ms": 45500,
+          "audio_end_ms": 46000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "सर्वलोकानां",
+          "sanskrit_split": "सर्वलोकानाम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sarvalokānāṃ",
+          "meaning": "of all worlds",
+          "audio_start_ms": 46000,
+          "audio_end_ms": 47000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "तं",
+          "sanskrit_split": "तम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "taṃ",
+          "meaning": "to that",
+          "audio_start_ms": 47000,
+          "audio_end_ms": 48000
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "सूर्यं",
+          "sanskrit_split": "सूर्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sūryaṃ",
+          "meaning": "Surya",
+          "audio_start_ms": 48000,
+          "audio_end_ms": 49000
+        },
+        {
+          "pada_index": 11,
+          "sanskrit_combined": "प्रणमाम्यहम्",
+          "sanskrit_split": "प्रणमामि + अहम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "praṇamāmyaham",
+          "meaning": "I bow",
+          "audio_start_ms": 49000,
+          "audio_end_ms": 50000
+        }
+      ]
+    },
+    {
+      "shloka_number": 6,
+      "full_sanskrit": "बन्धूकपुष्पसङ्काशं हारकुण्डलभूषितम् ।\nएकचक्रधरं देवं तं सूर्यं प्रणमाम्यहम् ॥६॥",
+      "sandhi_split_sanskrit": "बन्धूकपुष्पसङ्काशं हारकुण्डलभूषितम् । | एकचक्रधरं देवं तं सूर्यं प्रणमाम्यहम् ॥६॥",
+      "iast_transliteration": "bandhūkapuṣpasaṅkāśaṃ hārakuṇḍalabhūṣitam |\nekacakradharaṃ devaṃ taṃ sūryaṃ praṇamāmyaham ||6||",
+      "meaning_english": "He resembles the Bandhuka flower in color, and is adorned with a garland and earrings. He is the Deva who holds one wheel; I bow to You, O Suryadeva.",
+      "meaning_hindi": null,
+      "audio_start_ms": 50000,
+      "audio_end_ms": 60000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "बन्धूकपुष्पसङ्काशं",
+          "sanskrit_split": "बन्धूक + पुष्प + सङ्काशम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "bandhūkapuṣpasaṅkāśaṃ",
+          "meaning": "resembling the Bandhuka flower",
+          "audio_start_ms": 50000,
+          "audio_end_ms": 52000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "हारकुण्डलभूषितम्",
+          "sanskrit_split": "हार + कुण्डल + भूषितम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "hārakuṇḍalabhūṣitam",
+          "meaning": "adorned with garland and earrings",
+          "audio_start_ms": 52000,
+          "audio_end_ms": 54000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "एकचक्रधरं",
+          "sanskrit_split": "एकचक्र + धरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ekacakradharaṃ",
+          "meaning": "holding one wheel",
+          "audio_start_ms": 54000,
+          "audio_end_ms": 55000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "देवं",
+          "sanskrit_split": "देवम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "devaṃ",
+          "meaning": "God",
+          "audio_start_ms": 55000,
+          "audio_end_ms": 56000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "तं",
+          "sanskrit_split": "तम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "taṃ",
+          "meaning": "to that",
+          "audio_start_ms": 56000,
+          "audio_end_ms": 57000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "सूर्यं",
+          "sanskrit_split": "सूर्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sūryaṃ",
+          "meaning": "Surya",
+          "audio_start_ms": 57000,
+          "audio_end_ms": 58000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "प्रणमाम्यहम्",
+          "sanskrit_split": "प्रणमामि + अहम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "praṇamāmyaham",
+          "meaning": "I bow",
+          "audio_start_ms": 58000,
+          "audio_end_ms": 60000
+        }
+      ]
+    },
+    {
+      "shloka_number": 7,
+      "full_sanskrit": "तं सूर्यं जगत्कर्तारं महातेजःप्रदीपनम् ।\nमहापापहरं देवं तं सूर्यं प्रणमाम्यहम् ॥७॥",
+      "sandhi_split_sanskrit": "तं सूर्यं जगत्कर्तारं महातेजःप्रदीपनम् । | महापापहरं देवं तं सूर्यं प्रणमाम्यहम् ॥७॥",
+      "iast_transliteration": "taṃ sūryaṃ jagatkartāraṃ mahātejaḥpradīpanam |\nmahāpāpaharaṃ devaṃ taṃ sūryaṃ praṇamāmyaham ||7||",
+      "meaning_english": "He is the creator of the universe and the illuminator with great brilliance. He is the Deva who removes great sins; I bow to You, O Suryadeva.",
+      "meaning_hindi": null,
+      "audio_start_ms": 60000,
+      "audio_end_ms": 70000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "तं",
+          "sanskrit_split": "तम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "taṃ",
+          "meaning": "to that",
+          "audio_start_ms": 60000,
+          "audio_end_ms": 61000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "सूर्यं",
+          "sanskrit_split": "सूर्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sūryaṃ",
+          "meaning": "Surya",
+          "audio_start_ms": 61000,
+          "audio_end_ms": 62000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "जगत्कर्तारं",
+          "sanskrit_split": "जगत् + कर्तारम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "jagatkartāraṃ",
+          "meaning": "creator of the universe",
+          "audio_start_ms": 62000,
+          "audio_end_ms": 64000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "महातेजःप्रदीपनम्",
+          "sanskrit_split": "महातेजः + प्रदीपनम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mahātejaḥpradīpanam",
+          "meaning": "illuminator of great brilliance",
+          "audio_start_ms": 64000,
+          "audio_end_ms": 66000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "महापापहरं",
+          "sanskrit_split": "महापाप + हरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mahāpāpaharaṃ",
+          "meaning": "destroyer of great sins",
+          "audio_start_ms": 66000,
+          "audio_end_ms": 67000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "देवं",
+          "sanskrit_split": "देवम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "devaṃ",
+          "meaning": "God",
+          "audio_start_ms": 67000,
+          "audio_end_ms": 68000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "तं",
+          "sanskrit_split": "तम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "taṃ",
+          "meaning": "to that",
+          "audio_start_ms": 68000,
+          "audio_end_ms": 68500
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "सूर्यं",
+          "sanskrit_split": "सूर्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sūryaṃ",
+          "meaning": "Surya",
+          "audio_start_ms": 68500,
+          "audio_end_ms": 69000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "प्रणमाम्यहम्",
+          "sanskrit_split": "प्रणमामि + अहम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "praṇamāmyaham",
+          "meaning": "I bow",
+          "audio_start_ms": 69000,
+          "audio_end_ms": 70000
+        }
+      ]
+    },
+    {
+      "shloka_number": 8,
+      "full_sanskrit": "तं सूर्यं जगतां नाथं ज्ञानविज्ञानमोक्षदम् ।\nमहापापहरं देवं तं सूर्यं प्रणमाम्यहम् ॥८॥",
+      "sandhi_split_sanskrit": "तं सूर्यं जगतां नाथं ज्ञानविज्ञानमोक्षदम् । | महापापहरं देवं तं सूर्यं प्रणमाम्यहम् ॥८॥",
+      "iast_transliteration": "taṃ sūryaṃ jagatāṃ nāthaṃ jñānavijñānamokṣadam |\nmahāpāpaharaṃ devaṃ taṃ sūryaṃ praṇamāmyaham ||8||",
+      "meaning_english": "He is the Lord of the worlds and the bestower of knowledge, wisdom, and liberation. He is the Deva who removes great sins; I bow to You, O Suryadeva.",
+      "meaning_hindi": null,
+      "audio_start_ms": 70000,
+      "audio_end_ms": 80000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "तं",
+          "sanskrit_split": "तम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "taṃ",
+          "meaning": "to that",
+          "audio_start_ms": 70000,
+          "audio_end_ms": 71000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "सूर्यं",
+          "sanskrit_split": "सूर्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sūryaṃ",
+          "meaning": "Surya",
+          "audio_start_ms": 71000,
+          "audio_end_ms": 72000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "जगतां",
+          "sanskrit_split": "जगताम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "jagatāṃ",
+          "meaning": "of the worlds",
+          "audio_start_ms": 72000,
+          "audio_end_ms": 73000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "नाथं",
+          "sanskrit_split": "नाथम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "nāthaṃ",
+          "meaning": "Lord",
+          "audio_start_ms": 73000,
+          "audio_end_ms": 74000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "ज्ञानविज्ञानमोक्षदम्",
+          "sanskrit_split": "ज्ञान + विज्ञान + मोक्षदम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "jñānavijñānamokṣadam",
+          "meaning": "bestower of knowledge, science, and liberation",
+          "audio_start_ms": 74000,
+          "audio_end_ms": 76000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "महापापहरं",
+          "sanskrit_split": "महापाप + हरम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mahāpāpaharaṃ",
+          "meaning": "destroyer of great sins",
+          "audio_start_ms": 76000,
+          "audio_end_ms": 77000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "देवं",
+          "sanskrit_split": "देवम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "devaṃ",
+          "meaning": "God",
+          "audio_start_ms": 77000,
+          "audio_end_ms": 78000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "तं",
+          "sanskrit_split": "तम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "taṃ",
+          "meaning": "to that",
+          "audio_start_ms": 78000,
+          "audio_end_ms": 78500
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "सूर्यं",
+          "sanskrit_split": "सूर्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sūryaṃ",
+          "meaning": "Surya",
+          "audio_start_ms": 78500,
+          "audio_end_ms": 79000
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "प्रणमाम्यहम्",
+          "sanskrit_split": "प्रणमामि + अहम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "praṇamāmyaham",
+          "meaning": "I bow",
+          "audio_start_ms": 79000,
+          "audio_end_ms": 80000
+        }
+      ]
+    }
+  ]
+}
