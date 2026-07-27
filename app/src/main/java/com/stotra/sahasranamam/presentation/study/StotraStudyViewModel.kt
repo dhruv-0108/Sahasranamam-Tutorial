@@ -138,7 +138,7 @@ class StotraStudyViewModel @Inject constructor(
             audioPlayerHelper.stop()
             _uiState.update { it.copy(isPlayingAudio = false) }
         } else {
-            val textToRead = if (state.isSandhiSplitEnabled) currentShloka.sandhiSplitSanskrit else currentShloka.fullSanskrit
+            val textToRead = currentShloka.fullSanskrit
             audioPlayerHelper.playVerse(
                 assetPath = "audios/sri_suktam_full.wav",
                 sanskritText = textToRead,

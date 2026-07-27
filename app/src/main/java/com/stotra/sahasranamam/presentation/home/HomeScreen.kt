@@ -122,11 +122,7 @@ fun HomeScreen(
                     CircularProgressIndicator()
                 }
             } else {
-                val order = listOf("Stotras", "Ashtakams", "Chalisa", "Sahasranama")
-                val availableCategories = state.categorizedStotras.keys.toList()
-                
-                // Add default categories even if empty for now, just to show UI
-                val displayCategories = (order + availableCategories).distinct()
+                val displayCategories = listOf("Stotras", "Suktams")
 
                 LazyVerticalGrid(
                     columns = GridCells.Fixed(2),
