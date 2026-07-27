@@ -450,13 +450,20 @@ fun PadaCardItem(
 
             Spacer(modifier = Modifier.height(8.dp))
 
-            Text(
-                text = "Split: ${pada.sanskritSplit}",
-                fontSize = 14.sp,
-                fontWeight = FontWeight.SemiBold,
-                color = SandhiHighlight,
-                textAlign = TextAlign.Center
-            )
+            val hasSandhi = pada.sanskritSplit.isNotBlank() && 
+                pada.sanskritSplit.replace(" ", "").replace("+", "").replace("्", "") != 
+                pada.sanskritCombined.replace(" ", "").replace("्", "")
+
+            if (hasSandhi) {
+                Text(
+                    text = pada.sanskritSplit,
+                    fontSize = 13.sp,
+                    fontWeight = FontWeight.Normal,
+                    color = SandhiHighlight,
+                    textAlign = TextAlign.Center
+                )
+                Spacer(modifier = Modifier.height(2.dp))
+            }
 
             Text(
                 text = pada.iast,

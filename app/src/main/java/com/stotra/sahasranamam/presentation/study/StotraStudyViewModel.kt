@@ -139,8 +139,14 @@ class StotraStudyViewModel @Inject constructor(
             _uiState.update { it.copy(isPlayingAudio = false) }
         } else {
             val textToRead = currentShloka.fullSanskrit
+            val stotraId = currentShloka.stotraId
+            val assetPath = when (stotraId) {
+                "sri_suktam" -> "audios/sri_suktam_full.wav"
+                "aditya_hrudayam" -> "audios/aditya_hrudayam_full.mp3"
+                else -> null
+            }
             audioPlayerHelper.playVerse(
-                assetPath = "audios/sri_suktam_full.wav",
+                assetPath = assetPath,
                 sanskritText = textToRead,
                 audioStartMs = currentShloka.audioStartMs,
                 audioEndMs = currentShloka.audioEndMs,

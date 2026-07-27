@@ -123,12 +123,12 @@ fun HomeScreen(
                 }
             } else {
                 val displayCategories = listOf(
-                    "Sahasranamam",
+                    "Sahasranama",
                     "Stotras",
                     "Suktams",
                     "Ashtakams",
                     "Chalisa",
-                    "Namavali"
+                    "Namvali"
                 )
 
                 LazyVerticalGrid(
