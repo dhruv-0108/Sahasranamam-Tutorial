@@ -22,62 +22,62 @@
       "padas": [
         {
           "pada_index": 1,
-          "sanskrit_combined": "हिरण्यवर्णाम्",
-          "sanskrit_split": "हिरण्य - वर्णाम्",
+          "sanskrit_combined": "हिरण्यवर्णां",
+          "sanskrit_split": "हिरण्य + वर्णाम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "hiraṇyavarṇām",
-          "meaning": "gold / color",
+          "meaning": "golden-colored",
           "audio_start_ms": 0,
           "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
-          "sanskrit_combined": "हरिणीम्",
+          "sanskrit_combined": "हरिणीं",
           "sanskrit_split": "हरिणीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "hariṇīm",
-          "meaning": "radiant like a deer",
+          "meaning": "like a deer / radiant",
           "audio_start_ms": 1000,
           "audio_end_ms": 2000
         },
         {
           "pada_index": 3,
           "sanskrit_combined": "सुवर्णरजतस्रजाम्",
-          "sanskrit_split": "सुवर्ण - रजत - स्रजाम्",
+          "sanskrit_split": "सुवर्ण + रजत + स्रजाम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "suvarṇarajatasrajām",
-          "meaning": "gold / silver / garland",
+          "meaning": "wearing garlands of gold and silver",
           "audio_start_ms": 2000,
           "audio_end_ms": 3000
         },
         {
           "pada_index": 4,
-          "sanskrit_combined": "चन्द्राम्",
+          "sanskrit_combined": "चन्द्रां",
           "sanskrit_split": "चन्द्राम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "candrām",
-          "meaning": "shining like the moon",
+          "meaning": "like the moon",
           "audio_start_ms": 3000,
           "audio_end_ms": 4000
         },
         {
           "pada_index": 5,
-          "sanskrit_combined": "हिरण्मयीम्",
+          "sanskrit_combined": "हिरण्मयीं",
           "sanskrit_split": "हिरण्मयीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "hiraṇmayīm",
-          "meaning": "golden-embodied",
+          "meaning": "embodied with gold",
           "audio_start_ms": 4000,
           "audio_end_ms": 5000
         },
         {
           "pada_index": 6,
-          "sanskrit_combined": "लक्ष्मीम्",
+          "sanskrit_combined": "लक्ष्मीं",
           "sanskrit_split": "लक्ष्मीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
@@ -88,34 +88,34 @@
         },
         {
           "pada_index": 7,
-          "sanskrit_combined": "जातवेदः",
+          "sanskrit_combined": "जातवेदो",
           "sanskrit_split": "जातवेदः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "jātavedaḥ",
-          "meaning": "O Agni",
+          "meaning": "O Agni (knower of all beings)",
           "audio_start_ms": 6000,
           "audio_end_ms": 7000
         },
         {
           "pada_index": 8,
-          "sanskrit_combined": "मे",
+          "sanskrit_combined": "म",
           "sanskrit_split": "मे",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "me",
-          "meaning": "my",
+          "meaning": "for me",
           "audio_start_ms": 7000,
           "audio_end_ms": 8000
         },
         {
           "pada_index": 9,
           "sanskrit_combined": "आवह",
-          "sanskrit_split": "आवह",
+          "sanskrit_split": "आ + वह",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "āvaha",
-          "meaning": "invoke",
+          "meaning": "invoke / bring",
           "audio_start_ms": 8000,
           "audio_end_ms": 9000
         }
@@ -133,146 +133,113 @@
       "padas": [
         {
           "pada_index": 1,
-          "sanskrit_combined": "ताम्",
+          "sanskrit_combined": "तां",
           "sanskrit_split": "ताम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "tām",
           "meaning": "her",
-          "audio_start_ms": 13201,
-          "audio_end_ms": 14201
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
-          "sanskrit_combined": "मे",
+          "sanskrit_combined": "म",
           "sanskrit_split": "मे",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "me",
-          "meaning": "my",
-          "audio_start_ms": 14201,
-          "audio_end_ms": 15201
+          "meaning": "for me",
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
         },
         {
           "pada_index": 3,
           "sanskrit_combined": "आवह",
-          "sanskrit_split": "आवह",
+          "sanskrit_split": "आ + वह",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "āvaha",
           "meaning": "invoke",
-          "audio_start_ms": 15201,
-          "audio_end_ms": 16201
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
         },
         {
           "pada_index": 4,
-          "sanskrit_combined": "जातवेदः",
+          "sanskrit_combined": "जातवेदो",
           "sanskrit_split": "जातवेदः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "jātavedaḥ",
           "meaning": "O Agni",
-          "audio_start_ms": 16201,
-          "audio_end_ms": 17201
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
         },
         {
           "pada_index": 5,
-          "sanskrit_combined": "लक्ष्मीम्",
-          "sanskrit_split": "लक्ष्मीम्",
+          "sanskrit_combined": "लक्ष्मीमनपगामिनीम्",
+          "sanskrit_split": "लक्ष्मीम् + अनपगामिनीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "lakṣmīm",
-          "meaning": "Goddess Lakshmi",
-          "audio_start_ms": 17201,
-          "audio_end_ms": 18201
+          "iast": "lakṣmīmanapagāminīm",
+          "meaning": "Lakshmi who never departs",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
         },
         {
           "pada_index": 6,
-          "sanskrit_combined": "अनपगामिनीम्",
-          "sanskrit_split": "अनपगामिनीम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "anapagāminīm",
-          "meaning": "who never departs",
-          "audio_start_ms": 18201,
-          "audio_end_ms": 19201
-        },
-        {
-          "pada_index": 7,
-          "sanskrit_combined": "यस्याम्",
+          "sanskrit_combined": "यस्यां",
           "sanskrit_split": "यस्याम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "yasyām",
-          "meaning": "by whom",
-          "audio_start_ms": 19201,
-          "audio_end_ms": 20201
+          "meaning": "in whose (presence)",
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
         },
         {
-          "pada_index": 8,
-          "sanskrit_combined": "हिरण्यम्",
+          "pada_index": 7,
+          "sanskrit_combined": "हिरण्यं",
           "sanskrit_split": "हिरण्यम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "hiraṇyam",
-          "meaning": "wealth/gold",
-          "audio_start_ms": 20201,
-          "audio_end_ms": 21201
+          "meaning": "gold",
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
         },
         {
-          "pada_index": 9,
-          "sanskrit_combined": "विन्देयम्",
+          "pada_index": 8,
+          "sanskrit_combined": "विन्देयं",
           "sanskrit_split": "विन्देयम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "vindeyam",
           "meaning": "I may obtain",
-          "audio_start_ms": 21201,
-          "audio_end_ms": 22201
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "गामश्वं",
+          "sanskrit_split": "गाम् + अश्वम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "gāmaśvam",
+          "meaning": "cows and horses",
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
         },
         {
           "pada_index": 10,
-          "sanskrit_combined": "गाम्",
-          "sanskrit_split": "गाम्",
+          "sanskrit_combined": "पुरुषानहम्",
+          "sanskrit_split": "पुरुषान् + अहम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "gām",
-          "meaning": "cow/cattle",
-          "audio_start_ms": 22201,
-          "audio_end_ms": 23201
-        },
-        {
-          "pada_index": 11,
-          "sanskrit_combined": "अश्वम्",
-          "sanskrit_split": "अश्वम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "aśvam",
-          "meaning": "horses",
-          "audio_start_ms": 23201,
-          "audio_end_ms": 24201
-        },
-        {
-          "pada_index": 12,
-          "sanskrit_combined": "पुरुषान्",
-          "sanskrit_split": "पुरुषान्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "puruṣān",
-          "meaning": "men/lineage",
-          "audio_start_ms": 24201,
-          "audio_end_ms": 25201
-        },
-        {
-          "pada_index": 13,
-          "sanskrit_combined": "अहम्",
-          "sanskrit_split": "अहम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "aham",
-          "meaning": "I",
-          "audio_start_ms": 25201,
-          "audio_end_ms": 26201
+          "iast": "puruṣānaham",
+          "meaning": "men (offspring/followers) I",
+          "audio_start_ms": 9000,
+          "audio_end_ms": 10000
         }
       ]
     },
@@ -288,113 +255,91 @@
       "padas": [
         {
           "pada_index": 1,
-          "sanskrit_combined": "अश्वपूर्वाम्",
-          "sanskrit_split": "अश्व - पूर्वाम्",
+          "sanskrit_combined": "अश्वपूर्वां",
+          "sanskrit_split": "अश्व + पूर्वाम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "aśvapūrvām",
-          "meaning": "horse / in front",
-          "audio_start_ms": 26501,
-          "audio_end_ms": 27501
+          "meaning": "preceded by horses",
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
-          "sanskrit_combined": "रथमध्याम्",
-          "sanskrit_split": "रथ - मध्याम्",
+          "sanskrit_combined": "रथमध्यां",
+          "sanskrit_split": "रथ + मध्याम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "rathamadhyām",
-          "meaning": "chariot / middle",
-          "audio_start_ms": 27501,
-          "audio_end_ms": 28501
+          "meaning": "in the middle of chariots",
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
         },
         {
           "pada_index": 3,
           "sanskrit_combined": "हस्तिनादप्रबोधिनीम्",
-          "sanskrit_split": "हस्ति - नाद - प्रबोधिनीम्",
+          "sanskrit_split": "हस्ति + नाद + प्रबोधिनीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "hastinādaprabodhinīm",
-          "meaning": "elephant / sound / awakened",
-          "audio_start_ms": 28501,
-          "audio_end_ms": 29501
+          "meaning": "awakened by the sound of elephants",
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
         },
         {
           "pada_index": 4,
-          "sanskrit_combined": "श्रियम्",
+          "sanskrit_combined": "श्रियं",
           "sanskrit_split": "श्रियम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "śriyam",
-          "meaning": "Sri",
-          "audio_start_ms": 29501,
-          "audio_end_ms": 30501
+          "meaning": "Goddess of wealth",
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
         },
         {
           "pada_index": 5,
-          "sanskrit_combined": "देवीम्",
-          "sanskrit_split": "देवीम्",
+          "sanskrit_combined": "देवीमुपह्वये",
+          "sanskrit_split": "देवीम् + उपह्वये",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "devīm",
-          "meaning": "the Goddess",
-          "audio_start_ms": 30501,
-          "audio_end_ms": 31501
+          "iast": "devīmupahvaye",
+          "meaning": "the Goddess I invoke",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
         },
         {
           "pada_index": 6,
-          "sanskrit_combined": "उपह्वये",
-          "sanskrit_split": "उपह्वये",
+          "sanskrit_combined": "श्रीर्मा",
+          "sanskrit_split": "श्रीः + मा",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "upahvaye",
-          "meaning": "I invoke",
-          "audio_start_ms": 31501,
-          "audio_end_ms": 32501
+          "iast": "śrīrmā",
+          "meaning": "may Goddess Shri me",
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
         },
         {
           "pada_index": 7,
-          "sanskrit_combined": "श्रीः",
-          "sanskrit_split": "श्रीः",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "śrīḥ",
-          "meaning": "wealth",
-          "audio_start_ms": 32501,
-          "audio_end_ms": 33501
-        },
-        {
-          "pada_index": 8,
-          "sanskrit_combined": "मा",
-          "sanskrit_split": "मा",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "mā",
-          "meaning": "me",
-          "audio_start_ms": 33501,
-          "audio_end_ms": 34501
-        },
-        {
-          "pada_index": 9,
           "sanskrit_combined": "देवी",
           "sanskrit_split": "देवी",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "devī",
           "meaning": "Goddess",
-          "audio_start_ms": 34501,
-          "audio_end_ms": 35501
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
         },
         {
-          "pada_index": 10,
+          "pada_index": 8,
           "sanskrit_combined": "जुषताम्",
           "sanskrit_split": "जुषताम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "juṣatām",
-          "meaning": "may she be pleased with",
-          "audio_start_ms": 35501,
-          "audio_end_ms": 36501
+          "meaning": "be pleased with",
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
         }
       ]
     },
@@ -410,157 +355,113 @@
       "padas": [
         {
           "pada_index": 1,
-          "sanskrit_combined": "काम्",
-          "sanskrit_split": "काम्",
+          "sanskrit_combined": "कांसोस्मि",
+          "sanskrit_split": "काम् + सास्मि (सस्मिताम्)",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "kām",
-          "meaning": "काम्",
-          "audio_start_ms": 40001,
-          "audio_end_ms": 41001
+          "iast": "kāṁsosmi",
+          "meaning": "who is of the nature of bliss / smiling",
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
-          "sanskrit_combined": "सोस्मिताम्",
-          "sanskrit_split": "सोस्मिताम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "sosmitām",
-          "meaning": "सोस्मिताम्",
-          "audio_start_ms": 41001,
-          "audio_end_ms": 42001
-        },
-        {
-          "pada_index": 3,
-          "sanskrit_combined": "हिरण्यप्राकाराम्",
-          "sanskrit_split": "हिरण्य - प्राकाराम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "hiraṇyaprākārām",
-          "meaning": "gold / प्राकाराम्",
-          "audio_start_ms": 42001,
-          "audio_end_ms": 43001
-        },
-        {
-          "pada_index": 4,
-          "sanskrit_combined": "आर्द्राम्",
-          "sanskrit_split": "आर्द्राम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "ārdrām",
-          "meaning": "compassionate",
-          "audio_start_ms": 43001,
-          "audio_end_ms": 44001
-        },
-        {
-          "pada_index": 5,
-          "sanskrit_combined": "ज्वलन्तीम्",
-          "sanskrit_split": "ज्वलन्तीम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "jvalantīm",
-          "meaning": "shining",
-          "audio_start_ms": 44001,
-          "audio_end_ms": 45001
-        },
-        {
-          "pada_index": 6,
-          "sanskrit_combined": "तृप्ताम्",
-          "sanskrit_split": "तृप्ताम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "tṛptām",
-          "meaning": "satisfied",
-          "audio_start_ms": 45001,
-          "audio_end_ms": 46001
-        },
-        {
-          "pada_index": 7,
-          "sanskrit_combined": "तर्पयन्तीम्",
-          "sanskrit_split": "तर्पयन्तीम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "tarpayantīm",
-          "meaning": "satisfying others",
-          "audio_start_ms": 46001,
-          "audio_end_ms": 47001
-        },
-        {
-          "pada_index": 8,
-          "sanskrit_combined": "पद्मे",
-          "sanskrit_split": "पद्मे",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "padme",
-          "meaning": "पद्मे",
-          "audio_start_ms": 47001,
-          "audio_end_ms": 48001
-        },
-        {
-          "pada_index": 9,
-          "sanskrit_combined": "स्थिताम्",
-          "sanskrit_split": "स्थिताम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "sthitām",
-          "meaning": "स्थिताम्",
-          "audio_start_ms": 48001,
-          "audio_end_ms": 49001
-        },
-        {
-          "pada_index": 10,
-          "sanskrit_combined": "पद्मवर्णाम्",
-          "sanskrit_split": "पद्म - वर्णाम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "padmavarṇām",
-          "meaning": "पद्म / color",
-          "audio_start_ms": 49001,
-          "audio_end_ms": 50001
-        },
-        {
-          "pada_index": 11,
-          "sanskrit_combined": "ताम्",
+          "sanskrit_combined": "तां",
           "sanskrit_split": "ताम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "tām",
           "meaning": "her",
-          "audio_start_ms": 50001,
-          "audio_end_ms": 51001
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
         },
         {
-          "pada_index": 12,
-          "sanskrit_combined": "इह",
-          "sanskrit_split": "इह",
+          "pada_index": 3,
+          "sanskrit_combined": "हिरण्यप्राकारामार्द्रां",
+          "sanskrit_split": "हिरण्य + प्राकाराम् + आर्द्राम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "iha",
-          "meaning": "here",
-          "audio_start_ms": 51001,
-          "audio_end_ms": 52001
+          "iast": "hiraṇyaprākārāmārdrām",
+          "meaning": "surrounded by a golden aura, compassionate",
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
         },
         {
-          "pada_index": 13,
-          "sanskrit_combined": "उपह्वये",
-          "sanskrit_split": "उपह्वये",
+          "pada_index": 4,
+          "sanskrit_combined": "ज्वलन्तीं",
+          "sanskrit_split": "ज्वलन्तीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "upahvaye",
-          "meaning": "I invoke",
-          "audio_start_ms": 52001,
-          "audio_end_ms": 53001
+          "iast": "jvalantīm",
+          "meaning": "shining brightly",
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
         },
         {
-          "pada_index": 14,
+          "pada_index": 5,
+          "sanskrit_combined": "तृप्तां",
+          "sanskrit_split": "तृप्ताम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tṛptām",
+          "meaning": "satisfied",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "तर्पयन्तीम्",
+          "sanskrit_split": "तर्पयन्तीम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tarpayantīm",
+          "meaning": "satisfying (others)",
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "पद्मेस्थितां",
+          "sanskrit_split": "पद्मे + स्थिताम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "padmesthitām",
+          "meaning": "seated on a lotus",
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "पद्मवर्णां",
+          "sanskrit_split": "पद्म + वर्णाम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "padmavarṇām",
+          "meaning": "lotus-colored",
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "तामिहोपह्वये",
+          "sanskrit_split": "ताम् + इह + उपह्वये",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tāmihopahvaye",
+          "meaning": "her here I invoke",
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
+        },
+        {
+          "pada_index": 10,
           "sanskrit_combined": "श्रियम्",
           "sanskrit_split": "श्रियम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "śriyam",
-          "meaning": "Sri",
-          "audio_start_ms": 53001,
-          "audio_end_ms": 54001
+          "meaning": "Shri (Goddess of Wealth)",
+          "audio_start_ms": 9000,
+          "audio_end_ms": 10000
         }
       ]
     },
@@ -576,25 +477,25 @@
       "padas": [
         {
           "pada_index": 1,
-          "sanskrit_combined": "चन्द्राम्",
+          "sanskrit_combined": "चन्द्रां",
           "sanskrit_split": "चन्द्राम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "candrām",
-          "meaning": "shining like the moon",
-          "audio_start_ms": 55001,
-          "audio_end_ms": 56001
+          "meaning": "like the moon",
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
-          "sanskrit_combined": "प्रभासाम्",
+          "sanskrit_combined": "प्रभासां",
           "sanskrit_split": "प्रभासाम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "prabhāsām",
-          "meaning": "shining brightly",
-          "audio_start_ms": 56001,
-          "audio_end_ms": 57001
+          "meaning": "illuminating",
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
         },
         {
           "pada_index": 3,
@@ -604,30 +505,30 @@
           "sandhi_rule_explanation": null,
           "iast": "yaśasā",
           "meaning": "with fame",
-          "audio_start_ms": 57001,
-          "audio_end_ms": 58001
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
         },
         {
           "pada_index": 4,
-          "sanskrit_combined": "ज्वलन्तीम्",
+          "sanskrit_combined": "ज्वलन्तीं",
           "sanskrit_split": "ज्वलन्तीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "jvalantīm",
           "meaning": "shining",
-          "audio_start_ms": 58001,
-          "audio_end_ms": 59001
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
         },
         {
           "pada_index": 5,
-          "sanskrit_combined": "श्रियम्",
+          "sanskrit_combined": "श्रियं",
           "sanskrit_split": "श्रियम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "śriyam",
-          "meaning": "Sri",
-          "audio_start_ms": 59001,
-          "audio_end_ms": 60001
+          "meaning": "Goddess Shri",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
         },
         {
           "pada_index": 6,
@@ -637,151 +538,107 @@
           "sandhi_rule_explanation": null,
           "iast": "loke",
           "meaning": "in the world",
-          "audio_start_ms": 60001,
-          "audio_end_ms": 61001
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
         },
         {
           "pada_index": 7,
-          "sanskrit_combined": "देवजुष्टाम्",
-          "sanskrit_split": "देव - जुष्टाम्",
+          "sanskrit_combined": "देवजुष्टामुदाराम्",
+          "sanskrit_split": "देवजुष्टाम् + उदाराम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "devajuṣṭām",
-          "meaning": "देव / जुष्टाम्",
-          "audio_start_ms": 61001,
-          "audio_end_ms": 62001
+          "iast": "devajuṣṭāmudārām",
+          "meaning": "worshipped by gods, generous",
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
         },
         {
           "pada_index": 8,
-          "sanskrit_combined": "उदाराम्",
-          "sanskrit_split": "उदाराम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "udārām",
-          "meaning": "generous",
-          "audio_start_ms": 62001,
-          "audio_end_ms": 63001
-        },
-        {
-          "pada_index": 9,
-          "sanskrit_combined": "ताम्",
+          "sanskrit_combined": "तां",
           "sanskrit_split": "ताम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "tām",
           "meaning": "her",
-          "audio_start_ms": 63001,
-          "audio_end_ms": 64001
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "पद्मिनीमीं",
+          "sanskrit_split": "पद्मिनीम् + ईम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "padminīmīm",
+          "meaning": "the lotus-dwelling one",
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
         },
         {
           "pada_index": 10,
-          "sanskrit_combined": "पद्मिनीम्",
-          "sanskrit_split": "पद्मिनीम्",
+          "sanskrit_combined": "शरणमहं",
+          "sanskrit_split": "शरणम् + अहम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "padminīm",
-          "meaning": "lotus-abiding",
-          "audio_start_ms": 64001,
-          "audio_end_ms": 65001
+          "iast": "śaraṇamahaṁ",
+          "meaning": "refuge I",
+          "audio_start_ms": 9000,
+          "audio_end_ms": 10000
         },
         {
           "pada_index": 11,
-          "sanskrit_combined": "ईम्",
-          "sanskrit_split": "ईम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "īm",
-          "meaning": "ईम्",
-          "audio_start_ms": 65001,
-          "audio_end_ms": 66001
-        },
-        {
-          "pada_index": 12,
-          "sanskrit_combined": "शरणम्",
-          "sanskrit_split": "शरणम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "śaraṇam",
-          "meaning": "refuge",
-          "audio_start_ms": 66001,
-          "audio_end_ms": 67001
-        },
-        {
-          "pada_index": 13,
-          "sanskrit_combined": "अहम्",
-          "sanskrit_split": "अहम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "aham",
-          "meaning": "I",
-          "audio_start_ms": 67001,
-          "audio_end_ms": 68001
-        },
-        {
-          "pada_index": 14,
           "sanskrit_combined": "प्रपद्ये",
           "sanskrit_split": "प्रपद्ये",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "prapadye",
-          "meaning": "take/seek",
-          "audio_start_ms": 68001,
-          "audio_end_ms": 69001
+          "meaning": "approach",
+          "audio_start_ms": 10000,
+          "audio_end_ms": 11000
         },
         {
-          "pada_index": 15,
-          "sanskrit_combined": "अलक्ष्मीः",
-          "sanskrit_split": "अलक्ष्मीः",
+          "pada_index": 12,
+          "sanskrit_combined": "अलक्ष्मीर्मे",
+          "sanskrit_split": "अलक्ष्मीः + मे",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "alakṣmīḥ",
-          "meaning": "misfortune",
-          "audio_start_ms": 69001,
-          "audio_end_ms": 70001
+          "iast": "alakṣmīrme",
+          "meaning": "misfortune my",
+          "audio_start_ms": 11000,
+          "audio_end_ms": 12000
         },
         {
-          "pada_index": 16,
-          "sanskrit_combined": "मे",
-          "sanskrit_split": "मे",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "me",
-          "meaning": "my",
-          "audio_start_ms": 70001,
-          "audio_end_ms": 71001
-        },
-        {
-          "pada_index": 17,
-          "sanskrit_combined": "नश्यताम्",
+          "pada_index": 13,
+          "sanskrit_combined": "नश्यतां",
           "sanskrit_split": "नश्यताम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "naśyatām",
-          "meaning": "be destroyed",
-          "audio_start_ms": 71001,
-          "audio_end_ms": 72001
+          "meaning": "may it be destroyed",
+          "audio_start_ms": 12000,
+          "audio_end_ms": 13000
         },
         {
-          "pada_index": 18,
-          "sanskrit_combined": "त्वाम्",
+          "pada_index": 14,
+          "sanskrit_combined": "त्वां",
           "sanskrit_split": "त्वाम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "tvām",
           "meaning": "you",
-          "audio_start_ms": 72001,
-          "audio_end_ms": 73001
+          "audio_start_ms": 13000,
+          "audio_end_ms": 14000
         },
         {
-          "pada_index": 19,
+          "pada_index": 15,
           "sanskrit_combined": "वृणे",
           "sanskrit_split": "वृणे",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "vṛṇe",
           "meaning": "I choose",
-          "audio_start_ms": 73001,
-          "audio_end_ms": 74001
+          "audio_start_ms": 14000,
+          "audio_end_ms": 15000
         }
       ]
     },
@@ -798,178 +655,134 @@
         {
           "pada_index": 1,
           "sanskrit_combined": "आदित्यवर्णे",
-          "sanskrit_split": "आदित्य - वर्णे",
+          "sanskrit_split": "आदित्य + वर्णे",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "ādityavarṇe",
-          "meaning": "आदित्य / वर्णे",
-          "audio_start_ms": 70001,
-          "audio_end_ms": 71001
+          "meaning": "O one colored like the sun",
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
-          "sanskrit_combined": "तपसः",
-          "sanskrit_split": "तपसः",
+          "sanskrit_combined": "तपसोधिजातो",
+          "sanskrit_split": "तपसः + अधिजातः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "tapasaḥ",
-          "meaning": "तपसः",
-          "audio_start_ms": 71001,
-          "audio_end_ms": 72001
+          "iast": "tapasodhijāto",
+          "meaning": "born of penance",
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
         },
         {
           "pada_index": 3,
-          "sanskrit_combined": "अधिजातः",
-          "sanskrit_split": "अधिजातः",
+          "sanskrit_combined": "वनस्पतिस्तव",
+          "sanskrit_split": "वनस्पतिः + तव",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "adhijātaḥ",
-          "meaning": "अधिजातः",
-          "audio_start_ms": 72001,
-          "audio_end_ms": 73001
+          "iast": "vanaspatistava",
+          "meaning": "the great tree (Bilva) of yours",
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
         },
         {
           "pada_index": 4,
-          "sanskrit_combined": "वनस्पतिः",
-          "sanskrit_split": "वनस्पतिः",
+          "sanskrit_combined": "वृक्षोथ",
+          "sanskrit_split": "वृक्षः + अथ",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "vanaspatiḥ",
-          "meaning": "वनस्पतिः",
-          "audio_start_ms": 73001,
-          "audio_end_ms": 74001
+          "iast": "vṛkṣotha",
+          "meaning": "tree and",
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
         },
         {
           "pada_index": 5,
-          "sanskrit_combined": "तव",
-          "sanskrit_split": "तव",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "tava",
-          "meaning": "तव",
-          "audio_start_ms": 74001,
-          "audio_end_ms": 75001
-        },
-        {
-          "pada_index": 6,
-          "sanskrit_combined": "वृक्षः",
-          "sanskrit_split": "वृक्षः",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "vṛkṣaḥ",
-          "meaning": "वृक्षः",
-          "audio_start_ms": 75001,
-          "audio_end_ms": 76001
-        },
-        {
-          "pada_index": 7,
-          "sanskrit_combined": "अथ",
-          "sanskrit_split": "अथ",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "atha",
-          "meaning": "अथ",
-          "audio_start_ms": 76001,
-          "audio_end_ms": 77001
-        },
-        {
-          "pada_index": 8,
           "sanskrit_combined": "बिल्वः",
           "sanskrit_split": "बिल्वः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "bilvaḥ",
-          "meaning": "Bilva tree",
-          "audio_start_ms": 77001,
-          "audio_end_ms": 78001
+          "meaning": "the Bilva tree",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
         },
         {
-          "pada_index": 9,
+          "pada_index": 6,
           "sanskrit_combined": "तस्य",
           "sanskrit_split": "तस्य",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "tasya",
           "meaning": "its",
-          "audio_start_ms": 78001,
-          "audio_end_ms": 79001
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
         },
         {
-          "pada_index": 10,
+          "pada_index": 7,
           "sanskrit_combined": "फलानि",
           "sanskrit_split": "फलानि",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "phalāni",
           "meaning": "fruits",
-          "audio_start_ms": 79001,
-          "audio_end_ms": 80001
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
         },
         {
-          "pada_index": 11,
+          "pada_index": 8,
           "sanskrit_combined": "तपसा",
           "sanskrit_split": "तपसा",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "tapasā",
           "meaning": "by penance",
-          "audio_start_ms": 80001,
-          "audio_end_ms": 81001
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
         },
         {
-          "pada_index": 12,
+          "pada_index": 9,
           "sanskrit_combined": "नुदन्तु",
           "sanskrit_split": "नुदन्तु",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "nudantu",
-          "meaning": "may remove",
-          "audio_start_ms": 81001,
-          "audio_end_ms": 82001
+          "meaning": "may they dispel",
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
         },
         {
-          "pada_index": 13,
-          "sanskrit_combined": "मायाअन्तरायाः",
-          "sanskrit_split": "माया - अन्तरायाः",
+          "pada_index": 10,
+          "sanskrit_combined": "मायान्तरायाश्च",
+          "sanskrit_split": "माया + अन्तरायाः + च",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "māyāantarāyāḥ",
-          "meaning": "माया / अन्तरायाः",
-          "audio_start_ms": 82001,
-          "audio_end_ms": 83001
+          "iast": "māyāntarāyāśca",
+          "meaning": "ignorance and obstacles and",
+          "audio_start_ms": 9000,
+          "audio_end_ms": 10000
         },
         {
-          "pada_index": 14,
-          "sanskrit_combined": "च",
-          "sanskrit_split": "च",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "ca",
-          "meaning": "च",
-          "audio_start_ms": 83001,
-          "audio_end_ms": 84001
-        },
-        {
-          "pada_index": 15,
-          "sanskrit_combined": "बाह्याः",
+          "pada_index": 11,
+          "sanskrit_combined": "बाह्या",
           "sanskrit_split": "बाह्याः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "bāhyāḥ",
+          "iast": "bāhyā",
           "meaning": "outer",
-          "audio_start_ms": 84001,
-          "audio_end_ms": 85001
+          "audio_start_ms": 10000,
+          "audio_end_ms": 11000
         },
         {
-          "pada_index": 16,
+          "pada_index": 12,
           "sanskrit_combined": "अलक्ष्मीः",
           "sanskrit_split": "अलक्ष्मीः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "alakṣmīḥ",
           "meaning": "misfortune",
-          "audio_start_ms": 85001,
-          "audio_end_ms": 86001
+          "audio_start_ms": 11000,
+          "audio_end_ms": 12000
         }
       ]
     },
@@ -991,162 +804,118 @@
           "sandhi_rule_explanation": null,
           "iast": "upaitu",
           "meaning": "may approach",
-          "audio_start_ms": 85001,
-          "audio_end_ms": 86001
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
-          "sanskrit_combined": "माम्",
+          "sanskrit_combined": "मां",
           "sanskrit_split": "माम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "mām",
           "meaning": "me",
-          "audio_start_ms": 86001,
-          "audio_end_ms": 87001
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
         },
         {
           "pada_index": 3,
           "sanskrit_combined": "देवसखः",
-          "sanskrit_split": "देव - सखः",
+          "sanskrit_split": "देवसखः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "devasakhaḥ",
-          "meaning": "देव / सखः",
-          "audio_start_ms": 87001,
-          "audio_end_ms": 88001
+          "meaning": "the friend of the gods (Kubera)",
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
         },
         {
           "pada_index": 4,
-          "sanskrit_combined": "कीर्तिः",
-          "sanskrit_split": "कीर्तिः",
+          "sanskrit_combined": "कीर्तिश्च",
+          "sanskrit_split": "कीर्तिः + च",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "kīrtiḥ",
-          "meaning": "कीर्तिः",
-          "audio_start_ms": 88001,
-          "audio_end_ms": 89001
+          "iast": "kīrtiśca",
+          "meaning": "fame and",
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
         },
         {
           "pada_index": 5,
-          "sanskrit_combined": "च",
-          "sanskrit_split": "च",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "ca",
-          "meaning": "च",
-          "audio_start_ms": 89001,
-          "audio_end_ms": 90001
-        },
-        {
-          "pada_index": 6,
           "sanskrit_combined": "मणिना",
           "sanskrit_split": "मणिना",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "maṇinā",
-          "meaning": "with jewel",
-          "audio_start_ms": 90001,
-          "audio_end_ms": 91001
+          "meaning": "with the jewel (Chintamani)",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
         },
         {
-          "pada_index": 7,
+          "pada_index": 6,
           "sanskrit_combined": "सह",
           "sanskrit_split": "सह",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "saha",
-          "meaning": "with",
-          "audio_start_ms": 91001,
-          "audio_end_ms": 92001
+          "meaning": "along with",
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "प्रादुर्भूतोस्मि",
+          "sanskrit_split": "प्रादुर्भूतः + अस्मि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "prādurbhūtosmi",
+          "meaning": "born am I",
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
         },
         {
           "pada_index": 8,
-          "sanskrit_combined": "प्रादुर्भूतः",
-          "sanskrit_split": "प्रादुर्भूतः",
+          "sanskrit_combined": "राष्ट्रेस्मिन्",
+          "sanskrit_split": "राष्ट्रे + अस्मिन्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "prādurbhūtaḥ",
-          "meaning": "प्रादुर्भूतः",
-          "audio_start_ms": 92001,
-          "audio_end_ms": 93001
+          "iast": "rāṣṭresmin",
+          "meaning": "in this nation",
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
         },
         {
           "pada_index": 9,
-          "sanskrit_combined": "अस्मि",
-          "sanskrit_split": "अस्मि",
+          "sanskrit_combined": "कीर्तिमृद्धिं",
+          "sanskrit_split": "कीर्तिम् + ऋद्धिम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "asmi",
-          "meaning": "अस्मि",
-          "audio_start_ms": 93001,
-          "audio_end_ms": 94001
+          "iast": "kīrtimṛddhiṁ",
+          "meaning": "fame and prosperity",
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
         },
         {
           "pada_index": 10,
-          "sanskrit_combined": "राष्ट्र",
-          "sanskrit_split": "राष्ट्र",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "rāṣṭra",
-          "meaning": "राष्ट्र",
-          "audio_start_ms": 94001,
-          "audio_end_ms": 95001
-        },
-        {
-          "pada_index": 11,
-          "sanskrit_combined": "अस्मिन्",
-          "sanskrit_split": "अस्मिन्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "asmin",
-          "meaning": "अस्मिन्",
-          "audio_start_ms": 95001,
-          "audio_end_ms": 96001
-        },
-        {
-          "pada_index": 12,
-          "sanskrit_combined": "कीर्तिम्",
-          "sanskrit_split": "कीर्तिम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "kīrtim",
-          "meaning": "कीर्तिम्",
-          "audio_start_ms": 96001,
-          "audio_end_ms": 97001
-        },
-        {
-          "pada_index": 13,
-          "sanskrit_combined": "ऋद्धिम्",
-          "sanskrit_split": "ऋद्धिम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "ṛddhim",
-          "meaning": "ऋद्धिम्",
-          "audio_start_ms": 97001,
-          "audio_end_ms": 98001
-        },
-        {
-          "pada_index": 14,
           "sanskrit_combined": "ददातु",
           "sanskrit_split": "ददातु",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "dadātu",
           "meaning": "may grant",
-          "audio_start_ms": 98001,
-          "audio_end_ms": 99001
+          "audio_start_ms": 9000,
+          "audio_end_ms": 10000
         },
         {
-          "pada_index": 15,
+          "pada_index": 11,
           "sanskrit_combined": "मे",
           "sanskrit_split": "मे",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "me",
-          "meaning": "my",
-          "audio_start_ms": 99001,
-          "audio_end_ms": 100001
+          "meaning": "to me",
+          "audio_start_ms": 10000,
+          "audio_end_ms": 11000
         }
       ]
     },
@@ -1162,135 +931,102 @@
       "padas": [
         {
           "pada_index": 1,
-          "sanskrit_combined": "क्षुत्पिपासामलाम्",
-          "sanskrit_split": "क्षुत् - पिपासा - मलाम्",
+          "sanskrit_combined": "क्षुत्पिपासामलां",
+          "sanskrit_split": "क्षुत् + पिपासा + मलाम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "kṣutpipāsāmalām",
-          "meaning": "क्षुत् / पिपासा / मलाम्",
-          "audio_start_ms": 98001,
-          "audio_end_ms": 99001
+          "iast": "kṣutpipāsāmalāṁ",
+          "meaning": "impurity of hunger and thirst",
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
-          "sanskrit_combined": "ज्येष्ठाम्",
-          "sanskrit_split": "ज्येष्ठाम्",
+          "sanskrit_combined": "ज्येष्ठामलक्ष्मीं",
+          "sanskrit_split": "ज्येष्ठाम् + अलक्ष्मीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "jyeṣṭhām",
-          "meaning": "elder (sister, misfortune)",
-          "audio_start_ms": 99001,
-          "audio_end_ms": 100001
+          "iast": "jyeṣṭhāmalakṣmīṁ",
+          "meaning": "the elder sister (of Lakshmi), Alakshmi",
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
         },
         {
           "pada_index": 3,
-          "sanskrit_combined": "अलक्ष्मीम्",
-          "sanskrit_split": "अलक्ष्मीम्",
+          "sanskrit_combined": "नाशयाम्यहम्",
+          "sanskrit_split": "नाशयामि + अहम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "alakṣmīm",
-          "meaning": "अलक्ष्मीम्",
-          "audio_start_ms": 100001,
-          "audio_end_ms": 101001
+          "iast": "nāśayāmyaham",
+          "meaning": "destroy I",
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
         },
         {
           "pada_index": 4,
-          "sanskrit_combined": "नाशयामि",
-          "sanskrit_split": "नाशयामि",
+          "sanskrit_combined": "अभूतिमसमृद्धिं",
+          "sanskrit_split": "अभूतिम् + असमृद्धिम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "nāśayāmi",
-          "meaning": "नाशयामि",
-          "audio_start_ms": 101001,
-          "audio_end_ms": 102001
+          "iast": "abhūtimasamṛddhiṁ",
+          "meaning": "lack of wealth and unprosperity",
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
         },
         {
           "pada_index": 5,
-          "sanskrit_combined": "अहम्",
-          "sanskrit_split": "अहम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "aham",
-          "meaning": "I",
-          "audio_start_ms": 102001,
-          "audio_end_ms": 103001
-        },
-        {
-          "pada_index": 6,
-          "sanskrit_combined": "अभूतिम्",
-          "sanskrit_split": "अभूतिम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "abhūtim",
-          "meaning": "poverty",
-          "audio_start_ms": 103001,
-          "audio_end_ms": 104001
-        },
-        {
-          "pada_index": 7,
-          "sanskrit_combined": "असमृद्धिम्",
-          "sanskrit_split": "असमृद्धिम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "asamṛddhim",
-          "meaning": "lack of prosperity",
-          "audio_start_ms": 104001,
-          "audio_end_ms": 105001
-        },
-        {
-          "pada_index": 8,
           "sanskrit_combined": "च",
           "sanskrit_split": "च",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "ca",
-          "meaning": "च",
-          "audio_start_ms": 105001,
-          "audio_end_ms": 106001
+          "meaning": "and",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
         },
         {
-          "pada_index": 9,
-          "sanskrit_combined": "सर्वान्",
-          "sanskrit_split": "सर्वान्",
+          "pada_index": 6,
+          "sanskrit_combined": "सर्वाम्",
+          "sanskrit_split": "सर्वाम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "sarvān",
-          "meaning": "सर्वान्",
-          "audio_start_ms": 106001,
-          "audio_end_ms": 107001
+          "iast": "sarvām",
+          "meaning": "all",
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
         },
         {
-          "pada_index": 10,
+          "pada_index": 7,
           "sanskrit_combined": "निर्णुद",
           "sanskrit_split": "निर्णुद",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "nirṇuda",
           "meaning": "drive away",
-          "audio_start_ms": 107001,
-          "audio_end_ms": 108001
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
         },
         {
-          "pada_index": 11,
+          "pada_index": 8,
           "sanskrit_combined": "मे",
           "sanskrit_split": "मे",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "me",
           "meaning": "my",
-          "audio_start_ms": 108001,
-          "audio_end_ms": 109001
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
         },
         {
-          "pada_index": 12,
+          "pada_index": 9,
           "sanskrit_combined": "गृहात्",
           "sanskrit_split": "गृहात्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "gṛhāt",
-          "meaning": "from home",
-          "audio_start_ms": 109001,
-          "audio_end_ms": 110001
+          "meaning": "from the house",
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
         }
       ]
     },
@@ -1306,36 +1042,36 @@
       "padas": [
         {
           "pada_index": 1,
-          "sanskrit_combined": "गन्धद्वाराम्",
-          "sanskrit_split": "गन्ध - द्वाराम्",
+          "sanskrit_combined": "गन्धद्वारां",
+          "sanskrit_split": "गन्ध + द्वाराम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "gandhadvārām",
-          "meaning": "गन्ध / द्वाराम्",
-          "audio_start_ms": 112001,
-          "audio_end_ms": 113001
+          "iast": "gandhadvārāṁ",
+          "meaning": "perceptible through odor",
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
-          "sanskrit_combined": "दुराधर्षाम्",
+          "sanskrit_combined": "दुराधर्षां",
           "sanskrit_split": "दुराधर्षाम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "durādharṣām",
+          "iast": "durādharṣāṁ",
           "meaning": "invincible",
-          "audio_start_ms": 113001,
-          "audio_end_ms": 114001
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
         },
         {
           "pada_index": 3,
-          "sanskrit_combined": "नित्यपुष्टाम्",
-          "sanskrit_split": "नित्य - पुष्टाम्",
+          "sanskrit_combined": "नित्यपुष्टां",
+          "sanskrit_split": "नित्य + पुष्टाम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "nityapuṣṭām",
-          "meaning": "नित्य / पुष्टाम्",
-          "audio_start_ms": 114001,
-          "audio_end_ms": 115001
+          "iast": "nityapuṣṭāṁ",
+          "meaning": "ever nourished",
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
         },
         {
           "pada_index": 4,
@@ -1344,75 +1080,53 @@
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "karīṣiṇīm",
-          "meaning": "abounding in dung (wealth)",
-          "audio_start_ms": 115001,
-          "audio_end_ms": 116001
+          "meaning": "rich in cattle/dung",
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
         },
         {
           "pada_index": 5,
-          "sanskrit_combined": "ईश्वरीम्",
+          "sanskrit_combined": "ईश्वरीं",
           "sanskrit_split": "ईश्वरीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "īśvarīm",
-          "meaning": "supreme ruler",
-          "audio_start_ms": 116001,
-          "audio_end_ms": 117001
+          "iast": "īśvarīṁ",
+          "meaning": "the supreme ruler",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
         },
         {
           "pada_index": 6,
-          "sanskrit_combined": "सर्वभूतानाम्",
-          "sanskrit_split": "सर्व - भूतानाम्",
+          "sanskrit_combined": "सर्वभूतानां",
+          "sanskrit_split": "सर्व + भूतानाम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "sarvabhūtānām",
-          "meaning": "सर्व / भूतानाम्",
-          "audio_start_ms": 117001,
-          "audio_end_ms": 118001
+          "iast": "sarvabhūtānāṁ",
+          "meaning": "of all beings",
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
         },
         {
           "pada_index": 7,
-          "sanskrit_combined": "ताम्",
-          "sanskrit_split": "ताम्",
+          "sanskrit_combined": "तामिहोपह्वये",
+          "sanskrit_split": "ताम् + इह + उपह्वये",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "tām",
-          "meaning": "her",
-          "audio_start_ms": 118001,
-          "audio_end_ms": 119001
+          "iast": "tāmihopahvaye",
+          "meaning": "her here I invoke",
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
         },
         {
           "pada_index": 8,
-          "sanskrit_combined": "इह",
-          "sanskrit_split": "इह",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "iha",
-          "meaning": "here",
-          "audio_start_ms": 119001,
-          "audio_end_ms": 120001
-        },
-        {
-          "pada_index": 9,
-          "sanskrit_combined": "उपह्वये",
-          "sanskrit_split": "उपह्वये",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "upahvaye",
-          "meaning": "I invoke",
-          "audio_start_ms": 120001,
-          "audio_end_ms": 121001
-        },
-        {
-          "pada_index": 10,
           "sanskrit_combined": "श्रियम्",
           "sanskrit_split": "श्रियम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "śriyam",
-          "meaning": "Sri",
-          "audio_start_ms": 121001,
-          "audio_end_ms": 122001
+          "meaning": "Shri",
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
         }
       ]
     },
@@ -1434,140 +1148,107 @@
           "sandhi_rule_explanation": null,
           "iast": "manasaḥ",
           "meaning": "of the mind",
-          "audio_start_ms": 126001,
-          "audio_end_ms": 127001
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
-          "sanskrit_combined": "कामम्",
-          "sanskrit_split": "कामम्",
+          "sanskrit_combined": "काममाकूतिं",
+          "sanskrit_split": "कामम् + आकूतिम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "kāmam",
-          "meaning": "कामम्",
-          "audio_start_ms": 127001,
-          "audio_end_ms": 128001
+          "iast": "kāmamākūtiṁ",
+          "meaning": "desire and intention",
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
         },
         {
           "pada_index": 3,
-          "sanskrit_combined": "आकूतिम्",
-          "sanskrit_split": "आकूतिम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "ākūtim",
-          "meaning": "आकूतिम्",
-          "audio_start_ms": 128001,
-          "audio_end_ms": 129001
-        },
-        {
-          "pada_index": 4,
           "sanskrit_combined": "वाचः",
           "sanskrit_split": "वाचः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "vācaḥ",
           "meaning": "of speech",
-          "audio_start_ms": 129001,
-          "audio_end_ms": 130001
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "सत्यमशीमहि",
+          "sanskrit_split": "सत्यम् + अशीमहि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "satyamaśīmahi",
+          "meaning": "truth may we attain",
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
         },
         {
           "pada_index": 5,
-          "sanskrit_combined": "सत्यम्",
-          "sanskrit_split": "सत्यम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "satyam",
-          "meaning": "सत्यम्",
-          "audio_start_ms": 130001,
-          "audio_end_ms": 131001
-        },
-        {
-          "pada_index": 6,
-          "sanskrit_combined": "अशीमहि",
-          "sanskrit_split": "अशीमहि",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "aśīmahi",
-          "meaning": "अशीमहि",
-          "audio_start_ms": 131001,
-          "audio_end_ms": 132001
-        },
-        {
-          "pada_index": 7,
-          "sanskrit_combined": "पशूनाम्",
+          "sanskrit_combined": "पशूनां",
           "sanskrit_split": "पशूनाम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "paśūnām",
-          "meaning": "पशूनाम्",
-          "audio_start_ms": 132001,
-          "audio_end_ms": 133001
+          "iast": "paśūnāṁ",
+          "meaning": "of cattle",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
         },
         {
-          "pada_index": 8,
-          "sanskrit_combined": "रूपम्",
-          "sanskrit_split": "रूपम्",
+          "pada_index": 6,
+          "sanskrit_combined": "रूपमन्नस्य",
+          "sanskrit_split": "रूपम् + अन्नस्य",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "rūpam",
-          "meaning": "रूपम्",
-          "audio_start_ms": 133001,
-          "audio_end_ms": 134001
+          "iast": "rūpamannasya",
+          "meaning": "form and of food",
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
         },
         {
-          "pada_index": 9,
-          "sanskrit_combined": "अन्नस्य",
-          "sanskrit_split": "अन्नस्य",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "annasya",
-          "meaning": "अन्नस्य",
-          "audio_start_ms": 134001,
-          "audio_end_ms": 135001
-        },
-        {
-          "pada_index": 10,
+          "pada_index": 7,
           "sanskrit_combined": "मयि",
           "sanskrit_split": "मयि",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "mayi",
           "meaning": "in me",
-          "audio_start_ms": 135001,
-          "audio_end_ms": 136001
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
         },
         {
-          "pada_index": 11,
+          "pada_index": 8,
           "sanskrit_combined": "श्रीः",
           "sanskrit_split": "श्रीः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "śrīḥ",
-          "meaning": "wealth",
-          "audio_start_ms": 136001,
-          "audio_end_ms": 137001
+          "meaning": "Shri",
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
         },
         {
-          "pada_index": 12,
-          "sanskrit_combined": "श्रयताम्",
+          "pada_index": 9,
+          "sanskrit_combined": "श्रयतां",
           "sanskrit_split": "श्रयताम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "śrayatām",
-          "meaning": "श्रयताम्",
-          "audio_start_ms": 137001,
-          "audio_end_ms": 138001
+          "iast": "śrayatāṁ",
+          "meaning": "may reside",
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
         },
         {
-          "pada_index": 13,
+          "pada_index": 10,
           "sanskrit_combined": "यशः",
           "sanskrit_split": "यशः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "yaśaḥ",
-          "meaning": "fame",
-          "audio_start_ms": 138001,
-          "audio_end_ms": 139001
+          "meaning": "and fame",
+          "audio_start_ms": 9000,
+          "audio_end_ms": 10000
         }
       ]
     },
@@ -1588,20 +1269,20 @@
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "kardamena",
-          "meaning": "by Kardama",
-          "audio_start_ms": 140001,
-          "audio_end_ms": 141001
+          "meaning": "by Kardama (the sage)",
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
           "sanskrit_combined": "प्रजाभूता",
-          "sanskrit_split": "प्रजा - भूता",
+          "sanskrit_split": "प्रजा + भूता",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "prajābhūtā",
-          "meaning": "प्रजा / भूता",
-          "audio_start_ms": 141001,
-          "audio_end_ms": 142001
+          "meaning": "offspring produced",
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
         },
         {
           "pada_index": 3,
@@ -1611,8 +1292,8 @@
           "sandhi_rule_explanation": null,
           "iast": "mayi",
           "meaning": "in me",
-          "audio_start_ms": 142001,
-          "audio_end_ms": 143001
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
         },
         {
           "pada_index": 4,
@@ -1621,31 +1302,31 @@
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "sambhava",
-          "meaning": "सम्भव",
-          "audio_start_ms": 143001,
-          "audio_end_ms": 144001
+          "meaning": "appear/reside",
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
         },
         {
           "pada_index": 5,
-          "sanskrit_combined": "कर्दम्",
-          "sanskrit_split": "कर्दम्",
+          "sanskrit_combined": "कर्दम",
+          "sanskrit_split": "कर्दम",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "kardam",
+          "iast": "kardama",
           "meaning": "O Kardama",
-          "audio_start_ms": 144001,
-          "audio_end_ms": 145001
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
         },
         {
           "pada_index": 6,
-          "sanskrit_combined": "श्रियम्",
+          "sanskrit_combined": "श्रियं",
           "sanskrit_split": "श्रियम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "śriyam",
-          "meaning": "Sri",
-          "audio_start_ms": 145001,
-          "audio_end_ms": 146001
+          "iast": "śriyaṁ",
+          "meaning": "Shri",
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
         },
         {
           "pada_index": 7,
@@ -1655,8 +1336,8 @@
           "sandhi_rule_explanation": null,
           "iast": "vāsaya",
           "meaning": "make dwell",
-          "audio_start_ms": 146001,
-          "audio_end_ms": 147001
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
         },
         {
           "pada_index": 8,
@@ -1666,8 +1347,8 @@
           "sandhi_rule_explanation": null,
           "iast": "me",
           "meaning": "my",
-          "audio_start_ms": 147001,
-          "audio_end_ms": 148001
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
         },
         {
           "pada_index": 9,
@@ -1676,31 +1357,31 @@
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "kule",
-          "meaning": "family",
-          "audio_start_ms": 148001,
-          "audio_end_ms": 149001
+          "meaning": "in the family",
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
         },
         {
           "pada_index": 10,
-          "sanskrit_combined": "मातरम्",
+          "sanskrit_combined": "मातरं",
           "sanskrit_split": "मातरम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "mātaram",
-          "meaning": "mother",
-          "audio_start_ms": 149001,
-          "audio_end_ms": 150001
+          "iast": "mātaraṁ",
+          "meaning": "the mother",
+          "audio_start_ms": 9000,
+          "audio_end_ms": 10000
         },
         {
           "pada_index": 11,
           "sanskrit_combined": "पद्ममालिनीम्",
-          "sanskrit_split": "पद्म - मालिनीम्",
+          "sanskrit_split": "पद्म + मालिनीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "padmamālinīm",
-          "meaning": "पद्म / मालिनीम्",
-          "audio_start_ms": 150001,
-          "audio_end_ms": 151001
+          "meaning": "wearing a garland of lotuses",
+          "audio_start_ms": 10000,
+          "audio_end_ms": 11000
         }
       ]
     },
@@ -1722,8 +1403,8 @@
           "sandhi_rule_explanation": null,
           "iast": "āpaḥ",
           "meaning": "waters",
-          "audio_start_ms": 154001,
-          "audio_end_ms": 155001
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
@@ -1733,8 +1414,8 @@
           "sandhi_rule_explanation": null,
           "iast": "sṛjantu",
           "meaning": "may create",
-          "audio_start_ms": 155001,
-          "audio_end_ms": 156001
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
         },
         {
           "pada_index": 3,
@@ -1743,9 +1424,9 @@
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "snigdhāni",
-          "meaning": "affectionate/beautiful things",
-          "audio_start_ms": 156001,
-          "audio_end_ms": 157001
+          "meaning": "affectionate / beautiful things",
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
         },
         {
           "pada_index": 4,
@@ -1754,9 +1435,9 @@
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "ciklīta",
-          "meaning": "O Chiklita",
-          "audio_start_ms": 157001,
-          "audio_end_ms": 158001
+          "meaning": "O Chiklita (sage)",
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
         },
         {
           "pada_index": 5,
@@ -1766,8 +1447,8 @@
           "sandhi_rule_explanation": null,
           "iast": "vasa",
           "meaning": "dwell",
-          "audio_start_ms": 158001,
-          "audio_end_ms": 159001
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
         },
         {
           "pada_index": 6,
@@ -1777,8 +1458,8 @@
           "sandhi_rule_explanation": null,
           "iast": "me",
           "meaning": "my",
-          "audio_start_ms": 159001,
-          "audio_end_ms": 160001
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
         },
         {
           "pada_index": 7,
@@ -1788,8 +1469,8 @@
           "sandhi_rule_explanation": null,
           "iast": "gṛhe",
           "meaning": "in the house",
-          "audio_start_ms": 160001,
-          "audio_end_ms": 161001
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
         },
         {
           "pada_index": 8,
@@ -1798,9 +1479,9 @@
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "ni",
-          "meaning": "indeed",
-          "audio_start_ms": 161001,
-          "audio_end_ms": 162001
+          "meaning": "down / well",
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
         },
         {
           "pada_index": 9,
@@ -1809,42 +1490,42 @@
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "ca",
-          "meaning": "च",
-          "audio_start_ms": 162001,
-          "audio_end_ms": 163001
+          "meaning": "and",
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
         },
         {
           "pada_index": 10,
-          "sanskrit_combined": "देवीम्",
+          "sanskrit_combined": "देवीं",
           "sanskrit_split": "देवीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "devīm",
+          "iast": "devīṁ",
           "meaning": "the Goddess",
-          "audio_start_ms": 163001,
-          "audio_end_ms": 164001
+          "audio_start_ms": 9000,
+          "audio_end_ms": 10000
         },
         {
           "pada_index": 11,
-          "sanskrit_combined": "मातरम्",
+          "sanskrit_combined": "मातरं",
           "sanskrit_split": "मातरम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "mātaram",
+          "iast": "mātaraṁ",
           "meaning": "mother",
-          "audio_start_ms": 164001,
-          "audio_end_ms": 165001
+          "audio_start_ms": 10000,
+          "audio_end_ms": 11000
         },
         {
           "pada_index": 12,
-          "sanskrit_combined": "श्रियम्",
+          "sanskrit_combined": "श्रियं",
           "sanskrit_split": "श्रियम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "śriyam",
-          "meaning": "Sri",
-          "audio_start_ms": 165001,
-          "audio_end_ms": 166001
+          "iast": "śriyaṁ",
+          "meaning": "Shri",
+          "audio_start_ms": 11000,
+          "audio_end_ms": 12000
         },
         {
           "pada_index": 13,
@@ -1854,8 +1535,8 @@
           "sandhi_rule_explanation": null,
           "iast": "vāsaya",
           "meaning": "make dwell",
-          "audio_start_ms": 166001,
-          "audio_end_ms": 167001
+          "audio_start_ms": 12000,
+          "audio_end_ms": 13000
         },
         {
           "pada_index": 14,
@@ -1865,8 +1546,8 @@
           "sandhi_rule_explanation": null,
           "iast": "me",
           "meaning": "my",
-          "audio_start_ms": 167001,
-          "audio_end_ms": 168001
+          "audio_start_ms": 13000,
+          "audio_end_ms": 14000
         },
         {
           "pada_index": 15,
@@ -1875,9 +1556,9 @@
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "kule",
-          "meaning": "family",
-          "audio_start_ms": 168001,
-          "audio_end_ms": 169001
+          "meaning": "in the family",
+          "audio_start_ms": 14000,
+          "audio_end_ms": 15000
         }
       ]
     },
@@ -1893,124 +1574,124 @@
       "padas": [
         {
           "pada_index": 1,
-          "sanskrit_combined": "आर्द्राम्",
+          "sanskrit_combined": "आर्द्रां",
           "sanskrit_split": "आर्द्राम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "ārdrām",
-          "meaning": "compassionate",
-          "audio_start_ms": 168001,
-          "audio_end_ms": 169001
+          "iast": "ārdrāṁ",
+          "meaning": "compassionate / wet",
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
-          "sanskrit_combined": "पुष्करिणीम्",
+          "sanskrit_combined": "पुष्करिणीं",
           "sanskrit_split": "पुष्करिणीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "puṣkariṇīm",
-          "meaning": "पुष्करिणीम्",
-          "audio_start_ms": 169001,
-          "audio_end_ms": 170001
+          "iast": "puṣkariṇīṁ",
+          "meaning": "lotus-like / possessing lotuses",
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
         },
         {
           "pada_index": 3,
-          "sanskrit_combined": "पुष्टिम्",
+          "sanskrit_combined": "पुष्टिं",
           "sanskrit_split": "पुष्टिम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "puṣṭim",
-          "meaning": "पुष्टिम्",
-          "audio_start_ms": 170001,
-          "audio_end_ms": 171001
+          "iast": "puṣṭiṁ",
+          "meaning": "nourishment",
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
         },
         {
           "pada_index": 4,
-          "sanskrit_combined": "पिङ्गलाम्",
-          "sanskrit_split": "पिङ्गलाम्",
+          "sanskrit_combined": "सुवर्णां",
+          "sanskrit_split": "सुवर्णाम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "piṅgalām",
-          "meaning": "पिङ्गलाम्",
-          "audio_start_ms": 171001,
-          "audio_end_ms": 172001
+          "iast": "suvarṇāṁ",
+          "meaning": "golden",
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
         },
         {
           "pada_index": 5,
-          "sanskrit_combined": "पद्ममालिनीम्",
-          "sanskrit_split": "पद्म - मालिनीम्",
+          "sanskrit_combined": "हेममालिनीम्",
+          "sanskrit_split": "हेम + मालिनीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "padmamālinīm",
-          "meaning": "पद्म / मालिनीम्",
-          "audio_start_ms": 172001,
-          "audio_end_ms": 173001
+          "iast": "hemamālinīm",
+          "meaning": "wearing a golden garland",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
         },
         {
           "pada_index": 6,
-          "sanskrit_combined": "चन्द्राम्",
-          "sanskrit_split": "चन्द्राम्",
+          "sanskrit_combined": "सूर्यां",
+          "sanskrit_split": "सूर्याम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "candrām",
-          "meaning": "shining like the moon",
-          "audio_start_ms": 173001,
-          "audio_end_ms": 174001
+          "iast": "sūryāṁ",
+          "meaning": "radiant like the sun",
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
         },
         {
           "pada_index": 7,
-          "sanskrit_combined": "हिरण्मयीम्",
+          "sanskrit_combined": "हिरण्मयीं",
           "sanskrit_split": "हिरण्मयीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "hiraṇmayīm",
-          "meaning": "golden-embodied",
-          "audio_start_ms": 174001,
-          "audio_end_ms": 175001
+          "iast": "hiraṇmayīṁ",
+          "meaning": "embodied with gold",
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
         },
         {
           "pada_index": 8,
-          "sanskrit_combined": "लक्ष्मीम्",
+          "sanskrit_combined": "लक्ष्मीं",
           "sanskrit_split": "लक्ष्मीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "lakṣmīm",
-          "meaning": "Goddess Lakshmi",
-          "audio_start_ms": 175001,
-          "audio_end_ms": 176001
+          "iast": "lakṣmīṁ",
+          "meaning": "Lakshmi",
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
         },
         {
           "pada_index": 9,
-          "sanskrit_combined": "जातवेदः",
+          "sanskrit_combined": "जातवेदो",
           "sanskrit_split": "जातवेदः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "jātavedaḥ",
+          "iast": "jātavedo",
           "meaning": "O Agni",
-          "audio_start_ms": 176001,
-          "audio_end_ms": 177001
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
         },
         {
           "pada_index": 10,
-          "sanskrit_combined": "मे",
+          "sanskrit_combined": "म",
           "sanskrit_split": "मे",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "me",
-          "meaning": "my",
-          "audio_start_ms": 177001,
-          "audio_end_ms": 178001
+          "iast": "ma",
+          "meaning": "for me",
+          "audio_start_ms": 9000,
+          "audio_end_ms": 10000
         },
         {
           "pada_index": 11,
           "sanskrit_combined": "आवह",
-          "sanskrit_split": "आवह",
+          "sanskrit_split": "आ + वह",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "āvaha",
           "meaning": "invoke",
-          "audio_start_ms": 178001,
-          "audio_end_ms": 179001
+          "audio_start_ms": 10000,
+          "audio_end_ms": 11000
         }
       ]
     },
@@ -2026,135 +1707,124 @@
       "padas": [
         {
           "pada_index": 1,
-          "sanskrit_combined": "आर्द्राम्",
+          "sanskrit_combined": "आर्द्रां",
           "sanskrit_split": "आर्द्राम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "ārdrām",
-          "meaning": "compassionate",
-          "audio_start_ms": 182001,
-          "audio_end_ms": 183001
+          "iast": "ārdrāṁ",
+          "meaning": "compassionate / wet",
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
-          "sanskrit_combined": "यः",
-          "sanskrit_split": "यः",
+          "sanskrit_combined": "यःकरिणीं",
+          "sanskrit_split": "यः + करिणीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "yaḥ",
-          "meaning": "whoever",
-          "audio_start_ms": 183001,
-          "audio_end_ms": 184001
+          "iast": "yaḥkariṇīṁ",
+          "meaning": "wielding the rod of justice / staff-bearer",
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
         },
         {
           "pada_index": 3,
-          "sanskrit_combined": "करिणीम्",
-          "sanskrit_split": "करिणीम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "kariṇīm",
-          "meaning": "करिणीम्",
-          "audio_start_ms": 184001,
-          "audio_end_ms": 185001
-        },
-        {
-          "pada_index": 4,
-          "sanskrit_combined": "यष्टिम्",
+          "sanskrit_combined": "यष्टिं",
           "sanskrit_split": "यष्टिम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "yaṣṭim",
-          "meaning": "यष्टिम्",
-          "audio_start_ms": 185001,
-          "audio_end_ms": 186001
+          "iast": "yaṣṭiṁ",
+          "meaning": "the staff",
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "पिङ्गलां",
+          "sanskrit_split": "पिङ्गलाम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "piṅgalāṁ",
+          "meaning": "reddish-brown colored",
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
         },
         {
           "pada_index": 5,
-          "sanskrit_combined": "सुवर्णाम्",
-          "sanskrit_split": "सुवर्णाम्",
+          "sanskrit_combined": "पद्ममालिनीम्",
+          "sanskrit_split": "पद्म + मालिनीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "suvarṇām",
-          "meaning": "सुवर्णाम्",
-          "audio_start_ms": 186001,
-          "audio_end_ms": 187001
+          "iast": "padmamālinīm",
+          "meaning": "wearing a lotus garland",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
         },
         {
           "pada_index": 6,
-          "sanskrit_combined": "हेममालिनीम्",
-          "sanskrit_split": "हेम - मालिनीम्",
+          "sanskrit_combined": "चन्द्रां",
+          "sanskrit_split": "चन्द्राम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "hemamālinīm",
-          "meaning": "हेम / मालिनीम्",
-          "audio_start_ms": 187001,
-          "audio_end_ms": 188001
+          "iast": "candrāṁ",
+          "meaning": "like the moon",
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
         },
         {
           "pada_index": 7,
-          "sanskrit_combined": "सूर्याम्",
-          "sanskrit_split": "सूर्याम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "sūryām",
-          "meaning": "सूर्याम्",
-          "audio_start_ms": 188001,
-          "audio_end_ms": 189001
-        },
-        {
-          "pada_index": 8,
-          "sanskrit_combined": "हिरण्मयीम्",
+          "sanskrit_combined": "हिरण्मयीं",
           "sanskrit_split": "हिरण्मयीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "hiraṇmayīm",
-          "meaning": "golden-embodied",
-          "audio_start_ms": 189001,
-          "audio_end_ms": 190001
+          "iast": "hiraṇmayīṁ",
+          "meaning": "embodied with gold",
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
         },
         {
-          "pada_index": 9,
-          "sanskrit_combined": "लक्ष्मीम्",
+          "pada_index": 8,
+          "sanskrit_combined": "लक्ष्मीं",
           "sanskrit_split": "लक्ष्मीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "lakṣmīm",
-          "meaning": "Goddess Lakshmi",
-          "audio_start_ms": 190001,
-          "audio_end_ms": 191001
+          "iast": "lakṣmīṁ",
+          "meaning": "Lakshmi",
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
         },
         {
-          "pada_index": 10,
-          "sanskrit_combined": "जातवेदः",
+          "pada_index": 9,
+          "sanskrit_combined": "जातवेदो",
           "sanskrit_split": "जातवेदः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "jātavedaḥ",
+          "iast": "jātavedo",
           "meaning": "O Agni",
-          "audio_start_ms": 191001,
-          "audio_end_ms": 192001
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
         },
         {
-          "pada_index": 11,
-          "sanskrit_combined": "मे",
+          "pada_index": 10,
+          "sanskrit_combined": "म",
           "sanskrit_split": "मे",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "me",
-          "meaning": "my",
-          "audio_start_ms": 192001,
-          "audio_end_ms": 193001
+          "iast": "ma",
+          "meaning": "for me",
+          "audio_start_ms": 9000,
+          "audio_end_ms": 10000
         },
         {
-          "pada_index": 12,
+          "pada_index": 11,
           "sanskrit_combined": "आवह",
-          "sanskrit_split": "आवह",
+          "sanskrit_split": "आ + वह",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "āvaha",
           "meaning": "invoke",
-          "audio_start_ms": 193001,
-          "audio_end_ms": 194001
+          "audio_start_ms": 10000,
+          "audio_end_ms": 11000
         }
       ]
     },
@@ -2170,168 +1840,135 @@
       "padas": [
         {
           "pada_index": 1,
-          "sanskrit_combined": "ताम्",
+          "sanskrit_combined": "तां",
           "sanskrit_split": "ताम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "tām",
+          "iast": "tāṁ",
           "meaning": "her",
-          "audio_start_ms": 196001,
-          "audio_end_ms": 197001
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
-          "sanskrit_combined": "मे",
+          "sanskrit_combined": "म",
           "sanskrit_split": "मे",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "me",
-          "meaning": "my",
-          "audio_start_ms": 197001,
-          "audio_end_ms": 198001
+          "iast": "ma",
+          "meaning": "for me",
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
         },
         {
           "pada_index": 3,
           "sanskrit_combined": "आवह",
-          "sanskrit_split": "आवह",
+          "sanskrit_split": "आ + वह",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "āvaha",
           "meaning": "invoke",
-          "audio_start_ms": 198001,
-          "audio_end_ms": 199001
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
         },
         {
           "pada_index": 4,
-          "sanskrit_combined": "जातवेदः",
+          "sanskrit_combined": "जातवेदो",
           "sanskrit_split": "जातवेदः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "jātavedaḥ",
+          "iast": "jātavedo",
           "meaning": "O Agni",
-          "audio_start_ms": 199001,
-          "audio_end_ms": 200001
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
         },
         {
           "pada_index": 5,
-          "sanskrit_combined": "लक्ष्मीम्",
-          "sanskrit_split": "लक्ष्मीम्",
+          "sanskrit_combined": "लक्ष्मीमनपगामिनीम्",
+          "sanskrit_split": "लक्ष्मीम् + अनपगामिनीम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "lakṣmīm",
-          "meaning": "Goddess Lakshmi",
-          "audio_start_ms": 200001,
-          "audio_end_ms": 201001
+          "iast": "lakṣmīmanapagāminīm",
+          "meaning": "Lakshmi who never departs",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
         },
         {
           "pada_index": 6,
-          "sanskrit_combined": "अनपगामिनीम्",
-          "sanskrit_split": "अनपगामिनीम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "anapagāminīm",
-          "meaning": "who never departs",
-          "audio_start_ms": 201001,
-          "audio_end_ms": 202001
-        },
-        {
-          "pada_index": 7,
-          "sanskrit_combined": "यस्याम्",
+          "sanskrit_combined": "यस्यां",
           "sanskrit_split": "यस्याम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "yasyām",
-          "meaning": "by whom",
-          "audio_start_ms": 202001,
-          "audio_end_ms": 203001
+          "iast": "yasyāṁ",
+          "meaning": "in whose presence",
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
         },
         {
-          "pada_index": 8,
-          "sanskrit_combined": "हिरण्यम्",
+          "pada_index": 7,
+          "sanskrit_combined": "हिरण्यं",
           "sanskrit_split": "हिरण्यम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "hiraṇyam",
-          "meaning": "wealth/gold",
-          "audio_start_ms": 203001,
-          "audio_end_ms": 204001
+          "iast": "hiraṇyaṁ",
+          "meaning": "gold",
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
         },
         {
-          "pada_index": 9,
-          "sanskrit_combined": "प्रभूतम्",
+          "pada_index": 8,
+          "sanskrit_combined": "प्रभूतं",
           "sanskrit_split": "प्रभूतम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "prabhūtam",
-          "meaning": "प्रभूतम्",
-          "audio_start_ms": 204001,
-          "audio_end_ms": 205001
+          "iast": "prabhūtaṁ",
+          "meaning": "abundant",
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
         },
         {
-          "pada_index": 10,
-          "sanskrit_combined": "गावः",
+          "pada_index": 9,
+          "sanskrit_combined": "गावो",
           "sanskrit_split": "गावः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "gāvaḥ",
-          "meaning": "गावः",
-          "audio_start_ms": 205001,
-          "audio_end_ms": 206001
+          "iast": "gāvo",
+          "meaning": "cows",
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "दास्योश्वात्",
+          "sanskrit_split": "दास्यः + अश्वान्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "dāsyośvāt",
+          "meaning": "maidservants, horses",
+          "audio_start_ms": 9000,
+          "audio_end_ms": 10000
         },
         {
           "pada_index": 11,
-          "sanskrit_combined": "दास्यः",
-          "sanskrit_split": "दास्यः",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "dāsyaḥ",
-          "meaning": "दास्यः",
-          "audio_start_ms": 206001,
-          "audio_end_ms": 207001
-        },
-        {
-          "pada_index": 12,
-          "sanskrit_combined": "अश्वान्",
-          "sanskrit_split": "अश्वान्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "aśvān",
-          "meaning": "अश्वान्",
-          "audio_start_ms": 207001,
-          "audio_end_ms": 208001
-        },
-        {
-          "pada_index": 13,
-          "sanskrit_combined": "विन्देयम्",
+          "sanskrit_combined": "विन्देयं",
           "sanskrit_split": "विन्देयम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "vindeyam",
+          "iast": "vindeyaṁ",
           "meaning": "I may obtain",
-          "audio_start_ms": 208001,
-          "audio_end_ms": 209001
+          "audio_start_ms": 10000,
+          "audio_end_ms": 11000
         },
         {
-          "pada_index": 14,
-          "sanskrit_combined": "पुरुषान्",
-          "sanskrit_split": "पुरुषान्",
+          "pada_index": 12,
+          "sanskrit_combined": "पुरुषानहम्",
+          "sanskrit_split": "पुरुषान् + अहम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "puruṣān",
-          "meaning": "men/lineage",
-          "audio_start_ms": 209001,
-          "audio_end_ms": 210001
-        },
-        {
-          "pada_index": 15,
-          "sanskrit_combined": "अहम्",
-          "sanskrit_split": "अहम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "aham",
-          "meaning": "I",
-          "audio_start_ms": 210001,
-          "audio_end_ms": 211001
+          "iast": "puruṣānaham",
+          "meaning": "men I",
+          "audio_start_ms": 11000,
+          "audio_end_ms": 12000
         }
       ]
     },
@@ -2352,9 +1989,9 @@
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "yaḥ",
-          "meaning": "whoever",
-          "audio_start_ms": 210001,
-          "audio_end_ms": 211001
+          "meaning": "who",
+          "audio_start_ms": 0,
+          "audio_end_ms": 1000
         },
         {
           "pada_index": 2,
@@ -2364,19 +2001,19 @@
           "sandhi_rule_explanation": null,
           "iast": "śuciḥ",
           "meaning": "pure",
-          "audio_start_ms": 211001,
-          "audio_end_ms": 212001
+          "audio_start_ms": 1000,
+          "audio_end_ms": 2000
         },
         {
           "pada_index": 3,
-          "sanskrit_combined": "प्रयतः",
+          "sanskrit_combined": "प्रयतो",
           "sanskrit_split": "प्रयतः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "prayataḥ",
-          "meaning": "प्रयतः",
-          "audio_start_ms": 212001,
-          "audio_end_ms": 213001
+          "iast": "prayato",
+          "meaning": "self-controlled",
+          "audio_start_ms": 2000,
+          "audio_end_ms": 3000
         },
         {
           "pada_index": 4,
@@ -2386,107 +2023,85 @@
           "sandhi_rule_explanation": null,
           "iast": "bhūtvā",
           "meaning": "having become",
-          "audio_start_ms": 213001,
-          "audio_end_ms": 214001
+          "audio_start_ms": 3000,
+          "audio_end_ms": 4000
         },
         {
           "pada_index": 5,
-          "sanskrit_combined": "जुहुयात्",
-          "sanskrit_split": "जुहुयात्",
+          "sanskrit_combined": "जुहुयादाज्यमन्वहम्",
+          "sanskrit_split": "जुहुयात् + आज्यम् + अन्वहम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "juhuyāt",
-          "meaning": "should offer",
-          "audio_start_ms": 214001,
-          "audio_end_ms": 215001
+          "iast": "juhuyādājyamanvaham",
+          "meaning": "should offer ghee daily",
+          "audio_start_ms": 4000,
+          "audio_end_ms": 5000
         },
         {
           "pada_index": 6,
-          "sanskrit_combined": "आ ज्यम्",
-          "sanskrit_split": "आ ज्यम्",
+          "sanskrit_combined": "श्रियः",
+          "sanskrit_split": "श्रियः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "ā jyam",
-          "meaning": "आ ज्यम्",
-          "audio_start_ms": 215001,
-          "audio_end_ms": 216001
+          "iast": "śriyaḥ",
+          "meaning": "of Shri",
+          "audio_start_ms": 5000,
+          "audio_end_ms": 6000
         },
         {
           "pada_index": 7,
-          "sanskrit_combined": "अन्वहम्",
-          "sanskrit_split": "अन्वहम्",
+          "sanskrit_combined": "पञ्चदशर्चं",
+          "sanskrit_split": "पञ्चदश + ऋचम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "anvaham",
-          "meaning": "अन्वहम्",
-          "audio_start_ms": 216001,
-          "audio_end_ms": 217001
+          "iast": "pañcadaśarcaṁ",
+          "meaning": "fifteen verses",
+          "audio_start_ms": 6000,
+          "audio_end_ms": 7000
         },
         {
           "pada_index": 8,
-          "sanskrit_combined": "सूक्तम्",
-          "sanskrit_split": "सूक्तम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "sūktam",
-          "meaning": "सूक्तम्",
-          "audio_start_ms": 217001,
-          "audio_end_ms": 218001
-        },
-        {
-          "pada_index": 9,
-          "sanskrit_combined": "पञ्चदशऋचम्",
-          "sanskrit_split": "पञ्चदश - ऋचम्",
-          "sandhi_rule_name": null,
-          "sandhi_rule_explanation": null,
-          "iast": "pañcadaśaṛcam",
-          "meaning": "पञ्चदश / ऋचम्",
-          "audio_start_ms": 218001,
-          "audio_end_ms": 219001
-        },
-        {
-          "pada_index": 10,
           "sanskrit_combined": "च",
           "sanskrit_split": "च",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "ca",
-          "meaning": "च",
-          "audio_start_ms": 219001,
-          "audio_end_ms": 220001
+          "meaning": "and",
+          "audio_start_ms": 7000,
+          "audio_end_ms": 8000
         },
         {
-          "pada_index": 11,
+          "pada_index": 9,
           "sanskrit_combined": "श्रीकामः",
-          "sanskrit_split": "श्री - कामः",
+          "sanskrit_split": "श्री + कामः",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "śrīkāmaḥ",
-          "meaning": "श्री / कामः",
-          "audio_start_ms": 220001,
-          "audio_end_ms": 221001
+          "meaning": "desirous of wealth",
+          "audio_start_ms": 8000,
+          "audio_end_ms": 9000
         },
         {
-          "pada_index": 12,
-          "sanskrit_combined": "सततम्",
+          "pada_index": 10,
+          "sanskrit_combined": "सततं",
           "sanskrit_split": "सततम्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
-          "iast": "satatam",
-          "meaning": "सततम्",
-          "audio_start_ms": 221001,
-          "audio_end_ms": 222001
+          "iast": "satataṁ",
+          "meaning": "constantly",
+          "audio_start_ms": 9000,
+          "audio_end_ms": 10000
         },
         {
-          "pada_index": 13,
+          "pada_index": 11,
           "sanskrit_combined": "जपेत्",
           "sanskrit_split": "जपेत्",
           "sandhi_rule_name": null,
           "sandhi_rule_explanation": null,
           "iast": "japet",
           "meaning": "should chant",
-          "audio_start_ms": 222001,
-          "audio_end_ms": 223001
+          "audio_start_ms": 10000,
+          "audio_end_ms": 11000
         }
       ]
     }

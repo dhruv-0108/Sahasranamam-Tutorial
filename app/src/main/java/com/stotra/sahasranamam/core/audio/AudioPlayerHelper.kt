@@ -172,19 +172,19 @@ class AudioPlayerHelper @Inject constructor(
     }
 
     private fun preprocessSanskritForTts(text: String): String {
-        // 1. Replace Sanskrit punctuation (dandas, pipes, and double-dandas) with speech pauses
+        // 1. Replace Sanskrit punctuation (dandas, pipes, and double-dandas) with spaces to prevent vowel elongation confusion
         var result = text
-            .replace("\u0965", ".")  // Devanagari double danda
-            .replace("\u0964", ",")  // Devanagari single danda
-            .replace("||", ".")      // Keyboard double pipe
-            .replace("|", ",")       // Keyboard single pipe
-            .replace("॥", ".")       // Literal double danda
-            .replace("।", ",")       // Literal single danda
+            .replace("\u0965", " ")  // Devanagari double danda
+            .replace("\u0964", " ")  // Devanagari single danda
+            .replace("||", " ")      // Keyboard double pipe
+            .replace("|", " ")       // Keyboard single pipe
+            .replace("॥", " ")       // Literal double danda
+            .replace("।", " ")       // Literal single danda
 
-        // 2. Clean up digits and other non-Devanagari characters (except space, period, comma)
+        // 2. Clean up digits and other non-Devanagari characters (except space)
         result = result
             .replace(Regex("[०-९0-9]"), " ")
-            .replace(Regex("[^\\u0900-\\u097F\\s.,]"), " ")
+            .replace(Regex("[^\\u0900-\\u097F\\s]"), " ")
             .replace(Regex("[\\u0951\\u0952\\u0953\\u0954]"), "") // remove Vedic accents
             .replace(Regex("\\s+"), " ")
             .trim()

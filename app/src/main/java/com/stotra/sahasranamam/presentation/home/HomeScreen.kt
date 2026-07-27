@@ -123,7 +123,7 @@ fun HomeScreen(
                 }
             } else {
                 val displayCategories = listOf(
-                    "Sahasranama",
+                    "Sahasranamam",
                     "Stotras",
                     "Suktams",
                     "Ashtakams",

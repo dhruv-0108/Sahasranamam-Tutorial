@@ -167,26 +167,9 @@ fun StotraStudyScreen(
                 item {
                     Row(
                         modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.SpaceBetween,
+                        horizontalArrangement = Arrangement.End,
                         verticalAlignment = Alignment.CenterVertically
                     ) {
-                        // Sandhi Toggle Button
-                        FilterChip(
-                            selected = state.isSandhiSplitEnabled,
-                            onClick = { viewModel.toggleSandhiSplit() },
-                            label = {
-                                Text(
-                                    if (state.isSandhiSplitEnabled) "Sandhi Split (पदच्छेद)" else "Original Verse",
-                                    fontSize = 12.sp,
-                                    fontWeight = FontWeight.Bold
-                                )
-                            },
-                            colors = FilterChipDefaults.filterChipColors(
-                                selectedContainerColor = SaffronPrimary,
-                                selectedLabelColor = Color.Black
-                            )
-                        )
-
                         // Language Toggle Button
                         FilterChip(
                             selected = state.showHindiMeaning,
@@ -235,36 +218,6 @@ fun StotraStudyScreen(
                                 color = MaterialTheme.colorScheme.onSurface
                             )
 
-                            // Sandhi Split (पदच्छेद) shown underneath
-                            if (state.isSandhiSplitEnabled) {
-                                Spacer(modifier = Modifier.height(14.dp))
-                                Surface(
-                                    color = SandhiHighlight.copy(alpha = 0.12f),
-                                    shape = RoundedCornerShape(10.dp),
-                                    modifier = Modifier.fillMaxWidth()
-                                ) {
-                                    Column(
-                                        modifier = Modifier.padding(12.dp),
-                                        horizontalAlignment = Alignment.CenterHorizontally
-                                    ) {
-                                        Text(
-                                            text = "पदच्छेद (Sandhi Split)",
-                                            fontSize = 11.sp,
-                                            fontWeight = FontWeight.Bold,
-                                            color = SaffronPrimary
-                                        )
-                                        Spacer(modifier = Modifier.height(6.dp))
-                                        Text(
-                                            text = currentShloka.sandhiSplitSanskrit,
-                                            fontSize = 19.sp,
-                                            fontWeight = FontWeight.SemiBold,
-                                            lineHeight = 30.sp,
-                                            textAlign = TextAlign.Center,
-                                            color = SandhiHighlight
-                                        )
-                                    }
-                                }
-                            }
 
                             Spacer(modifier = Modifier.height(16.dp))
                             HorizontalDivider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.1f))
