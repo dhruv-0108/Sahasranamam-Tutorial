@@ -122,7 +122,14 @@ fun HomeScreen(
                     CircularProgressIndicator()
                 }
             } else {
-                val displayCategories = listOf("Stotras", "Suktams")
+                val displayCategories = listOf(
+                    "Sahasranamam",
+                    "Stotras",
+                    "Suktams",
+                    "Ashtakams",
+                    "Chalisa",
+                    "Namavali"
+                )
 
                 LazyVerticalGrid(
                     columns = GridCells.Fixed(2),
