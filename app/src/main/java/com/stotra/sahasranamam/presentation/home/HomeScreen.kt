@@ -128,6 +128,8 @@ fun HomeScreen(
                     "Suktams",
                     "Ashtakams",
                     "Chalisa",
+                    "Kavach",
+                    "Atharvashirsha",
                     "Namvali"
                 )
 

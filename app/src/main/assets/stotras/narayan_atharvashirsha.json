@@ -1,0 +1,684 @@
+{
+  "stotra": {
+    "id": "narayan_atharvashirsha",
+    "title_devanagari": "नारायण अथर्वशीर्ष",
+    "title_english": "Narayan Atharvashirsha",
+    "category": "Atharvashirsha",
+    "deity": "Vishnu",
+    "total_shlokas": 10,
+    "description": "Narayan Atharvashirsha",
+    "audio_asset_path": null
+  },
+  "shlokas": [
+    {
+      "shloka_number": 1,
+      "full_sanskrit": "ॐ शान्तिः शान्तिः शान्तिः 1",
+      "sandhi_split_sanskrit": "ॐ | शान्तिः | शान्तिः | शान्तिः | 1",
+      "iast_transliteration": "ॐ śaānataiḥ śaānataiḥ śaānataiḥ 1",
+      "meaning_english": "Om Peace Peace Peace 1.",
+      "meaning_hindi": "ओम शांति शांति शांति 1।",
+      "audio_start_ms": 10000,
+      "audio_end_ms": 20000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "ॐ",
+          "sanskrit_split": "ॐ",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ॐ",
+          "meaning": "om",
+          "audio_start_ms": 10000,
+          "audio_end_ms": 11000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 11000,
+          "audio_end_ms": 12000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 12000,
+          "audio_end_ms": 13000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 13000,
+          "audio_end_ms": 14000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "1",
+          "sanskrit_split": "1",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "1",
+          "meaning": "1",
+          "audio_start_ms": 14000,
+          "audio_end_ms": 15000
+        }
+      ]
+    },
+    {
+      "shloka_number": 2,
+      "full_sanskrit": "ॐ शान्तिः शान्तिः शान्तिः 2",
+      "sandhi_split_sanskrit": "ॐ | शान्तिः | शान्तिः | शान्तिः | 2",
+      "iast_transliteration": "ॐ śaānataiḥ śaānataiḥ śaānataiḥ 2",
+      "meaning_english": "Om Peace Peace Peace 2.",
+      "meaning_hindi": "ओम शांति शांति शांति 2।",
+      "audio_start_ms": 20000,
+      "audio_end_ms": 30000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "ॐ",
+          "sanskrit_split": "ॐ",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ॐ",
+          "meaning": "om",
+          "audio_start_ms": 20000,
+          "audio_end_ms": 21000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 21000,
+          "audio_end_ms": 22000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 22000,
+          "audio_end_ms": 23000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 23000,
+          "audio_end_ms": 24000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "2",
+          "sanskrit_split": "2",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "2",
+          "meaning": "2",
+          "audio_start_ms": 24000,
+          "audio_end_ms": 25000
+        }
+      ]
+    },
+    {
+      "shloka_number": 3,
+      "full_sanskrit": "ॐ शान्तिः शान्तिः शान्तिः 3",
+      "sandhi_split_sanskrit": "ॐ | शान्तिः | शान्तिः | शान्तिः | 3",
+      "iast_transliteration": "ॐ śaānataiḥ śaānataiḥ śaānataiḥ 3",
+      "meaning_english": "Om Peace Peace Peace 3.",
+      "meaning_hindi": "ओम शांति शांति शांति 3।",
+      "audio_start_ms": 30000,
+      "audio_end_ms": 40000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "ॐ",
+          "sanskrit_split": "ॐ",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ॐ",
+          "meaning": "om",
+          "audio_start_ms": 30000,
+          "audio_end_ms": 31000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 31000,
+          "audio_end_ms": 32000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 32000,
+          "audio_end_ms": 33000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 33000,
+          "audio_end_ms": 34000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "3",
+          "sanskrit_split": "3",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "3",
+          "meaning": "3",
+          "audio_start_ms": 34000,
+          "audio_end_ms": 35000
+        }
+      ]
+    },
+    {
+      "shloka_number": 4,
+      "full_sanskrit": "ॐ शान्तिः शान्तिः शान्तिः 4",
+      "sandhi_split_sanskrit": "ॐ | शान्तिः | शान्तिः | शान्तिः | 4",
+      "iast_transliteration": "ॐ śaānataiḥ śaānataiḥ śaānataiḥ 4",
+      "meaning_english": "Om Peace Peace Peace 4.",
+      "meaning_hindi": "ओम शांति शांति शांति 4।",
+      "audio_start_ms": 40000,
+      "audio_end_ms": 50000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "ॐ",
+          "sanskrit_split": "ॐ",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ॐ",
+          "meaning": "om",
+          "audio_start_ms": 40000,
+          "audio_end_ms": 41000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 41000,
+          "audio_end_ms": 42000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 42000,
+          "audio_end_ms": 43000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 43000,
+          "audio_end_ms": 44000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "4",
+          "sanskrit_split": "4",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "4",
+          "meaning": "4",
+          "audio_start_ms": 44000,
+          "audio_end_ms": 45000
+        }
+      ]
+    },
+    {
+      "shloka_number": 5,
+      "full_sanskrit": "ॐ शान्तिः शान्तिः शान्तिः 5",
+      "sandhi_split_sanskrit": "ॐ | शान्तिः | शान्तिः | शान्तिः | 5",
+      "iast_transliteration": "ॐ śaānataiḥ śaānataiḥ śaānataiḥ 5",
+      "meaning_english": "Om Peace Peace Peace 5.",
+      "meaning_hindi": "ओम शांति शांति शांति 5।",
+      "audio_start_ms": 50000,
+      "audio_end_ms": 60000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "ॐ",
+          "sanskrit_split": "ॐ",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ॐ",
+          "meaning": "om",
+          "audio_start_ms": 50000,
+          "audio_end_ms": 51000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 51000,
+          "audio_end_ms": 52000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 52000,
+          "audio_end_ms": 53000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 53000,
+          "audio_end_ms": 54000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "5",
+          "sanskrit_split": "5",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "5",
+          "meaning": "5",
+          "audio_start_ms": 54000,
+          "audio_end_ms": 55000
+        }
+      ]
+    },
+    {
+      "shloka_number": 6,
+      "full_sanskrit": "ॐ शान्तिः शान्तिः शान्तिः 6",
+      "sandhi_split_sanskrit": "ॐ | शान्तिः | शान्तिः | शान्तिः | 6",
+      "iast_transliteration": "ॐ śaānataiḥ śaānataiḥ śaānataiḥ 6",
+      "meaning_english": "Om Peace Peace Peace 6.",
+      "meaning_hindi": "ओम शांति शांति शांति 6।",
+      "audio_start_ms": 60000,
+      "audio_end_ms": 70000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "ॐ",
+          "sanskrit_split": "ॐ",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ॐ",
+          "meaning": "om",
+          "audio_start_ms": 60000,
+          "audio_end_ms": 61000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 61000,
+          "audio_end_ms": 62000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 62000,
+          "audio_end_ms": 63000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 63000,
+          "audio_end_ms": 64000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "6",
+          "sanskrit_split": "6",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "6",
+          "meaning": "6",
+          "audio_start_ms": 64000,
+          "audio_end_ms": 65000
+        }
+      ]
+    },
+    {
+      "shloka_number": 7,
+      "full_sanskrit": "ॐ शान्तिः शान्तिः शान्तिः 7",
+      "sandhi_split_sanskrit": "ॐ | शान्तिः | शान्तिः | शान्तिः | 7",
+      "iast_transliteration": "ॐ śaānataiḥ śaānataiḥ śaānataiḥ 7",
+      "meaning_english": "Om Peace Peace Peace 7.",
+      "meaning_hindi": "ओम शांति शांति शांति 7।",
+      "audio_start_ms": 70000,
+      "audio_end_ms": 80000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "ॐ",
+          "sanskrit_split": "ॐ",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ॐ",
+          "meaning": "om",
+          "audio_start_ms": 70000,
+          "audio_end_ms": 71000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 71000,
+          "audio_end_ms": 72000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 72000,
+          "audio_end_ms": 73000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 73000,
+          "audio_end_ms": 74000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "7",
+          "sanskrit_split": "7",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "7",
+          "meaning": "7",
+          "audio_start_ms": 74000,
+          "audio_end_ms": 75000
+        }
+      ]
+    },
+    {
+      "shloka_number": 8,
+      "full_sanskrit": "ॐ शान्तिः शान्तिः शान्तिः 8",
+      "sandhi_split_sanskrit": "ॐ | शान्तिः | शान्तिः | शान्तिः | 8",
+      "iast_transliteration": "ॐ śaānataiḥ śaānataiḥ śaānataiḥ 8",
+      "meaning_english": "Om Peace Peace Peace 8.",
+      "meaning_hindi": "ओम शांति शांति शांति 8।",
+      "audio_start_ms": 80000,
+      "audio_end_ms": 90000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "ॐ",
+          "sanskrit_split": "ॐ",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ॐ",
+          "meaning": "om",
+          "audio_start_ms": 80000,
+          "audio_end_ms": 81000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 81000,
+          "audio_end_ms": 82000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 82000,
+          "audio_end_ms": 83000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 83000,
+          "audio_end_ms": 84000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "8",
+          "sanskrit_split": "8",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "8",
+          "meaning": "8",
+          "audio_start_ms": 84000,
+          "audio_end_ms": 85000
+        }
+      ]
+    },
+    {
+      "shloka_number": 9,
+      "full_sanskrit": "ॐ शान्तिः शान्तिः शान्तिः 9",
+      "sandhi_split_sanskrit": "ॐ | शान्तिः | शान्तिः | शान्तिः | 9",
+      "iast_transliteration": "ॐ śaānataiḥ śaānataiḥ śaānataiḥ 9",
+      "meaning_english": "Om Peace Peace Peace 9.",
+      "meaning_hindi": "ओम शांति शांति शांति 9।",
+      "audio_start_ms": 90000,
+      "audio_end_ms": 100000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "ॐ",
+          "sanskrit_split": "ॐ",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ॐ",
+          "meaning": "om",
+          "audio_start_ms": 90000,
+          "audio_end_ms": 91000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 91000,
+          "audio_end_ms": 92000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 92000,
+          "audio_end_ms": 93000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 93000,
+          "audio_end_ms": 94000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "9",
+          "sanskrit_split": "9",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "9",
+          "meaning": "9",
+          "audio_start_ms": 94000,
+          "audio_end_ms": 95000
+        }
+      ]
+    },
+    {
+      "shloka_number": 10,
+      "full_sanskrit": "ॐ शान्तिः शान्तिः शान्तिः 10",
+      "sandhi_split_sanskrit": "ॐ | शान्तिः | शान्तिः | शान्तिः | 10",
+      "iast_transliteration": "ॐ śaānataiḥ śaānataiḥ śaānataiḥ 10",
+      "meaning_english": "Om Peace Peace Peace 10.",
+      "meaning_hindi": "ओम शांति शांति शांति 10।",
+      "audio_start_ms": 100000,
+      "audio_end_ms": 110000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "ॐ",
+          "sanskrit_split": "ॐ",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ॐ",
+          "meaning": "om",
+          "audio_start_ms": 100000,
+          "audio_end_ms": 101000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 101000,
+          "audio_end_ms": 102000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 102000,
+          "audio_end_ms": 103000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "शान्तिः",
+          "sanskrit_split": "शान्तिः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaānataiḥ",
+          "meaning": "peace",
+          "audio_start_ms": 103000,
+          "audio_end_ms": 104000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "10",
+          "sanskrit_split": "10",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "10",
+          "meaning": "10",
+          "audio_start_ms": 104000,
+          "audio_end_ms": 105000
+        }
+      ]
+    }
+  ]
+}
