@@ -33,6 +33,8 @@ import androidx.lifecycle.LifecycleEventObserver
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.rotate
+import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -52,6 +54,7 @@ fun StotraStudyScreen(
     val state by viewModel.uiState.collectAsState()
     val currentShloka = state.shlokas.getOrNull(state.currentShlokaIndex)
     var showVerseSelector by remember { mutableStateOf(false) }
+    var isVerseExpanded by remember(state.currentShlokaIndex) { mutableStateOf(true) }
 
     val lifecycleOwner = LocalLifecycleOwner.current
     DisposableEffect(lifecycleOwner) {
@@ -155,134 +158,184 @@ fun StotraStudyScreen(
                 Text("No verses available.")
             }
         } else {
-            LazyColumn(
+            Column(
                 modifier = Modifier
                     .fillMaxSize()
                     .padding(innerPadding)
-                    .padding(horizontal = 16.dp),
-                verticalArrangement = Arrangement.spacedBy(16.dp),
-                contentPadding = PaddingValues(top = 16.dp, bottom = 24.dp)
             ) {
-                // 1. Controls Header (Sandhi Viccheda & Language Toggles)
-                item {
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.End,
-                        verticalAlignment = Alignment.CenterVertically
+                // Floating/Pinned Sanskrit Verse Card
+                Card(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 8.dp),
+                    colors = CardDefaults.cardColors(
+                        containerColor = MaterialTheme.colorScheme.surface
+                    ),
+                    elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Column(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clickable { isVerseExpanded = !isVerseExpanded }
+                            .padding(16.dp)
                     ) {
-                        // Language Toggle Button
-                        FilterChip(
-                            selected = state.showHindiMeaning,
-                            onClick = { viewModel.toggleLanguageMeaning() },
-                            label = {
+                        // Header row: Title + Collapse Arrow + Language Toggle
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
                                 Text(
-                                    if (state.showHindiMeaning) "Hindi (हिंदी)" else "English",
-                                    fontSize = 12.sp
+                                    text = "मूल श्लोक (Verse Text)",
+                                    style = MaterialTheme.typography.titleSmall,
+                                    fontWeight = FontWeight.Bold,
+                                    color = SaffronPrimary
+                                )
+                                
+                                val rotationState by animateFloatAsState(targetValue = if (isVerseExpanded) 180f else 0f)
+                                Icon(
+                                    imageVector = Icons.Default.ArrowDropDown,
+                                    contentDescription = if (isVerseExpanded) "Collapse Verse" else "Expand Verse",
+                                    tint = SaffronPrimary,
+                                    modifier = Modifier.rotate(rotationState)
                                 )
                             }
-                        )
-                    }
-                }
-
-                // 2. Main Sanskrit Verse Display Card
-                item {
-                    Card(
-                        modifier = Modifier.fillMaxWidth().clickable { viewModel.toggleAudioPlayback() },
-                        colors = CardDefaults.cardColors(
-                            containerColor = MaterialTheme.colorScheme.surface
-                        ),
-                        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
-                        shape = RoundedCornerShape(16.dp)
-                    ) {
-                        Column(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(20.dp),
-                            horizontalAlignment = Alignment.CenterHorizontally
-                        ) {
-                            Text(
-                                text = "— ॐ श्रीं ॐ —",
-                                style = MaterialTheme.typography.labelSmall,
-                                color = GoldAccent
+                            
+                            // Language Toggle Button
+                            FilterChip(
+                                selected = state.showHindiMeaning,
+                                onClick = { viewModel.toggleLanguageMeaning() },
+                                label = {
+                                    Text(
+                                        if (state.showHindiMeaning) "Hindi (हिंदी)" else "English",
+                                        fontSize = 12.sp
+                                    )
+                                }
                             )
+                        }
 
-                            Spacer(modifier = Modifier.height(12.dp))
+                        // Full Verse details (visible when expanded)
+                        AnimatedVisibility(visible = isVerseExpanded) {
+                            Column(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .padding(top = 12.dp),
+                                horizontalAlignment = Alignment.CenterHorizontally
+                            ) {
+                                Text(
+                                    text = "— ॐ श्रीं ॐ —",
+                                    style = MaterialTheme.typography.labelSmall,
+                                    color = GoldAccent
+                                )
 
-                            // Original Full Verse (मूल श्लोक)
+                                Spacer(modifier = Modifier.height(8.dp))
+
+                                // Original Full Verse
+                                Text(
+                                    text = currentShloka.fullSanskrit,
+                                    fontSize = 22.sp,
+                                    fontWeight = FontWeight.Bold,
+                                    lineHeight = 34.sp,
+                                    textAlign = TextAlign.Center,
+                                    color = MaterialTheme.colorScheme.onSurface
+                                )
+
+                                Spacer(modifier = Modifier.height(12.dp))
+                                HorizontalDivider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.1f))
+                                Spacer(modifier = Modifier.height(8.dp))
+
+                                // IAST Transliteration
+                                Text(
+                                    text = currentShloka.iastTransliteration,
+                                    fontSize = 14.sp,
+                                    fontWeight = FontWeight.Normal,
+                                    fontStyle = androidx.compose.ui.text.font.FontStyle.Italic,
+                                    textAlign = TextAlign.Center,
+                                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.8f)
+                                )
+                            }
+                        }
+
+                        // Collapsed snippet view (visible when collapsed)
+                        AnimatedVisibility(visible = !isVerseExpanded) {
+                            val snippet = if (currentShloka.fullSanskrit.length > 40) {
+                                currentShloka.fullSanskrit.take(40) + "..."
+                            } else {
+                                currentShloka.fullSanskrit
+                            }
                             Text(
-                                text = currentShloka.fullSanskrit,
-                                fontSize = 22.sp,
+                                text = snippet,
+                                fontSize = 16.sp,
                                 fontWeight = FontWeight.Bold,
-                                lineHeight = 34.sp,
-                                textAlign = TextAlign.Center,
-                                color = MaterialTheme.colorScheme.onSurface
-                            )
-
-
-                            Spacer(modifier = Modifier.height(16.dp))
-                            HorizontalDivider(color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.1f))
-                            Spacer(modifier = Modifier.height(12.dp))
-
-                            // IAST Transliteration
-                            Text(
-                                text = currentShloka.iastTransliteration,
-                                fontSize = 14.sp,
-                                fontWeight = FontWeight.Normal,
-                                fontStyle = androidx.compose.ui.text.font.FontStyle.Italic,
-                                textAlign = TextAlign.Center,
-                                color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.8f)
+                                color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f),
+                                modifier = Modifier.padding(top = 8.dp)
                             )
                         }
                     }
                 }
 
-                // 3. Shloka Meaning Card
-                item {
-                    Card(
-                        modifier = Modifier.fillMaxWidth().clickable { viewModel.toggleAudioPlayback() },
-                        colors = CardDefaults.cardColors(
-                            containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
-                        ),
-                        shape = RoundedCornerShape(12.dp)
-                    ) {
-                        Column(modifier = Modifier.padding(16.dp)) {
-                            Text(
-                                text = "Verse Meaning",
-                                style = MaterialTheme.typography.titleSmall,
-                                color = SaffronPrimary,
-                                fontWeight = FontWeight.Bold
-                            )
-                            Spacer(modifier = Modifier.height(6.dp))
-                            Text(
-                                text = if (state.showHindiMeaning && !currentShloka.meaningHindi.isNullOrBlank()) {
-                                    currentShloka.meaningHindi
-                                } else {
-                                    currentShloka.meaningEnglish
-                                },
-                                style = MaterialTheme.typography.bodyMedium,
-                                lineHeight = 22.sp
-                            )
-                        }
-                    }
-                }
-
-                // 4. Word-by-Word Sandhi Breakdown Section
-                if (currentShloka.padas.isNotEmpty()) {
+                // Scrollable lazy list for translations and padas
+                LazyColumn(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .weight(1f)
+                        .padding(horizontal = 16.dp),
+                    verticalArrangement = Arrangement.spacedBy(12.dp),
+                    contentPadding = PaddingValues(top = 8.dp, bottom = 24.dp)
+                ) {
+                    // 1. Shloka Meaning Card
                     item {
-                        Text(
-                            text = "Word-by-Word Sandhi Breakdown (पदच्छेदानुसार विवरण)",
-                            style = MaterialTheme.typography.titleMedium,
-                            fontWeight = FontWeight.Bold,
-                            color = SaffronPrimary,
-                            modifier = Modifier.padding(top = 8.dp)
-                        )
+                        Card(
+                            modifier = Modifier.fillMaxWidth().clickable { viewModel.toggleAudioPlayback() },
+                            colors = CardDefaults.cardColors(
+                                containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
+                            ),
+                            shape = RoundedCornerShape(12.dp)
+                        ) {
+                            Column(modifier = Modifier.padding(16.dp)) {
+                                Text(
+                                    text = "Verse Meaning",
+                                    style = MaterialTheme.typography.titleSmall,
+                                    color = SaffronPrimary,
+                                    fontWeight = FontWeight.Bold
+                                )
+                                Spacer(modifier = Modifier.height(6.dp))
+                                Text(
+                                    text = if (state.showHindiMeaning && !currentShloka.meaningHindi.isNullOrBlank()) {
+                                        currentShloka.meaningHindi
+                                    } else {
+                                        currentShloka.meaningEnglish
+                                    },
+                                    style = MaterialTheme.typography.bodyMedium,
+                                    lineHeight = 22.sp
+                                )
+                            }
+                        }
                     }
 
-                    items(currentShloka.padas) { pada ->
-                        PadaCardItem(
-                            pada = pada,
-                            onPlayClick = { viewModel.playPadaAudio(pada) }
-                        )
+                    // 2. Word-by-Word Breakdown Section
+                    if (currentShloka.padas.isNotEmpty()) {
+                        item {
+                            Text(
+                                text = "Word-by-Word Sandhi Breakdown (पदच्छेदानुसार विवरण)",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = SaffronPrimary,
+                                modifier = Modifier.padding(top = 8.dp)
+                            )
+                        }
+
+                        items(currentShloka.padas) { pada ->
+                            PadaCardItem(
+                                pada = pada,
+                                onPlayClick = { viewModel.playPadaAudio(pada) }
+                            )
+                        }
                     }
                 }
             }
