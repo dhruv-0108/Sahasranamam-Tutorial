@@ -4391,6 +4391,458 @@
           "audio_end_ms": 290000
         }
       ]
+    },
+    {
+      "shloka_number": 27,
+      "full_sanskrit": "सायमधीयानो दिवसकृतं पापं नाशयति । प्रातरधीयानो रात्रिकृतं पापं नाशयति । सायं प्रातः प्रयुञ्जानो अपापो भवति । निशीथे तुरीयसन्ध्यायां जप्त्वा वाक्सिद्धिर्भवति । नूतनायां प्रतिमायां जप्त्वा देवतासान्निध्यं भवति । प्राणप्रतिष्ठायां जप्त्वा प्राणानां प्रतिष्ठा भवति । भौमाश्विन्यां महादेवीसन्निधौ जप्त्वा महामृत्युं तरति । स महामृत्युं तरति य एवं वेद । इत्युपनिषत् ॥२७॥",
+      "sandhi_split_sanskrit": "सायमधीयानो | दिवसकृतं | पापं | नाशयति | प्रातरधीयानो | रात्रिकृतं | पापं | नाशयति | सायं | प्रातः | प्रयुञ्जानो | अपापो | भवति | निशीथे | तुरीयसन्ध्यायां | जप्त्वा | वाक्सिद्धिर्भवति | नूतनायां | प्रतिमायां | जप्त्वा | देवतासान्निध्यं | भवति | प्राणप्रतिष्ठायां | जप्त्वा | प्राणानां | प्रतिष्ठा | भवति | भौमाश्विन्यां | महादेवीसन्निधौ | जप्त्वा | महामृत्युं | तरति | स | महामृत्युं | तरति | य | एवं | वेद | इत्युपनिषत् | ॥२७॥",
+      "iast_transliteration": "sāyamadhīyāno divasakṛtaṃ pāpaṃ nāśayati . prātaradhīyāno rātrikṛtaṃ pāpaṃ nāśayati . sāyaṃ prātaḥ prayuñjāno apāpo bhavati . niśīthe turīyasandhyāyāṃ japtvā vāksiddhirbhavati . nūtanāyāṃ pratimāyāṃ japtvā devatāsānnidhyaṃ bhavati . prāṇapratiṣṭhāyāṃ japtvā prāṇānāṃ pratiṣṭhā bhavati . bhaumāśvinyāṃ mahādevīsannidhau japtvā mahāmṛtyuṃ tarati . sa mahāmṛtyuṃ tarati ya evaṃ veda . ityupaniṣat .27.",
+      "meaning_english": "By chanting this hymn in the evening, one gets rid of the sins committed during the day. By chanting this hymn in the morning, one gets rid of the sins committed during the previous night. By using this hymn in the morning and evening (everyday) one becomes free from all sins. By chanting this during the Turiya Sandhya (midnight), one gets Vak Siddhi (power of speech). By chanting this hymn, Devata Sannidhya (presence of divinity) is accomplished in a new idol. By chanting this mantra during yoga/consecration one escapes from the great death. In this way this Upanishad is the destroyer of ignorance.",
+      "meaning_hindi": "सायंकाल में अध्ययन करने वाला दिन में किये हुए पापों का नाश करता है। प्रातःकाल अध्ययन करने वाला रात्रि में किये हुए पापों का नाश करता है। सायं और प्रातःकाल अध्ययन करने वाला निष्पाप होता है। मध्यरात्रि में चौथी सन्ध्या के समय जप करने से वाक्सिद्धि होती है। नवीन मूर्ति पर जप करने से उसमें प्राण-प्रतिष्ठा होती है। भौमाश्विनी योग में (मंगलवार को अश्विनी नक्षत्र होने पर) महादेवी के निकट जप करने से साधक महामृत्यु को पार कर जाता है। जो इस प्रकार जानता है, वह महामृत्यु को पार कर जाता है। यही उपनिषत् है।",
+      "audio_start_ms": 290000,
+      "audio_end_ms": 338000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "सायमधीयानो",
+          "sanskrit_split": "सायम् + अधीयानः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sāyamadhīyāno",
+          "meaning": "Chanting in the evening",
+          "audio_start_ms": 290000,
+          "audio_end_ms": 291200
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "दिवसकृतं",
+          "sanskrit_split": "दिवस + कृतम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "divasakṛtaṃ",
+          "meaning": "committed during the day",
+          "audio_start_ms": 291200,
+          "audio_end_ms": 292400
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "पापं",
+          "sanskrit_split": "पापम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "pāpaṃ",
+          "meaning": "sin",
+          "audio_start_ms": 292400,
+          "audio_end_ms": 293600
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "नाशयति",
+          "sanskrit_split": "नाशयति",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "nāśayati",
+          "meaning": "destroys",
+          "audio_start_ms": 293600,
+          "audio_end_ms": 294800
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "प्रातरधीयानो",
+          "sanskrit_split": "प्रातः + अधीयानः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "prātaradhīyāno",
+          "meaning": "Chanting in the morning",
+          "audio_start_ms": 294800,
+          "audio_end_ms": 296000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "रात्रिकृतं",
+          "sanskrit_split": "रात्रि + कृतम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "rātrikṛtaṃ",
+          "meaning": "committed during the previous night",
+          "audio_start_ms": 296000,
+          "audio_end_ms": 297200
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "पापं",
+          "sanskrit_split": "पापम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "pāpaṃ",
+          "meaning": "sin",
+          "audio_start_ms": 297200,
+          "audio_end_ms": 298400
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "नाशयति",
+          "sanskrit_split": "नाशयति",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "nāśayati",
+          "meaning": "destroys",
+          "audio_start_ms": 298400,
+          "audio_end_ms": 299600
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "सायं",
+          "sanskrit_split": "सायम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sāyaṃ",
+          "meaning": "evening",
+          "audio_start_ms": 299600,
+          "audio_end_ms": 300800
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "प्रातः",
+          "sanskrit_split": "प्रातः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "prātaḥ",
+          "meaning": "morning",
+          "audio_start_ms": 300800,
+          "audio_end_ms": 302000
+        },
+        {
+          "pada_index": 11,
+          "sanskrit_combined": "प्रयुञ्जानो",
+          "sanskrit_split": "प्रयुञ्जानः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "prayuñjāno",
+          "meaning": "practicing/chanting",
+          "audio_start_ms": 302000,
+          "audio_end_ms": 303200
+        },
+        {
+          "pada_index": 12,
+          "sanskrit_combined": "अपापो",
+          "sanskrit_split": "अपापः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "apāpo",
+          "meaning": "sinless",
+          "audio_start_ms": 303200,
+          "audio_end_ms": 304400
+        },
+        {
+          "pada_index": 13,
+          "sanskrit_combined": "भवति",
+          "sanskrit_split": "भवति",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "bhavati",
+          "meaning": "becomes",
+          "audio_start_ms": 304400,
+          "audio_end_ms": 305600
+        },
+        {
+          "pada_index": 14,
+          "sanskrit_combined": "निशीथे",
+          "sanskrit_split": "निशीथे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "niśīthe",
+          "meaning": "at midnight",
+          "audio_start_ms": 305600,
+          "audio_end_ms": 306800
+        },
+        {
+          "pada_index": 15,
+          "sanskrit_combined": "तुरीयसन्ध्यायां",
+          "sanskrit_split": "तुरीय + सन्ध्यायाम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "turīyasandhyāyāṃ",
+          "meaning": "during the fourth junction/sandhya",
+          "audio_start_ms": 306800,
+          "audio_end_ms": 308000
+        },
+        {
+          "pada_index": 16,
+          "sanskrit_combined": "जप्त्वा",
+          "sanskrit_split": "जप्त्वा",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "japtvā",
+          "meaning": "having chanted",
+          "audio_start_ms": 308000,
+          "audio_end_ms": 309200
+        },
+        {
+          "pada_index": 17,
+          "sanskrit_combined": "वाक्सिद्धिर्भवति",
+          "sanskrit_split": "वाक् + सिद्धिः + भवति",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "vāksiddhirbhavati",
+          "meaning": "obtains power of speech",
+          "audio_start_ms": 309200,
+          "audio_end_ms": 310400
+        },
+        {
+          "pada_index": 18,
+          "sanskrit_combined": "नूतनायां",
+          "sanskrit_split": "नूतनायाम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "nūtanāyāṃ",
+          "meaning": "in a new",
+          "audio_start_ms": 310400,
+          "audio_end_ms": 311600
+        },
+        {
+          "pada_index": 19,
+          "sanskrit_combined": "प्रतिमायां",
+          "sanskrit_split": "प्रतिमायाम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "pratimāyāṃ",
+          "meaning": "image/idol",
+          "audio_start_ms": 311600,
+          "audio_end_ms": 312800
+        },
+        {
+          "pada_index": 20,
+          "sanskrit_combined": "जप्त्वा",
+          "sanskrit_split": "जप्त्वा",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "japtvā",
+          "meaning": "having chanted",
+          "audio_start_ms": 312800,
+          "audio_end_ms": 314000
+        },
+        {
+          "pada_index": 21,
+          "sanskrit_combined": "देवतासान्निध्यं",
+          "sanskrit_split": "देवता + सान्निध्यम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "devatāsānnidhyaṃ",
+          "meaning": "presence of the deity",
+          "audio_start_ms": 314000,
+          "audio_end_ms": 315200
+        },
+        {
+          "pada_index": 22,
+          "sanskrit_combined": "भवति",
+          "sanskrit_split": "भवति",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "bhavati",
+          "meaning": "takes place",
+          "audio_start_ms": 315200,
+          "audio_end_ms": 316400
+        },
+        {
+          "pada_index": 23,
+          "sanskrit_combined": "प्राणप्रतिष्ठायां",
+          "sanskrit_split": "प्राण + प्रतिष्ठायाम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "prāṇapratiṣṭhāyāṃ",
+          "meaning": "during consecration of life force",
+          "audio_start_ms": 316400,
+          "audio_end_ms": 317600
+        },
+        {
+          "pada_index": 24,
+          "sanskrit_combined": "जप्त्वा",
+          "sanskrit_split": "जप्त्वा",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "japtvā",
+          "meaning": "having chanted",
+          "audio_start_ms": 317600,
+          "audio_end_ms": 318800
+        },
+        {
+          "pada_index": 25,
+          "sanskrit_combined": "प्राणानां",
+          "sanskrit_split": "प्राणानाम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "prāṇānāṃ",
+          "meaning": "of life force",
+          "audio_start_ms": 318800,
+          "audio_end_ms": 320000
+        },
+        {
+          "pada_index": 26,
+          "sanskrit_combined": "प्रतिष्ठा",
+          "sanskrit_split": "प्रतिष्ठा",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "pratiṣṭhā",
+          "meaning": "consecration/establishment",
+          "audio_start_ms": 320000,
+          "audio_end_ms": 321200
+        },
+        {
+          "pada_index": 27,
+          "sanskrit_combined": "भवति",
+          "sanskrit_split": "भवति",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "bhavati",
+          "meaning": "takes place",
+          "audio_start_ms": 321200,
+          "audio_end_ms": 322400
+        },
+        {
+          "pada_index": 28,
+          "sanskrit_combined": "भौमाश्विन्यां",
+          "sanskrit_split": "भौम + अश्विन्याम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "bhaumāśvinyāṃ",
+          "meaning": "on Tuesday with Ashwini Nakshatra",
+          "audio_start_ms": 322400,
+          "audio_end_ms": 323600
+        },
+        {
+          "pada_index": 29,
+          "sanskrit_combined": "महादेवीसन्निधौ",
+          "sanskrit_split": "महादेवी + सन्निधौ",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mahādevīsannidhau",
+          "meaning": "in the presence of the Great Goddess",
+          "audio_start_ms": 323600,
+          "audio_end_ms": 324800
+        },
+        {
+          "pada_index": 30,
+          "sanskrit_combined": "जप्त्वा",
+          "sanskrit_split": "जप्त्वा",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "japtvā",
+          "meaning": "having chanted",
+          "audio_start_ms": 324800,
+          "audio_end_ms": 326000
+        },
+        {
+          "pada_index": 31,
+          "sanskrit_combined": "महामृत्युं",
+          "sanskrit_split": "महामृत्युम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mahāmṛtyuṃ",
+          "meaning": "great death",
+          "audio_start_ms": 326000,
+          "audio_end_ms": 327200
+        },
+        {
+          "pada_index": 32,
+          "sanskrit_combined": "तरति",
+          "sanskrit_split": "तरति",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tarati",
+          "meaning": "crosses/escapes",
+          "audio_start_ms": 327200,
+          "audio_end_ms": 328400
+        },
+        {
+          "pada_index": 33,
+          "sanskrit_combined": "स",
+          "sanskrit_split": "सः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sa",
+          "meaning": "he",
+          "audio_start_ms": 328400,
+          "audio_end_ms": 329600
+        },
+        {
+          "pada_index": 34,
+          "sanskrit_combined": "महामृत्युं",
+          "sanskrit_split": "महामृत्युम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mahāmṛtyuṃ",
+          "meaning": "great death",
+          "audio_start_ms": 329600,
+          "audio_end_ms": 330800
+        },
+        {
+          "pada_index": 35,
+          "sanskrit_combined": "तरति",
+          "sanskrit_split": "तरति",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tarati",
+          "meaning": "crosses/escapes",
+          "audio_start_ms": 330800,
+          "audio_end_ms": 332000
+        },
+        {
+          "pada_index": 36,
+          "sanskrit_combined": "य",
+          "sanskrit_split": "यः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ya",
+          "meaning": "who",
+          "audio_start_ms": 332000,
+          "audio_end_ms": 333200
+        },
+        {
+          "pada_index": 37,
+          "sanskrit_combined": "एवं",
+          "sanskrit_split": "एवम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "evaṃ",
+          "meaning": "thus",
+          "audio_start_ms": 333200,
+          "audio_end_ms": 334400
+        },
+        {
+          "pada_index": 38,
+          "sanskrit_combined": "वेद",
+          "sanskrit_split": "वेद",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "veda",
+          "meaning": "knows",
+          "audio_start_ms": 334400,
+          "audio_end_ms": 335600
+        },
+        {
+          "pada_index": 39,
+          "sanskrit_combined": "इत्युपनिषत्",
+          "sanskrit_split": "इति + उपनिषत्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ityupaniṣat",
+          "meaning": "thus ends the Upanishad",
+          "audio_start_ms": 335600,
+          "audio_end_ms": 336800
+        },
+        {
+          "pada_index": 40,
+          "sanskrit_combined": "॥२७॥",
+          "sanskrit_split": "॥२७॥",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": ".27.",
+          "meaning": "॥२७॥",
+          "audio_start_ms": 336800,
+          "audio_end_ms": 338000
+        }
+      ]
     }
   ]
 }
