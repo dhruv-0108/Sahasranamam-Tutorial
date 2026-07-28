@@ -1,0 +1,156 @@
+[
+  {
+    "category_id": "wealth_prosperity",
+    "title_english": "Wealth & Abundance",
+    "title_hindi": "धन और समृद्धि",
+    "description_english": "For financial growth, business success, wealth, and removing poverty.",
+    "description_hindi": "आर्थिक उन्नति, व्यापार में सफलता, समृद्धि और दरिद्रता निवारण के लिए।",
+    "recommendations": [
+      {
+        "stotra_id": "sri_suktam",
+        "reason_english": "The ultimate Vedic hymn to Goddess Lakshmi for removing poverty (Alakshmi) and bringing wealth, gold, cattle, and prosperity.",
+        "reason_hindi": "महालक्ष्मी की कृपा प्राप्त करने का सर्वश्रेष्ठ वैदिक सूक्त, जो दरिद्रता का नाश कर धन, स्वर्ण, अन्न और समृद्धि प्रदान करता है।"
+      },
+      {
+        "stotra_id": "devi_atharvashirsha",
+        "reason_english": "Devi Atharvashirsha states that the one who knows and chants this attains all forms of divine wealth and prosperity.",
+        "reason_hindi": "इस परम उपनिषद के पाठ से साधक को सभी प्रकार के ऐश्वर्य, भौतिक सुख और दैवीय लक्ष्मी की प्राप्ति होती है।"
+      },
+      {
+        "stotra_id": "vishnu_sahasranamam",
+        "reason_english": "Brings overall success, removes financial blockages, and blesses the devotee with steady wealth and high status.",
+        "reason_hindi": "जीवन में सर्वांगीण सफलता लाता है, आर्थिक बाधाओं को दूर करता है और स्थिर लक्ष्मी व मान-सम्मान प्रदान करता है।"
+      },
+      {
+        "stotra_id": "vishnu_chalisa",
+        "reason_english": "A simple yet powerful prayer to Lord Vishnu to resolve household struggles and bring peace and prosperity.",
+        "reason_hindi": "भगवान विष्णु की सरल किन्तु अत्यंत प्रभावशाली प्रार्थना, जो गृह क्लेश दूर कर घर में सुख-समृद्धि लाती है।"
+      }
+    ]
+  },
+  {
+    "category_id": "health_healing",
+    "title_english": "Health & Healing",
+    "title_hindi": "स्वास्थ्य और आरोग्य",
+    "description_english": "For curing chronic illnesses, boosting energy, and attaining longevity.",
+    "description_hindi": "दीर्घकालिक रोगों से मुक्ति, शारीरिक ऊर्जा में वृद्धि और उत्तम स्वास्थ्य के लिए।",
+    "recommendations": [
+      {
+        "stotra_id": "aditya_hrudayam",
+        "reason_english": "Sage Agastya taught this to Lord Rama for vitality. The Sun God is the lord of health, curing eye and heart ailments.",
+        "reason_hindi": "भगवान राम को अगस्त्य मुनि द्वारा उपदेशित। सूर्य देव आरोग्य के स्वामी हैं, जो नेत्र, हृदय रोगों को दूर कर आत्मविश्वास बढ़ाते हैं।"
+      },
+      {
+        "stotra_id": "suryashtakam",
+        "reason_english": "A powerful 8-verse hymn to Surya Dev for curing physical illnesses, especially skin diseases and blindness.",
+        "reason_hindi": "सूर्य देव की ८ श्लोकों की स्तुति, जो शारीरिक रोगों, विशेषकर त्वचा रोग और नेत्र विकारों को दूर करने के लिए प्रसिद्ध है।"
+      },
+      {
+        "stotra_id": "surya_atharvashirsha",
+        "reason_english": "An ancient Vedic Upanishad chanted facing the sun to release the devotee from the fear of severe and chronic diseases.",
+        "reason_hindi": "सूर्य के सम्मुख पाठ करने से यह उपनिषद साधक को असाध्य और गंभीर रोगों के भय से सर्वथा मुक्त करता है।"
+      },
+      {
+        "stotra_id": "shiva_atharvashirsha",
+        "reason_english": "Chanted for ultimate physical rejuvenation, overcoming the fear of death, and complete mental peace.",
+        "reason_hindi": "शारीरिक कल्याण, अकाल मृत्यु के भय से मुक्ति और मानसिक शांति के लिए भगवान शिव का यह अथर्वशीर्ष अत्यंत फलदायी है।"
+      },
+      {
+        "stotra_id": "vishnu_shodasha_nama",
+        "reason_english": "Recited daily, especially when waking up or traveling, to secure general health and absolute protection from accidents.",
+        "reason_hindi": "प्रतिदिन प्रातःकाल उठते ही या यात्रा पर जाते समय जप करने से उत्तम स्वास्थ्य और दुर्घटनाओं से सुरक्षा मिलती है।"
+      }
+    ]
+  },
+  {
+    "category_id": "protection_shield",
+    "title_english": "Protection & Shielding",
+    "title_hindi": "सुरक्षा और कवच",
+    "description_english": "For protection from enemies, black magic, accidents, and fear.",
+    "description_hindi": "शत्रुओं से रक्षा, ऊपरी बाधाओं से मुक्ति, दुर्घटनाओं से बचाव और निर्भयता के लिए।",
+    "recommendations": [
+      {
+        "stotra_id": "narayan_kavach",
+        "reason_english": "The ultimate armor of Lord Narayana that shields the devotee from all directions, enemies, evil entities, and fear.",
+        "reason_hindi": "भगवान नारायण का अभेद्य कवच, जो दसों दिशाओं से साधक की रक्षा करता है और शत्रुओं, भूत-प्रेत व भय का नाश करता है।"
+      },
+      {
+        "stotra_id": "vishnu_namashtakam",
+        "reason_english": "Stating that enemies are destroyed and bad dreams are converted into good fortunes upon reciting.",
+        "reason_hindi": "इसके पाठ से शत्रु दल का नाश होता है और भयानक दुःस्वप्न भी शुभ फल देने वाले बन जाते हैं।"
+      },
+      {
+        "stotra_id": "devi_atharvashirsha",
+        "reason_english": "Durga is invoked here to completely destroy demonic forces, external challenges, and inner enemies.",
+        "reason_hindi": "भगवती दुर्गा की आराधना शत्रुओं, बाहरी बाधाओं और आंतरिक दुर्गुणों को समूल नष्ट करने के लिए की जाती है।"
+      }
+    ]
+  },
+  {
+    "category_id": "wisdom_intellect",
+    "title_english": "Wisdom & Knowledge",
+    "title_hindi": "बुद्धि और ज्ञान",
+    "description_english": "For improving memory, academic excellence, wisdom, and speech.",
+    "description_hindi": "स्मरण शक्ति बढ़ाने, परीक्षाओं में सफलता, तीक्ष्ण बुद्धि और कला ज्ञान के लिए।",
+    "recommendations": [
+      {
+        "stotra_id": "ganapati_atharvashirsha",
+        "reason_english": "Dedicated to Lord Ganesha, the lord of intellect (Buddhi). Chanting this grants academic success, focus, and masters all sciences.",
+        "reason_hindi": "बुद्धि के स्वामी भगवान श्री गणेश को समर्पित। इसका पाठ स्मरण शक्ति तीव्र करता है और शिक्षा व लेखन में सफलता दिलाता है।"
+      },
+      {
+        "stotra_id": "narayan_atharvashirsha",
+        "reason_english": "Helps in understanding the supreme reality, bringing deep philosophical clarity and enhancing intuitive knowledge.",
+        "reason_hindi": "परम सत्य के ज्ञान को जाग्रत करता है, जिससे मानसिक स्पष्टता और आत्मज्ञान की प्राप्ति होती है।"
+      },
+      {
+        "stotra_id": "purusha_suktam",
+        "reason_english": "Grants high spiritual intellect, understanding of creation, and aligns the mind with cosmic order.",
+        "reason_hindi": "उच्च आध्यात्मिक बुद्धि प्रदान करता है और ब्रह्मांडीय ज्ञान के साथ मन का समन्वय करता है।"
+      }
+    ]
+  },
+  {
+    "category_id": "vak_siddhi",
+    "title_english": "Speech & Expression",
+    "title_hindi": "वाक् सिद्धि और अभिव्यक्ति",
+    "description_english": "For power of speech, communication skills, and artistic success.",
+    "description_hindi": "वाणी में प्रभाव, संवाद कौशल में वृद्धि और कलात्मक क्षेत्र में सिद्धि के लिए।",
+    "recommendations": [
+      {
+        "stotra_id": "devi_atharvashirsha",
+        "reason_english": "The text states that chanting this at the midnight hours grants Vak Siddhi (power of speech where words manifest).",
+        "reason_hindi": "निशीथ काल (अर्धरात्रि) में इसका जप करने से साधक को वाक सिद्धि (वाणी का प्रभाव) प्राप्त होती है।"
+      },
+      {
+        "stotra_id": "ganapati_atharvashirsha",
+        "reason_english": "Improves articulation, removes stuttering/hesitation in speech, and boosts public speaking confidence.",
+        "reason_hindi": "संवाद शैली को निखारता है, हकलाहट व संकोच को दूर करता है और वक्तृत्व क्षमता में वृद्धि करता है।"
+      }
+    ]
+  },
+  {
+    "category_id": "obstacles_peace",
+    "title_english": "Obstacle Removal & Peace",
+    "title_hindi": "विघ्न नाश और शान्ति",
+    "description_english": "For removing obstacles, soothing worries, and domestic peace.",
+    "description_hindi": "कार्यों में आने वाली बाधाओं को दूर करने, चिंता निवारण और मानसिक शांति के लिए।",
+    "recommendations": [
+      {
+        "stotra_id": "ganapati_atharvashirsha",
+        "reason_english": "Lord Ganesha is Vighnaharta. Chanting this ensures that all major roadblocks in work and life are instantly cleared.",
+        "reason_hindi": "विघ्नहर्ता गणेश की आराधना सभी प्रकार की रुकावटों और अड़चनों को तात्कालिक रूप से शांत कर कार्य सिद्ध करती है।"
+      },
+      {
+        "stotra_id": "aditya_hrudayam",
+        "reason_english": "Removes despair, self-doubt, mental depression, and brings back hope, energy, and triumph in all situations.",
+        "reason_hindi": "हताशा, मानसिक अवसाद और संशय को दूर कर मन में आशा, तेज और हर परिस्थिति में विजय का संचार करता है।"
+      },
+      {
+        "stotra_id": "shiva_atharvashirsha",
+        "reason_english": "Frees the soul from the bindings of worldly attachments and worries (Pashu-pasha-vimokshana), bringing absolute peace.",
+        "reason_hindi": "संसार के मोह-बंधन और चिंताओं (पशु-पाश) से मुक्त कर परम शांति और मोक्ष का अनुभव कराता है।"
+      }
+    ]
+  }
+]

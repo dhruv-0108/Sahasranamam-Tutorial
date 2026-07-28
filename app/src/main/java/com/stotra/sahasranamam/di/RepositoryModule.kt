@@ -17,4 +17,10 @@ abstract class RepositoryModule {
     abstract fun bindStotraRepository(
         stotraRepositoryImpl: StotraRepositoryImpl
     ): StotraRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindRemedyRepository(
+        remedyRepositoryImpl: com.stotra.sahasranamam.data.repository.RemedyRepositoryImpl
+    ): com.stotra.sahasranamam.domain.repository.RemedyRepository
 }

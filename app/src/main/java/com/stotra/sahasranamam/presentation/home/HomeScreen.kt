@@ -25,7 +25,8 @@ import com.stotra.sahasranamam.presentation.theme.SaffronPrimary
 fun HomeScreen(
     viewModel: HomeViewModel = hiltViewModel(),
     onCategoryClick: (String) -> Unit,
-    onResumeClick: (String) -> Unit
+    onResumeClick: (String) -> Unit,
+    onRemediesClick: () -> Unit
 ) {
     val state by viewModel.uiState.collectAsState()
 
@@ -114,6 +115,37 @@ fun HomeScreen(
                             modifier = Modifier.size(32.dp)
                         )
                     }
+                }
+            }
+
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp, vertical = 8.dp)
+                    .clickable { onRemediesClick() },
+                shape = RoundedCornerShape(12.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = SaffronPrimary.copy(alpha = 0.12f)
+                ),
+                border = androidx.compose.foundation.BorderStroke(1.dp, SaffronPrimary.copy(alpha = 0.4f))
+            ) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(16.dp)
+                ) {
+                    Text(
+                        text = "Life Guidance & Remedies (मार्गदर्शन)",
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold,
+                        color = SaffronPrimary
+                    )
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(
+                        text = "Select problems in your life (Wealth, Health, Protection, Obstacles...) to find scripturally recommended Stotras.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
+                    )
                 }
             }
 
