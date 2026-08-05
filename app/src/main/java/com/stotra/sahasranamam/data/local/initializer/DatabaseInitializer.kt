@@ -53,7 +53,7 @@ class DatabaseInitializer(
         val hasSuktamKyv = db.shlokaDao().getShlokaByNumber("vishnu_suktam_kyv", 6) != null
         val hasChalisa = db.shlokaDao().getShlokaByNumber("vishnu_chalisa", 42) != null
         val hasKavach = db.shlokaDao().getShlokaByNumber("narayan_kavach", 24) != null
-        val hasDeviAtharva = db.shlokaDao().getShlokaByNumber("devi_atharvashirsha", 20) != null
+        val hasDeviAtharva = db.shlokaDao().getShlokaByNumber("devi_atharvashirsha", 27) != null
         val hasSuryaAtharva = db.shlokaDao().getShlokaByNumber("surya_atharvashirsha", 15) != null
         val hasGanaAtharva = db.shlokaDao().getShlokaByNumber("ganapati_atharvashirsha", 15) != null
         val hasShivaAtharva = db.shlokaDao().getShlokaByNumber("shiva_atharvashirsha", 10) != null
