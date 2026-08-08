@@ -1,0 +1,902 @@
+{
+  "stotra": {
+    "id": "devi_kshama_prarthana",
+    "title_devanagari": "देवी अपराधक्षमापन प्रार्थना (क्षमा-प्रार्थना)",
+    "title_english": "Devi Kshama Prarthana",
+    "category": "Stotras",
+    "deity": "Devi",
+    "total_shlokas": 8,
+    "description": "Devi Kshama Prarthana is a beautiful prayer from the Devi Mahatmyam / Durga Saptashati seeking forgiveness for any errors or deficiencies committed during worship, rituals, or chanting.",
+    "audio_asset_path": null
+  },
+  "shlokas": [
+    {
+      "shloka_number": 1,
+      "full_sanskrit": "अपराधसहस्त्राणि क्रियन्तेऽहर्निशं मया । दासोऽयमिति मां मत्वा क्षमस्व परमेश्वरि ॥१॥",
+      "sandhi_split_sanskrit": "अपराधसहस्राणि | क्रियन्ते | अहर्निशम् | मया | दासः | अयम् | इति | माम् | मत्वा | क्षमस्व | परमेश्वरि",
+      "iast_transliteration": "aparādhasahasrāṇi kriyante'harniśaṃ mayā | dāso'yamiti māṃ matvā kṣamasva parameśvari ||1||",
+      "meaning_english": "Thousands of offenses are committed by me day and night. Thinking of me as Your servant, forgive me, O Supreme Goddess.",
+      "meaning_hindi": "परमेश्वरी! मेरे द्वारा रात-दिन हजारों अपराध होते रहते हैं। 'यह मेरा दास है' – ऐसा समझकर मेरे उन अपराधों को तुम कृपापूर्वक क्षमा करो।",
+      "audio_start_ms": 10000,
+      "audio_end_ms": 20000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "अपराधसहस्त्राणि",
+          "sanskrit_split": "अपराध+सहस्राणि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "aparādhasahasrāṇi",
+          "meaning": "thousands of offenses / mistakes",
+          "audio_start_ms": 10000,
+          "audio_end_ms": 11250
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "क्रियन्तेऽहर्निशं",
+          "sanskrit_split": "क्रियन्ते+अहर्निशम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kriyante'harniśaṃ",
+          "meaning": "are committed day and night",
+          "audio_start_ms": 11250,
+          "audio_end_ms": 12500
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "मया",
+          "sanskrit_split": "मया",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mayā",
+          "meaning": "by me",
+          "audio_start_ms": 12500,
+          "audio_end_ms": 13750
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "दासोऽयमिति",
+          "sanskrit_split": "दासः+अयम्+इति",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "dāso'yamiti",
+          "meaning": "thus 'this person is a servant'",
+          "audio_start_ms": 13750,
+          "audio_end_ms": 15000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "मां",
+          "sanskrit_split": "माम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "māṃ",
+          "meaning": "me",
+          "audio_start_ms": 15000,
+          "audio_end_ms": 16250
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "मत्वा",
+          "sanskrit_split": "मत्वा",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "matvā",
+          "meaning": "having considered / thinking",
+          "audio_start_ms": 16250,
+          "audio_end_ms": 17500
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "क्षमस्व",
+          "sanskrit_split": "क्षमस्व",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kṣamasva",
+          "meaning": "please forgive",
+          "audio_start_ms": 17500,
+          "audio_end_ms": 18750
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "परमेश्वरि",
+          "sanskrit_split": "परमेश्वरि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "parameśvari",
+          "meaning": "O Supreme Goddess",
+          "audio_start_ms": 18750,
+          "audio_end_ms": 20000
+        }
+      ]
+    },
+    {
+      "shloka_number": 2,
+      "full_sanskrit": "आवाहनं न जानामि न जानामि विसर्जनम् । पूजां चैव न जानामि क्षम्यतां परमेश्वरि ॥२॥",
+      "sandhi_split_sanskrit": "आवाहनम् | न | जानामि | न | जानामि | विसर्जनम् | पूजाम् | च | एव | न | जानामि | क्षम्यताम् | परमेश्वरि",
+      "iast_transliteration": "āvāhanaṃ na jānāmi na jānāmi visarjanam | pūjāṃ caiva na jānāmi kṣamyatāṃ parameśvari ||2||",
+      "meaning_english": "I do not know how to invoke You, nor do I know how to bid You farewell. I do not even know how to perform worship. Forgive me, O Supreme Goddess.",
+      "meaning_hindi": "परमेश्वरी! मैं आवाहन (बुलाना) नहीं जानता, विसर्जन करना नहीं जानता तथा पूजा करने का ढंग भी नहीं जानता। मुझे क्षमा करो।",
+      "audio_start_ms": 20000,
+      "audio_end_ms": 30000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "आवाहनं",
+          "sanskrit_split": "आवाहनम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "āvāhanaṃ",
+          "meaning": "invocation / inviting",
+          "audio_start_ms": 20000,
+          "audio_end_ms": 20833
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "न",
+          "sanskrit_split": "न",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "na",
+          "meaning": "not",
+          "audio_start_ms": 20833,
+          "audio_end_ms": 21666
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "जानामि",
+          "sanskrit_split": "जानामि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "jānāmi",
+          "meaning": "I know",
+          "audio_start_ms": 21666,
+          "audio_end_ms": 22499
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "न",
+          "sanskrit_split": "न",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "na",
+          "meaning": "not",
+          "audio_start_ms": 22499,
+          "audio_end_ms": 23332
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "जानामि",
+          "sanskrit_split": "जानामि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "jānāmi",
+          "meaning": "I know",
+          "audio_start_ms": 23332,
+          "audio_end_ms": 24165
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "विसर्जनम्",
+          "sanskrit_split": "विसर्जनम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "visarjanam",
+          "meaning": "farewell / sending away",
+          "audio_start_ms": 24165,
+          "audio_end_ms": 24998
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "पूजां",
+          "sanskrit_split": "पूजाम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "pūjāṃ",
+          "meaning": "worship / adoration",
+          "audio_start_ms": 24998,
+          "audio_end_ms": 25831
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "चैव",
+          "sanskrit_split": "च+एव",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "caiva",
+          "meaning": "and indeed",
+          "audio_start_ms": 25831,
+          "audio_end_ms": 26664
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "न",
+          "sanskrit_split": "न",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "na",
+          "meaning": "not",
+          "audio_start_ms": 26664,
+          "audio_end_ms": 27497
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "जानामि",
+          "sanskrit_split": "जानामि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "jānāmi",
+          "meaning": "I know",
+          "audio_start_ms": 27497,
+          "audio_end_ms": 28330
+        },
+        {
+          "pada_index": 11,
+          "sanskrit_combined": "क्षम्यतां",
+          "sanskrit_split": "क्षम्यताम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kṣamyatāṃ",
+          "meaning": "please forgive / be forgiving",
+          "audio_start_ms": 28330,
+          "audio_end_ms": 29163
+        },
+        {
+          "pada_index": 12,
+          "sanskrit_combined": "परमेश्वरि",
+          "sanskrit_split": "परमेश्वरि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "parameśvari",
+          "meaning": "O Supreme Goddess",
+          "audio_start_ms": 29163,
+          "audio_end_ms": 30000
+        }
+      ]
+    },
+    {
+      "shloka_number": 3,
+      "full_sanskrit": "मन्त्रहीनं क्रियाहीनं भक्तिहीनं सुरेश्वरि । यत्पूजितं मया देवि परिपूर्णं तदस्तु मे ॥३॥",
+      "sandhi_split_sanskrit": "मन्त्रहीनम् | क्रियाहीनम् | भक्तिहीनम् | सुरेश्वरि | यत् | पूजितम् | मया | देवि | परिपूर्णम् | तत् | अस्तु | मे",
+      "iast_transliteration": "mantrahīnaṃ kriyāhīnaṃ bhaktihīnaṃ sureśvari | yatpūjitaṃ mayā devi paripūrṇaṃ tadastu me ||3||",
+      "meaning_english": "I am devoid of mantras, devoid of proper rituals, and devoid of devotion, O Goddess of deities. Yet, whatever worship I have performed, may that be made complete by Your grace.",
+      "meaning_hindi": "देवि सुरेश्वरी! मैंने जो मन्त्रहीन, क्रियाहीन और भक्तिहीन पूजन किया है, वह सब आपकी कृपा से पूर्ण हो।",
+      "audio_start_ms": 30000,
+      "audio_end_ms": 40000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "मन्त्रहीनं",
+          "sanskrit_split": "मन्त्र+हीनम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mantrahīnaṃ",
+          "meaning": "devoid of mantras (proper chants)",
+          "audio_start_ms": 30000,
+          "audio_end_ms": 31000
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "क्रियाहीनं",
+          "sanskrit_split": "क्रिया+हीनम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kriyāhīnaṃ",
+          "meaning": "devoid of rituals / action",
+          "audio_start_ms": 31000,
+          "audio_end_ms": 32000
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "भक्तिहीनं",
+          "sanskrit_split": "भक्ति+हीनम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "bhaktihīnaṃ",
+          "meaning": "devoid of devotion",
+          "audio_start_ms": 32000,
+          "audio_end_ms": 33000
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "सुरेश्वरि",
+          "sanskrit_split": "सुरेश्वरि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sureśvari",
+          "meaning": "O Ruler of gods",
+          "audio_start_ms": 33000,
+          "audio_end_ms": 34000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "यत्पूजितं",
+          "sanskrit_split": "यत्+पूजितम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "yatpūjitaṃ",
+          "meaning": "whatever worshiped",
+          "audio_start_ms": 34000,
+          "audio_end_ms": 35000
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "मया",
+          "sanskrit_split": "मया",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "mayā",
+          "meaning": "by me",
+          "audio_start_ms": 35000,
+          "audio_end_ms": 36000
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "देवि",
+          "sanskrit_split": "देवि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "devi",
+          "meaning": "O Goddess",
+          "audio_start_ms": 36000,
+          "audio_end_ms": 37000
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "परिपूर्णं",
+          "sanskrit_split": "परिपूर्णम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "paripūrṇaṃ",
+          "meaning": "completely full",
+          "audio_start_ms": 37000,
+          "audio_end_ms": 38000
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "तदस्तु",
+          "sanskrit_split": "तत्+अस्तु",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tadastu",
+          "meaning": "may that be",
+          "audio_start_ms": 38000,
+          "audio_end_ms": 39000
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "मे",
+          "sanskrit_split": "मे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "me",
+          "meaning": "for me / mine",
+          "audio_start_ms": 39000,
+          "audio_end_ms": 40000
+        }
+      ]
+    },
+    {
+      "shloka_number": 4,
+      "full_sanskrit": "अपराधशतं कृत्वा जगदम्बेति चोच्चरेत् । यां गतिं समवाप्नोति न तां ब्रह्मादयः सुराः ॥४॥",
+      "sandhi_split_sanskrit": "अपराधशतम् | कृत्वा | जगदम्बा | इति | च | उच्चरेत् | याम् | गतिम् | समवाप्नोति | न | ताम् | ब्रह्मादयः | सुराः",
+      "iast_transliteration": "aparādhaśataṃ kṛtvā jagadambeti coccaret | yāṃ gatiṃ samavāpnoti na tāṃ brahmādayaḥ surāḥ ||4||",
+      "meaning_english": "By uttering 'Jagadamba' (Mother of the universe) even after committing hundreds of offenses, a devotee attains that supreme state which is not easily attainable even by Brahma and other gods.",
+      "meaning_hindi": "सैकड़ों अपराध करके भी जो तुम्हारी शरण में आ 'जगदम्ब' कहकर पुकारता है, उसे वह गति (मुक्ति) प्राप्त होती है जो ब्रह्मा आदि देवताओं के लिए भी सुलभ नहीं है।",
+      "audio_start_ms": 40000,
+      "audio_end_ms": 50000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "अपराधशतं",
+          "sanskrit_split": "अपराध+शतम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "aparādhaśataṃ",
+          "meaning": "a hundred offenses",
+          "audio_start_ms": 40000,
+          "audio_end_ms": 40909
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "कृत्वा",
+          "sanskrit_split": "कृत्वा",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kṛtvā",
+          "meaning": "having done / committed",
+          "audio_start_ms": 40909,
+          "audio_end_ms": 41818
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "जगदम्बेति",
+          "sanskrit_split": "जगदम्बा+इति",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "jagadambeti",
+          "meaning": "thus 'O Mother of universe'",
+          "audio_start_ms": 41818,
+          "audio_end_ms": 42727
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "चोच्चरेत्",
+          "sanskrit_split": "च+उच्चरेत्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "coccaret",
+          "meaning": "and pronounces / utters",
+          "audio_start_ms": 42727,
+          "audio_end_ms": 43636
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "यां",
+          "sanskrit_split": "याम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "yāṃ",
+          "meaning": "which",
+          "audio_start_ms": 43636,
+          "audio_end_ms": 44545
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "गतिं",
+          "sanskrit_split": "गतिम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "gatiṃ",
+          "meaning": "attainment / path / state",
+          "audio_start_ms": 44545,
+          "audio_end_ms": 45454
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "समवाप्नोति",
+          "sanskrit_split": "समवाप्नोति",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "samavāpnoti",
+          "meaning": "obtains / achieves",
+          "audio_start_ms": 45454,
+          "audio_end_ms": 46363
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "न",
+          "sanskrit_split": "न",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "na",
+          "meaning": "not",
+          "audio_start_ms": 46363,
+          "audio_end_ms": 47272
+        },
+        {
+          "pada_index": 9,
+          "sanskrit_combined": "तां",
+          "sanskrit_split": "ताम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tāṃ",
+          "meaning": "that",
+          "audio_start_ms": 47272,
+          "audio_end_ms": 48181
+        },
+        {
+          "pada_index": 10,
+          "sanskrit_combined": "ब्रह्मादयः",
+          "sanskrit_split": "ब्रह्म+आदयः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "brahmādayaḥ",
+          "meaning": "Brahma and others",
+          "audio_start_ms": 48181,
+          "audio_end_ms": 49090
+        },
+        {
+          "pada_index": 11,
+          "sanskrit_combined": "सुराः",
+          "sanskrit_split": "सुराः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "surāḥ",
+          "meaning": "the gods",
+          "audio_start_ms": 49090,
+          "audio_end_ms": 50000
+        }
+      ]
+    },
+    {
+      "shloka_number": 5,
+      "full_sanskrit": "सापराधोऽस्मि शरणं प्राप्तस्त्वां जगदम्बिके । इदानीमनुकम्प्योऽहं यथेच्छसि तथा कुरु ॥५॥",
+      "sandhi_split_sanskrit": "सापराधः | अस्मि | शरणम् | प्राप्तः | त्वाम् | जगदम्बिके | इदानीम् | अनुकम्प्यः | अहम् | यथा | इच्छसि | तथा | कुरु",
+      "iast_transliteration": "sāparādho'smi śaraṇaṃ prāptastvāṃ jagadambike | idānīmanukampyo'haṃ yatheccasi tathā kuru ||5||",
+      "meaning_english": "I am indeed full of offenses, but I have come to seek refuge under You, O Mother of the universe. Now I am a deserving recipient of Your compassion; do with me as You wish.",
+      "meaning_hindi": "हे जगदम्बिके! मैं अपराधी हूँ, किन्तु तुम्हारी शरण में आया हूँ। इस समय मैं तुम्हारी दया का पात्र हूँ। तुम जैसा चाहो, वैसा करो।",
+      "audio_start_ms": 50000,
+      "audio_end_ms": 60000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "सापराधोऽस्मि",
+          "sanskrit_split": "सापराधः+अस्मि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "sāparādho'smi",
+          "meaning": "I am with offenses (guilty)",
+          "audio_start_ms": 50000,
+          "audio_end_ms": 51250
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "शरणं",
+          "sanskrit_split": "शरणम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "śaraṇaṃ",
+          "meaning": "refuge / shelter",
+          "audio_start_ms": 51250,
+          "audio_end_ms": 52500
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "प्राप्तस्त्वां",
+          "sanskrit_split": "प्राप्तः+त्वाम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "prāptastvāṃ",
+          "meaning": "obtained You",
+          "audio_start_ms": 52500,
+          "audio_end_ms": 53750
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "जगदम्बिके",
+          "sanskrit_split": "जगदम्बिके",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "jagadambike",
+          "meaning": "O Mother of universe (vocative)",
+          "audio_start_ms": 53750,
+          "audio_end_ms": 55000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "इदानीमनुकम्प्योऽहं",
+          "sanskrit_split": "इदानीम्+अनुकम्प्यः+अहम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "idānīmanukampyo'haṃ",
+          "meaning": "now worthy of compassion am I",
+          "audio_start_ms": 55000,
+          "audio_end_ms": 56250
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "यथेच्छसि",
+          "sanskrit_split": "यथा+इच्छसि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "yatheccasi",
+          "meaning": "as You wish",
+          "audio_start_ms": 56250,
+          "audio_end_ms": 57500
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "तथा",
+          "sanskrit_split": "तथा",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tathā",
+          "meaning": "so / in that manner",
+          "audio_start_ms": 57500,
+          "audio_end_ms": 58750
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "कुरु",
+          "sanskrit_split": "कुरु",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kuru",
+          "meaning": "do / perform",
+          "audio_start_ms": 58750,
+          "audio_end_ms": 60000
+        }
+      ]
+    },
+    {
+      "shloka_number": 6,
+      "full_sanskrit": "अज्ञानाद्विस्मृतेर्भ्रान्त्या यन्न्यूनमधिकं कृतम् । तत्सर्वं क्षम्यतां देवि प्रसीद परमेश्वरि ॥६॥",
+      "sandhi_split_sanskrit": "अज्ञानात् | विस्मृतेः | भ्रान्त्या | यत् | न्यूनम् | अधिकम् | कृतम् | तत् | सर्वम् | क्षम्यताम् | देवि | प्रसीद | परमेश्वरि",
+      "iast_transliteration": "ajñānādvismṛterbhrāntyā yannyūnamadhikaṃ kṛtam | tatsarvaṃ kṣamyatāṃ devi prasīda parameśvari ||6||",
+      "meaning_english": "Whatever deficiency or excess I have committed due to ignorance, forgetfulness, or delusion, please forgive all of that, O Goddess, and be pleased with me, O Supreme Goddess.",
+      "meaning_hindi": "देवि! परमेश्वरी! अज्ञान से, भूल से अथवा भ्रम के कारण मैंने जो कुछ भी कम या अधिक कर दिया हो, वह सब क्षमा करो और मुझ पर प्रसन्न होओ।",
+      "audio_start_ms": 60000,
+      "audio_end_ms": 70000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "अज्ञानाद्विस्मृतेर्भ्रान्त्या",
+          "sanskrit_split": "अज्ञानात्+विस्मृतेः+भ्रान्त्या",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "ajñānādvismृterbhrāntyā",
+          "meaning": "due to ignorance, forgetfulness, or delusion",
+          "audio_start_ms": 60000,
+          "audio_end_ms": 61250
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "यन्न्यूनमधिकं",
+          "sanskrit_split": "यत्+न्यूनम्+अधिकम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "yannyūnamadhikaṃ",
+          "meaning": "whatever deficient or excessive",
+          "audio_start_ms": 61250,
+          "audio_end_ms": 62500
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "कृतम्",
+          "sanskrit_split": "कृतम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kṛtam",
+          "meaning": "done",
+          "audio_start_ms": 62500,
+          "audio_end_ms": 63750
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "तत्सर्वं",
+          "sanskrit_split": "तत्+सर्वम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tatsarvaṃ",
+          "meaning": "all of that",
+          "audio_start_ms": 63750,
+          "audio_end_ms": 65000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "क्षमतां",
+          "sanskrit_split": "क्षम्यताम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kṣamyatāṃ",
+          "meaning": "please forgive / excuse",
+          "audio_start_ms": 65000,
+          "audio_end_ms": 66250
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "देवि",
+          "sanskrit_split": "देवि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "devi",
+          "meaning": "O Goddess",
+          "audio_start_ms": 66250,
+          "audio_end_ms": 67500
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "प्रसीद",
+          "sanskrit_split": "प्रसीद",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "prasīda",
+          "meaning": "be pleased",
+          "audio_start_ms": 67500,
+          "audio_end_ms": 68750
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "परमेश्वरि",
+          "sanskrit_split": "परमेश्वरि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "parameśvari",
+          "meaning": "O Supreme Goddess",
+          "audio_start_ms": 68750,
+          "audio_end_ms": 70000
+        }
+      ]
+    },
+    {
+      "shloka_number": 7,
+      "full_sanskrit": "कामेश्वरि जगन्मातः सच्चिदानन्दविग्रहे । गृहाणार्चामिमां प्रीत्या प्रसीद परमेश्वरि ॥७॥",
+      "sandhi_split_sanskrit": "कामेश्वरि | जगन्मातः | सच्चिदानन्दविग्रहे | गृहाण | अर्चाम् | इमाम् | प्रीत्या | प्रसीद | परमेश्वरि",
+      "iast_transliteration": "kāmeśvari jaganmātaḥ saccidānandavigrahe | gṛhāṇārcāmimāṃ prītyā prasīda parameśvari ||7||",
+      "meaning_english": "O Goddess of desires, O Mother of the universe, O Embodiment of Truth, Consciousness, and Bliss, accept this worship of mine with love, and be pleased with me, O Supreme Goddess.",
+      "meaning_hindi": "सच्चिदानन्दस्वरूपा परमेश्वरी! जगन्माता कामेश्वरी! तुम प्रेमपूर्वक मेरी यह पूजा स्वीकार करो और मुझ पर प्रसन्न रहो।",
+      "audio_start_ms": 70000,
+      "audio_end_ms": 80000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "कामेश्वरि",
+          "sanskrit_split": "कामेश्वरि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "kāmeśvari",
+          "meaning": "O Ruler of desires",
+          "audio_start_ms": 70000,
+          "audio_end_ms": 71428
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "जगन्मातः",
+          "sanskrit_split": "जगन्मातः",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "jaganmātaḥ",
+          "meaning": "O Mother of the universe",
+          "audio_start_ms": 71428,
+          "audio_end_ms": 72856
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "सच्चिदानन्दविग्रहे",
+          "sanskrit_split": "सच्चिदानन्द+विग्रहे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "saccidānandavigrahe",
+          "meaning": "O Embodiment of Truth-Consciousness-Bliss",
+          "audio_start_ms": 72856,
+          "audio_end_ms": 74284
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "गृहाणार्चामिमां",
+          "sanskrit_split": "गृहाण+अर्चाम्+इमाम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "gṛhāṇārcāmimāṃ",
+          "meaning": "accept this worship",
+          "audio_start_ms": 74284,
+          "audio_end_ms": 75712
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "प्रीत्या",
+          "sanskrit_split": "प्रीत्या",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "prītyā",
+          "meaning": "with love / affection",
+          "audio_start_ms": 75712,
+          "audio_end_ms": 77140
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "प्रसीद",
+          "sanskrit_split": "प्रसीद",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "prasīda",
+          "meaning": "be pleased",
+          "audio_start_ms": 77140,
+          "audio_end_ms": 78568
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "परमेश्वरि",
+          "sanskrit_split": "परमेश्वरि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "parameśvari",
+          "meaning": "O Supreme Goddess",
+          "audio_start_ms": 78568,
+          "audio_end_ms": 80000
+        }
+      ]
+    },
+    {
+      "shloka_number": 8,
+      "full_sanskrit": "गुह्यातिगुह्यगोप्त्री त्वं गृहाणास्मत्कृतं जपम् । सिद्धिर्भवतु मे देवि त्वत्प्रसादात्सुरेश्वरि ॥८॥",
+      "sandhi_split_sanskrit": "गुह्यातिगुह्य | गोप्त्री | त्वम् | गृहाण | अस्मत् | कृतम् | जपम् | सिद्धिः | भवतु | मे | देवि | त्वत् | प्रसादात् | सुरेश्वरि",
+      "iast_transliteration": "guhyātiguhyagoptrī tvaṃ gṛhāṇāsmatkṛtaṃ japam | siddhirbhavatu me devi tvatprasādātsureśvari ||8||",
+      "meaning_english": "You are the protector of the deepest secrets of secrets. Please accept this chanting performed by me. O Goddess, O Goddess of deities, let success be mine by Your grace.",
+      "meaning_hindi": "देवि! सुरेश्वरी! तुम गोपनीय से भी गोपनीय रहस्य की रक्षा करने वाली हो। मेरे द्वारा किए गए इस जप को स्वीकार करो। तुम्हारी कृपा से मुझे सिद्धि प्राप्त हो।",
+      "audio_start_ms": 80000,
+      "audio_end_ms": 90000,
+      "padas": [
+        {
+          "pada_index": 1,
+          "sanskrit_combined": "गुह्यातिगुह्यगोप्त्री",
+          "sanskrit_split": "गुह्यातिगुह्य+गोप्त्री",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "guhyātiguhyagoptrī",
+          "meaning": "protector of the deepest secrets",
+          "audio_start_ms": 80000,
+          "audio_end_ms": 81250
+        },
+        {
+          "pada_index": 2,
+          "sanskrit_combined": "त्वं",
+          "sanskrit_split": "त्वम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tvaṃ",
+          "meaning": "You",
+          "audio_start_ms": 81250,
+          "audio_end_ms": 82500
+        },
+        {
+          "pada_index": 3,
+          "sanskrit_combined": "गृहाणास्मत्कृतं",
+          "sanskrit_split": "गृहाण+अस्मत्+कृतम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "gṛhāṇāsmatkṛtaṃ",
+          "meaning": "accept what is done by us",
+          "audio_start_ms": 82500,
+          "audio_end_ms": 83750
+        },
+        {
+          "pada_index": 4,
+          "sanskrit_combined": "जपम्",
+          "sanskrit_split": "जपम्",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "japam",
+          "meaning": "chanting / repetition",
+          "audio_start_ms": 83750,
+          "audio_end_ms": 85000
+        },
+        {
+          "pada_index": 5,
+          "sanskrit_combined": "सिद्धिर्भवतु",
+          "sanskrit_split": "सिद्धिः+भवतु",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "siddhirbhavatu",
+          "meaning": "let success / perfection be",
+          "audio_start_ms": 85000,
+          "audio_end_ms": 86250
+        },
+        {
+          "pada_index": 6,
+          "sanskrit_combined": "मे",
+          "sanskrit_split": "मे",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "me",
+          "meaning": "for me / mine",
+          "audio_start_ms": 86250,
+          "audio_end_ms": 87500
+        },
+        {
+          "pada_index": 7,
+          "sanskrit_combined": "देवि",
+          "sanskrit_split": "देवि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "devi",
+          "meaning": "O Goddess",
+          "audio_start_ms": 87500,
+          "audio_end_ms": 88750
+        },
+        {
+          "pada_index": 8,
+          "sanskrit_combined": "त्वत्प्रसादात्सुरेश्वरि",
+          "sanskrit_split": "त्वत्+प्रसादात्+सुरेश्वरि",
+          "sandhi_rule_name": null,
+          "sandhi_rule_explanation": null,
+          "iast": "tvatprasādātsureśvari",
+          "meaning": "by Your grace, O Goddess of deities",
+          "audio_start_ms": 88750,
+          "audio_end_ms": 90000
+        }
+      ]
+    }
+  ]
+}
