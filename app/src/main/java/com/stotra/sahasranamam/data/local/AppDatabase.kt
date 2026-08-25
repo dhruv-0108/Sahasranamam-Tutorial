@@ -18,7 +18,7 @@ import com.stotra.sahasranamam.data.local.entity.UserSrsProgressEntity
         PadaEntity::class,
         UserSrsProgressEntity::class
     ],
-    version = 13,
+    version = 14,
     exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {

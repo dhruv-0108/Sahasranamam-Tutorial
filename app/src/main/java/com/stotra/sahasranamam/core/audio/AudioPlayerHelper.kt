@@ -23,6 +23,7 @@ class AudioPlayerHelper @Inject constructor(
     private val handler = Handler(Looper.getMainLooper())
     private var watchdogRunnable: Runnable? = null
     private var isTtsSpeakingActive = false
+    private var isSanskritVoice = false
 
     init {
         initTts()
@@ -60,14 +61,17 @@ class AudioPlayerHelper @Inject constructor(
                     }
                 }
                 isTtsReady = true
+                isSanskritVoice = true
             } else {
                 // Fallback to Hindi
                 result = tts?.setLanguage(Locale("hi", "IN"))
                 if (result != TextToSpeech.LANG_MISSING_DATA && result != TextToSpeech.LANG_NOT_SUPPORTED) {
                     isTtsReady = true
+                    isSanskritVoice = false
                 } else {
                     tts?.setLanguage(Locale.getDefault())
                     isTtsReady = true
+                    isSanskritVoice = false
                 }
             }
 
@@ -211,7 +215,11 @@ class AudioPlayerHelper @Inject constructor(
             .replace("ः", "ह")
 
         // 5. Apply Sanskrit Syllabification to force clear akshara-level pronunciation and prevent slurring
-        result = syllabifySanskrit(result)
+        result = if (isSanskritVoice) {
+            result // Sanskrit engine handles it perfectly natively!
+        } else {
+            syllabifySanskrit(result)
+        }
 
         // 6. Clean up consecutive periods/commas and spaces
         result = result.replace(Regex("\\s+"), " ")
@@ -223,7 +231,7 @@ class AudioPlayerHelper @Inject constructor(
     }
 
     private fun syllabifySanskrit(word: String): String {
-        val consonants = "कखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह"
+        val consonants = "कखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहळ"
         val matras = "ािीुूृॄेैोौ"
         val halant = '्'
         val anusvara = 'ं'
@@ -236,13 +244,18 @@ class AudioPlayerHelper @Inject constructor(
         while (i < n) {
             val char = chars[i]
             if (consonants.contains(char)) {
+                var valStr = char.toString()
+                var nextIdx = i + 1
+                if (nextIdx < n && chars[nextIdx] == '़') {
+                    valStr += '़'
+                    nextIdx++
+                }
                 // Check if followed by halant
-                if (i + 1 < n && chars[i + 1] == halant) {
-                    tokens.add(Pair('C', char.toString() + halant))
-                    i += 2
+                if (nextIdx < n && chars[nextIdx] == halant) {
+                    tokens.add(Pair('C', valStr + halant))
+                    i = nextIdx + 1
                 } else {
-                    var valStr = char.toString()
-                    i++
+                    i = nextIdx
                     while (i < n && (matras.contains(chars[i]) || chars[i] == anusvara || chars[i] == visarga)) {
                         valStr += chars[i]
                         i++
@@ -303,7 +316,7 @@ class AudioPlayerHelper @Inject constructor(
             if (s.isEmpty()) continue
             if (s.contains(Regex("[\\s.,।॥]"))) {
                 if (pendingWord.isNotEmpty()) {
-                    result.add(pendingWord.joinToString(""))
+                    result.add(pendingWord.joinToString("\u200C"))
                     pendingWord.clear()
                 }
                 result.add(s)
@@ -312,7 +325,7 @@ class AudioPlayerHelper @Inject constructor(
             }
         }
         if (pendingWord.isNotEmpty()) {
-            result.add(pendingWord.joinToString(""))
+            result.add(pendingWord.joinToString("\u200C"))
         }
 
         return result.joinToString("")
