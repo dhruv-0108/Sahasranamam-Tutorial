@@ -176,8 +176,16 @@ class AudioPlayerHelper @Inject constructor(
     }
 
     private fun preprocessSanskritForTts(text: String): String {
-        // 1. Replace Sanskrit punctuation (dandas, pipes, and double-dandas) with spaces to prevent vowel elongation confusion
+        // Normalize spaces and strip existing zero-width control characters
         var result = text
+            .replace("\u00A0", " ")
+            .replace("\u200B", "")
+            .replace("\u200C", "")
+            .replace("\u200D", "")
+            .replace("ॐ", " ॐ ")
+
+        // 1. Replace Sanskrit punctuation (dandas, pipes, and double-dandas) with spaces to prevent vowel elongation confusion
+        result = result
             .replace("\u0965", " ")  // Devanagari double danda
             .replace("\u0964", " ")  // Devanagari single danda
             .replace("||", " ")      // Keyboard double pipe
@@ -233,10 +241,9 @@ class AudioPlayerHelper @Inject constructor(
 
     private fun syllabifySanskrit(word: String): String {
         val consonants = "कखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहळ"
-        val matras = "ािीुूृॄेैोौ"
+        val matras = "ािीुूृॄेैोौॢॣ"
         val halant = '्'
-        val anusvara = 'ं'
-        val visarga = 'ः'
+        val nasalAndModifiers = "ंःँ\u0900"
 
         val tokens = mutableListOf<Pair<Char, String>>()
         val chars = word.toCharArray()
@@ -257,13 +264,13 @@ class AudioPlayerHelper @Inject constructor(
                     i = nextIdx + 1
                 } else {
                     i = nextIdx
-                    while (i < n && (matras.contains(chars[i]) || chars[i] == anusvara || chars[i] == visarga)) {
+                    while (i < n && (matras.contains(chars[i]) || nasalAndModifiers.contains(chars[i]))) {
                         valStr += chars[i]
                         i++
                     }
                     tokens.add(Pair('V', valStr))
                 }
-            } else if (matras.contains(char) || char == anusvara || char == visarga) {
+            } else if (matras.contains(char) || nasalAndModifiers.contains(char)) {
                 tokens.add(Pair('V', char.toString()))
                 i++
             } else {
