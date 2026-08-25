@@ -184,6 +184,7 @@ class AudioPlayerHelper @Inject constructor(
             .replace("|", " ")       // Keyboard single pipe
             .replace("॥", " ")       // Literal double danda
             .replace("।", " ")       // Literal single danda
+            .replace("ऽ", "")        // Remove Avagraha to prevent TTS engine from skipping words
 
         // 2. Clean up digits and other non-Devanagari characters (except space)
         result = result
