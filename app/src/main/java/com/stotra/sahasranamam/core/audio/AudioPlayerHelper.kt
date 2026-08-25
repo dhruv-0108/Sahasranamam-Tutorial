@@ -24,6 +24,7 @@ class AudioPlayerHelper @Inject constructor(
     private var watchdogRunnable: Runnable? = null
     private var isTtsSpeakingActive = false
     private var isSanskritVoice = false
+    private var lastUtteranceId: String? = null
 
     init {
         initTts()
@@ -83,8 +84,10 @@ class AudioPlayerHelper @Inject constructor(
                 }
 
                 override fun onDone(utteranceId: String?) {
-                    isTtsSpeakingActive = false
-                    onPlaybackStateChanged?.invoke(false)
+                    if (utteranceId == lastUtteranceId) {
+                        isTtsSpeakingActive = false
+                        onPlaybackStateChanged?.invoke(false)
+                    }
                 }
 
                 @Deprecated("Deprecated in Java")
@@ -147,26 +150,36 @@ class AudioPlayerHelper @Inject constructor(
         // TTS audio voice synthesis for Devanagari Sanskrit text
         if (isTtsReady && tts != null) {
             tts?.setSpeechRate(speed)
-            val cleanText = preprocessSanskritForTts(sanskritText)
+            val segments = splitTextIntoSegments(sanskritText)
+            var queuedCount = 0
+            var lastUttId: String? = null
 
-            if (cleanText.isNotEmpty()) {
-                isTtsSpeakingActive = false
-                val result = tts?.speak(cleanText, TextToSpeech.QUEUE_FLUSH, null, "shloka_tts")
-                if (result == TextToSpeech.SUCCESS) {
-                    onStateChange(true)
-                    // Watchdog: If onStart is not called within 1 second, the TTS service likely died silently
-                    watchdogRunnable?.let { handler.removeCallbacks(it) }
-                    watchdogRunnable = Runnable {
-                        if (!isTtsSpeakingActive) {
-                            initTts()
-                            onStateChange(false)
-                        }
+            for (idx in segments.indices) {
+                val cleanPart = preprocessSanskritForTts(segments[idx])
+                if (cleanPart.isNotEmpty()) {
+                    val uttId = "shloka_tts_${idx}_${System.currentTimeMillis()}"
+                    lastUttId = uttId
+                    val queueMode = if (queuedCount == 0) TextToSpeech.QUEUE_FLUSH else TextToSpeech.QUEUE_ADD
+                    val result = tts?.speak(cleanPart, queueMode, null, uttId)
+                    if (result == TextToSpeech.SUCCESS) {
+                        queuedCount++
                     }
-                    handler.postDelayed(watchdogRunnable!!, 1000)
-                } else {
-                    onStateChange(false)
-                    initTts()
                 }
+            }
+
+            if (queuedCount > 0) {
+                lastUtteranceId = lastUttId
+                isTtsSpeakingActive = false
+                onStateChange(true)
+                // Watchdog: If onStart is not called within 1 second, the TTS service likely died silently
+                watchdogRunnable?.let { handler.removeCallbacks(it) }
+                watchdogRunnable = Runnable {
+                    if (!isTtsSpeakingActive) {
+                        initTts()
+                        onStateChange(false)
+                    }
+                }
+                handler.postDelayed(watchdogRunnable!!, 1000)
             } else {
                 onStateChange(false)
             }
@@ -354,6 +367,12 @@ class AudioPlayerHelper @Inject constructor(
             e.printStackTrace()
         }
         onPlaybackStateChanged?.invoke(false)
+    }
+
+    private fun splitTextIntoSegments(text: String): List<String> {
+        return text.split(Regex("[।॥\\n|;.]"))
+            .map { it.trim() }
+            .filter { it.isNotEmpty() }
     }
 
     fun release() {
