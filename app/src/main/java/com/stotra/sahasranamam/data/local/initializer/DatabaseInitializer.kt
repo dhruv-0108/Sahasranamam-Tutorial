@@ -42,7 +42,8 @@ class DatabaseInitializer(
         "stotras/devi_apradha_kshamapana_stotram.json",
         "stotras/devi_kshama_prarthana.json",
         "stotras/neel_saraswati_stotram.json",
-        "stotras/lalita_phalasruti.json"
+        "stotras/lalita_phalasruti.json",
+        "stotras/lalita_sahasranamam.json"
     )
 
     suspend fun seedDatabaseIfNeeded() = withContext(Dispatchers.IO) {
@@ -68,11 +69,12 @@ class DatabaseInitializer(
         val hasDeviKshama = db.shlokaDao().getShlokaByNumber("devi_kshama_prarthana", 8) != null
         val hasNeelSaraswati = db.shlokaDao().getShlokaByNumber("neel_saraswati_stotram", 13) != null
         val hasLalitaPhalasruti = db.shlokaDao().getShlokaByNumber("lalita_phalasruti", 88) != null
+        val hasLalitaSahasranamam = db.shlokaDao().getShlokaByNumber("lalita_sahasranamam", 188) != null
 
         if (hasAditya && hasSriSuktam && hasVishnu && hasSurya && hasAchyuta && hasPurusha &&
             hasShodasha && hasNamashtakam && hasSuktamKyv && hasChalisa && hasKavach &&
             hasDeviAtharva && hasSuryaAtharva && hasGanaAtharva && hasShivaAtharva && hasNarayanAtharva &&
-            hasDeviKavach && hasPratyangiraKavach && hasDeviApradha && hasDeviKshama && hasNeelSaraswati && hasLalitaPhalasruti) {
+            hasDeviKavach && hasPratyangiraKavach && hasDeviApradha && hasDeviKshama && hasNeelSaraswati && hasLalitaPhalasruti && hasLalitaSahasranamam) {
             // Already seeded and has all shlokas
             return@withContext
         }

@@ -4,7 +4,7 @@
     "title_english": "Wealth & Abundance",
     "title_hindi": "धन और समृद्धि",
     "description_english": "For financial growth, business success, wealth, and removing poverty.",
-    "description_hindi": "आर्थिक उन्नति, व्यापार में सफलता, समृद्धि और दरिद्रता निवारण के लिए।",
+    "description_hindi": "आर्थिक उन्नति, व्यापार में सफलता, समृद्धि और दरिद्रता निवारण के लिए。",
     "recommendations": [
       {
         "stotra_id": "sri_suktam",
@@ -22,6 +22,17 @@
         "reason_hindi": "जीवन में सर्वांगीण सफलता लाता है, आर्थिक बाधाओं को दूर करता है और स्थिर लक्ष्मी व मान-सम्मान प्रदान करता है।"
       },
       {
+        "stotra_id": "lalita_sahasranamam",
+        "reason_english": "Grants infinite wealth, immense prosperity, and success in all endeavors.",
+        "reason_hindi": "असीम धन, वैभव और सभी कार्यों में अपार सफलता प्रदान करता है।"
+      },� ऐश्वर्य, भौतिक सुख और दैवीय लक्ष्मी की प्राप्ति होती है।"
+      },
+      {
+        "stotra_id": "vishnu_sahasranamam",
+        "reason_english": "Brings overall success, removes financial blockages, and blesses the devotee with steady wealth and high status.",
+        "reason_hindi": "जीवन में सर्वांगीण सफलता लाता है, आर्थिक बाधाओं को दूर करता है और स्थिर लक्ष्मी व मान-सम्मान प्रदान करता है।"
+      },
+      {
         "stotra_id": "vishnu_chalisa",
         "reason_english": "A simple yet powerful prayer to Lord Vishnu to resolve household struggles and bring peace and prosperity.",
         "reason_hindi": "भगवान विष्णु की सरल किन्तु अत्यंत प्रभावशाली प्रार्थना, जो गृह क्लेश दूर कर घर में सुख-समृद्धि लाती है।"
@@ -30,6 +41,11 @@
         "stotra_id": "lalita_phalasruti",
         "reason_english": "The Phalasruti of Lalita Sahasranama assures that chanting it brings immeasurable wealth, steady Lakshmi, and fulfills all desires.",
         "reason_hindi": "ललिता सहस्रनाम की फलश्रुति यह आश्वस्त करती है कि इसके पाठ से अपार धन, स्थिर लक्ष्मी की प्राप्ति होती है और सभी मनोकामनाएं पूर्ण होती हैं।"
+      },
+      {
+        "stotra_id": "lalita_sahasranamam",
+        "reason_english": "Bestows immense wealth, prosperity, and the grace of Goddess Lalita.",
+        "reason_hindi": "अपार धन, समृद्धि और भगवती ललिता की कृपा प्रदान करता है।"
       }
     ]
   },
@@ -190,6 +206,11 @@
         "stotra_id": "lalita_phalasruti",
         "reason_english": "Removes all severe diseases, prevents untimely death, neutralizes black magic, and destroys the strongest of enemies.",
         "reason_hindi": "यह गंभीर रोगों को दूर करता है, अकाल मृत्यु को रोकता है, तंत्र-मंत्र का नाश करता है और प्रबल से प्रबल शत्रुओं का अंत करता है।"
+      },
+      {
+        "stotra_id": "lalita_sahasranamam",
+        "reason_english": "Clears all obstacles, destroys enemies, and grants immense peace of mind.",
+        "reason_hindi": "सभी विघ्नों को दूर करता है, शत्रुओं का नाश करता है और असीम शांति प्रदान करता है।"
       }
     ]
   }
