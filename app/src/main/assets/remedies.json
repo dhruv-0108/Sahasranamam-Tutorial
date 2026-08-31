@@ -25,6 +25,11 @@
         "stotra_id": "vishnu_chalisa",
         "reason_english": "A simple yet powerful prayer to Lord Vishnu to resolve household struggles and bring peace and prosperity.",
         "reason_hindi": "भगवान विष्णु की सरल किन्तु अत्यंत प्रभावशाली प्रार्थना, जो गृह क्लेश दूर कर घर में सुख-समृद्धि लाती है।"
+      },
+      {
+        "stotra_id": "lalita_phalasruti",
+        "reason_english": "The Phalasruti of Lalita Sahasranama assures that chanting it brings immeasurable wealth, steady Lakshmi, and fulfills all desires.",
+        "reason_hindi": "ललिता सहस्रनाम की फलश्रुति यह आश्वस्त करती है कि इसके पाठ से अपार धन, स्थिर लक्ष्मी की प्राप्ति होती है और सभी मनोकामनाएं पूर्ण होती हैं।"
       }
     ]
   },
@@ -180,6 +185,11 @@
         "stotra_id": "neel_saraswati_stotram",
         "reason_english": "A prayer to Goddess Neel Saraswati to protect the seeker, destroy enemies and obstacles, and grant general peace and intellect.",
         "reason_hindi": "नील सरस्वती की प्रार्थना जो साधक की रक्षा करती है, शत्रुओं तथा बाधाओं का नाश करती है और शांति तथा तीव्र बुद्धि प्रदान करती है।"
+      },
+      {
+        "stotra_id": "lalita_phalasruti",
+        "reason_english": "Removes all severe diseases, prevents untimely death, neutralizes black magic, and destroys the strongest of enemies.",
+        "reason_hindi": "यह गंभीर रोगों को दूर करता है, अकाल मृत्यु को रोकता है, तंत्र-मंत्र का नाश करता है और प्रबल से प्रबल शत्रुओं का अंत करता है।"
       }
     ]
   }
