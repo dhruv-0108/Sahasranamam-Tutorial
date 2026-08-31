@@ -1,9 +1,13 @@
 {
   "stotra": {
-    "title": "Lalita Sahasranamam",
+    "id": "lalita_sahasranamam",
+    "title_devanagari": "श्रीललितासहस्रनामस्तोत्रम्",
+    "title_english": "Lalita Sahasranamam",
     "category": "Sahasranamam",
     "deity": "Devi",
-    "total_shlokas": 188
+    "total_shlokas": 188,
+    "description": "The thousand names of Goddess Lalita, presenting the ultimate descriptions of Her forms and glories.",
+    "audio_asset_path": null
   },
   "shlokas": [
     {
